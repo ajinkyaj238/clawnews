@@ -1,0 +1,13 @@
+{
+  "jobId": "mock-brief-harborview-001",
+  "kind": "clawnews.event.summarize",
+  "createdAt": "2026-04-26T12:00:00.000Z",
+  "payload": {
+    "topicPath": "data/sample-topic.json",
+    "articlesPath": "data/sample_articles.json",
+    "sourcesPath": "data/source_profiles.seed.json",
+    "outPath": "artifacts/sample-event.json",
+    "briefOutPath": "artifacts/sample-brief.md",
+    "generatedAt": "2026-04-26T12:00:00.000Z"
+  }
+}

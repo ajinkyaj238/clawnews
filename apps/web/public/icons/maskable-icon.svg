@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-label="Clawnews maskable icon">
+  <rect width="512" height="512" fill="#0f766e"/>
+  <circle cx="256" cy="256" r="214" fill="#f6f8f5"/>
+  <path d="M143 319c54 48 127 63 192 31 43-21 73-58 85-98-36 38-87 54-137 42-36-9-69-31-93-62-25-32-37-68-34-104-39 21-66 60-71 105-4 36 8 65 58 86Z" fill="#0f766e"/>
+  <path d="M188 169c57 2 105 39 119 92-53-8-98-41-119-92Z" fill="#d97706"/>
+  <circle cx="335" cy="190" r="31" fill="#ffffff"/>
+  <circle cx="344" cy="183" r="10" fill="#14201d"/>
+</svg>

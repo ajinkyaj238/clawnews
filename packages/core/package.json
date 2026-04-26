@@ -1,0 +1,43 @@
+{
+  "name": "@clawnews/core",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./dist/index.d.ts",
+      "import": "./dist/index.js"
+    },
+    "./schemas": {
+      "types": "./dist/schemas.d.ts",
+      "import": "./dist/schemas.js"
+    },
+    "./zeroclaw": {
+      "types": "./dist/zeroclaw/contracts.d.ts",
+      "import": "./dist/zeroclaw/contracts.js"
+    }
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "ingest:rss": "tsx src/scripts/ingest-rss.ts",
+    "generate:brief": "tsx src/scripts/generate-brief.ts",
+    "brief:generate": "tsx src/scripts/generate-brief.ts",
+    "brief:sample": "tsx src/scripts/generate-brief.ts --topic ../../data/sample-topic.json --articles ../../data/sample_articles.json --sources ../../data/source_profiles.seed.json --out ../../artifacts/sample-event.json --brief-out ../../artifacts/sample-brief.md",
+    "zeroclaw:mock": "tsx src/scripts/run-zeroclaw-local.ts --job ../../data/zeroclaw/mock-brief-job.json --base-dir ../.. --result-out ../../artifacts/zeroclaw-mock-result.json"
+  },
+  "dependencies": {
+    "rss-parser": "^3.13.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}

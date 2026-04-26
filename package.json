@@ -1,0 +1,23 @@
+{
+  "name": "clawnews",
+  "version": "0.1.0",
+  "private": true,
+  "description": "A phone-first PWA news intelligence app for multi-source event briefs, source comparison, and transparency notes.",
+  "license": "MIT",
+  "workspaces": [
+    "apps/web",
+    "packages/core"
+  ],
+  "scripts": {
+    "dev": "npm --workspace apps/web run dev",
+    "build": "npm run build --workspace @clawnews/core && npm run build --workspace apps/web",
+    "typecheck": "npm run typecheck --workspaces --if-present",
+    "lint": "npm run lint --workspaces --if-present",
+    "test": "npm run test --workspaces --if-present",
+    "ingest:rss": "npm run ingest:rss --workspace @clawnews/core",
+    "generate:brief": "npm run generate:brief --workspace @clawnews/core"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}

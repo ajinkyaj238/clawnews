@@ -1,0 +1,31 @@
+{
+  "jobId": "mock-brief-harborview-001",
+  "kind": "clawnews.event.summarize",
+  "status": "succeeded",
+  "startedAt": "2026-04-26T17:47:22.613Z",
+  "completedAt": "2026-04-26T17:47:22.635Z",
+  "artifacts": [
+    {
+      "path": "artifacts/sample-event.json",
+      "kind": "json",
+      "mediaType": "application/json"
+    },
+    {
+      "path": "artifacts/sample-brief.md",
+      "kind": "markdown",
+      "mediaType": "text/markdown"
+    }
+  ],
+  "logs": [
+    {
+      "at": "2026-04-26T17:47:22.613Z",
+      "level": "info",
+      "message": "Starting mock ZeroClaw job mock-brief-harborview-001."
+    },
+    {
+      "at": "2026-04-26T17:47:22.635Z",
+      "level": "info",
+      "message": "Generated event event-1bxpbwu."
+    }
+  ]
+}
