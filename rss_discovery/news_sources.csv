@@ -1,0 +1,935 @@
+﻿Region,Country,Source Name,Type,Bias / Lean,Language,Notes
+North America,United States,The New York Times,Newspaper / Digital,Center-Left,English,Paper of record; extensive investigative journalism
+North America,United States,The Washington Post,Newspaper / Digital,Center-Left,English,Strong political coverage; owned by Jeff Bezos
+North America,United States,The Wall Street Journal,Newspaper / Digital,Center-Right,English,Business focus; News Corpowned; news vs. editorial distinction
+North America,United States,USA Today,Newspaper / Digital,Center,English,Broad national reach; Gannett-owned
+North America,United States,Los Angeles Times,Newspaper / Digital,Center-Left,English,Major West Coast paper
+North America,United States,Chicago Tribune,Newspaper / Digital,Center,English,Major Midwest daily
+North America,United States,The Boston Globe,Newspaper / Digital,Center-Left,English,New England paper of record
+North America,United States,San Francisco Chronicle,Newspaper / Digital,Center-Left,English,Bay Area focus
+North America,United States,The Associated Press (AP),Wire Service,Center,English,Non-profit cooperative; global wire service
+North America,United States,Reuters (US Bureau),Wire Service,Center,English,Global wire service; now Thomson Reuters
+North America,United States,NPR,Public Radio / Digital,Center-Left,English,Publicly funded; in-depth reporting
+North America,United States,PBS NewsHour,Public TV / Digital,Center-Left,English,Public television news
+North America,United States,CNN,Cable TV / Digital,Center-Left,English,24-hour cable news; Warner Bros. Discovery
+North America,United States,MSNBC,Cable TV / Digital,Left,English,Progressive-leaning cable news; NBCUniversal
+North America,United States,Fox News,Cable TV / Digital,Right,English,Conservative cable news; dominant ratings
+North America,United States,ABC News,Broadcast TV / Digital,Center-Left,English,Disney-owned network news
+North America,United States,CBS News,Broadcast TV / Digital,Center,English,Paramount Global-owned
+North America,United States,NBC News,Broadcast TV / Digital,Center-Left,English,NBCUniversal
+North America,United States,Bloomberg,Financial News / Digital,Center,English,Terminal + media; business-centric
+North America,United States,Politico,Digital,Center,English,DC-focused policy and politics
+North America,United States,The Hill,Digital,Center,English,Congressional and policy coverage
+North America,United States,Axios,Digital,Center,English,Short-form smart brevity style
+North America,United States,The Atlantic,Magazine / Digital,Center-Left,English,Long-form analysis and culture
+North America,United States,The New Yorker,Magazine / Digital,Left,English,Literary journalism and commentary
+North America,United States,Vox,Digital,Left,English,Explainer journalism
+North America,United States,HuffPost,Digital,Left,English,Progressive digital outlet
+North America,United States,Mother Jones,Magazine / Digital,Left,English,Investigative; progressive nonprofit
+North America,United States,The Intercept,Digital,Left,English,Investigative; civil liberties focus
+North America,United States,Democracy Now!,Digital / Radio,Far Left,English,Independent; progressive activism
+North America,United States,Jacobin,Magazine / Digital,Far Left,English,Socialist perspective
+North America,United States,The Nation,Magazine / Digital,Left,English,Oldest weekly; progressive
+North America,United States,National Review,Magazine / Digital,Right,English,Founded by Buckley; conservative intellectual
+North America,United States,The Daily Wire,Digital,Right,English,Conservative media; Ben Shapiro
+North America,United States,The Federalist,Digital,Right,English,Conservative commentary
+North America,United States,Breitbart,Digital,Far Right,English,Right-wing populist
+North America,United States,The Epoch Times,Newspaper / Digital,Far Right,English,Falun Gong-affiliated; conspiratorial content flagged
+North America,United States,Newsmax,Cable TV / Digital,Right,English,Conservative alternative to Fox
+North America,United States,One America News (OAN),Cable TV / Digital,Far Right,English,Far-right cable network
+North America,United States,The American Conservative,Magazine / Digital,Right,English,Paleoconservative / realist foreign policy
+North America,United States,Reason,Magazine / Digital,Center-Right,English,Libertarian perspective
+North America,United States,ProPublica,Digital (Nonprofit),Center-Left,English,Investigative nonprofit; Pulitzer winners
+North America,United States,The Marshall Project,Digital (Nonprofit),Center-Left,English,Criminal justice focused
+North America,United States,Foreign Affairs,Magazine / Digital,Center,English,CFR publication; geopolitics
+North America,United States,Foreign Policy,Magazine / Digital,Center,English,International affairs analysis
+North America,United States,The Dispatch,Digital,Center-Right,English,Conservative but anti-populist
+North America,United States,Semafor,Digital,Center,English,Global news; transparency model
+North America,United States,The Free Press,Digital,Center-Right,English,Bari Weiss; heterodox commentary
+North America,United States,Univision,TV / Digital,Center-Left,Spanish,Largest Spanish-language US network
+North America,United States,Telemundo,TV / Digital,Center,Spanish,NBCUniversal Spanish-language
+North America,Canada,CBC News,Public Broadcaster,Center-Left,English / French,State-funded; national broadcaster
+North America,Canada,CTV News,TV / Digital,Center,English,Bell Media; largest private broadcaster
+North America,Canada,Global News,TV / Digital,Center,English,Corus Entertainment
+North America,Canada,The Globe and Mail,Newspaper / Digital,Center,English,National paper of record
+North America,Canada,National Post,Newspaper / Digital,Center-Right,English,Postmedia; conservative editorial
+North America,Canada,Toronto Star,Newspaper / Digital,Center-Left,English,Canada's largest daily
+North America,Canada,La Presse,Digital,Center-Left,French,Montreal-based; nonprofit since 2018
+North America,Canada,Le Devoir,Newspaper / Digital,Center-Left,French,Quebec intellectual daily
+North America,Canada,The Walrus,Magazine / Digital,Center-Left,English,Long-form Canadian affairs
+North America,Canada,Maclean's,Magazine / Digital,Center,English,National news magazine
+North America,Canada,Rebel News,Digital,Far Right,English,Right-wing populist outlet
+North America,Canada,The Narwhal,Digital (Nonprofit),Center-Left,English,Environmental investigative
+North America,Canada,iPolitics,Digital,Center,English,Ottawa political coverage
+North America,Canada,The Tyee,Digital (Nonprofit),Left,English,BC-based independent
+North America,Canada,Western Standard,Digital,Right,English,Alberta-based conservative
+North America,Mexico,El Universal,Newspaper / Digital,Center,Spanish,One of oldest Mexican dailies
+North America,Mexico,Reforma,Newspaper / Digital,Center-Right,Spanish,Independent quality daily
+North America,Mexico,La Jornada,Newspaper / Digital,Left,Spanish,Left-leaning; UNAM-connected
+North America,Mexico,Milenio,Newspaper / Digital,Center,Spanish,Multiplatform media group
+North America,Mexico,Proceso,Magazine / Digital,Left,Spanish,Investigative; critical of government
+North America,Mexico,Animal Político,Digital,Center-Left,Spanish,Investigative digital outlet
+North America,Mexico,Aristegui Noticias,Digital / Radio,Center-Left,Spanish,Carmen Aristegui; investigative
+North America,Mexico,Televisa / N+,TV / Digital,Center-Right,Spanish,Dominant TV network
+North America,Mexico,TV Azteca,TV / Digital,Center-Right,Spanish,Second largest TV network; Salinas Pliego
+North America,Mexico,SinEmbargo,Digital,Left,Spanish,Digital; government-critical
+North America,Mexico,Nexos,Magazine / Digital,Center-Left,Spanish,Intellectual/political analysis
+North America,Guatemala,Prensa Libre,Newspaper / Digital,Center-Right,Spanish,Largest Guatemalan daily
+North America,Guatemala,elPeriódico,Newspaper / Digital,Center-Left,Spanish,Investigative; editor imprisoned (2022)
+North America,Guatemala,Nómada,Digital,Center-Left,Spanish,Investigative digital
+North America,Honduras,El Heraldo,Newspaper / Digital,Center-Right,Spanish,Major daily
+North America,Honduras,La Prensa,Newspaper / Digital,Center-Right,Spanish,San Pedro Sula based
+North America,Honduras,Contracorriente,Digital,Center-Left,Spanish,Independent investigative
+North America,El Salvador,El Diario de Hoy,Newspaper / Digital,Center-Right,Spanish,Major daily
+North America,El Salvador,La Prensa Gráfica,Newspaper / Digital,Center,Spanish,Largest circulation
+North America,El Salvador,El Faro,Digital,Center-Left,Spanish,Award-winning investigative; critical of Bukele
+North America,Nicaragua,Confidencial,Digital,Center-Left,Spanish,Carlos Fernando Chamorro; exiled
+North America,Nicaragua,La Prensa,Newspaper / Digital,Center-Right,Spanish,Historic opposition daily; raided by govt
+North America,Costa Rica,La Nación,Newspaper / Digital,Center-Right,Spanish,Leading daily
+North America,Costa Rica,Semanario Universidad,Newspaper / Digital,Center-Left,Spanish,UCR weekly
+North America,Panama,La Prensa,Newspaper / Digital,Center,Spanish,Largest Panamanian daily
+North America,Panama,La Estrella de Panamá,Newspaper / Digital,Center,Spanish,Oldest running paper
+North America,Cuba,Granma,Newspaper / Digital,State-Controlled,Spanish,Official Communist Party organ
+North America,Cuba,14ymedio,Digital,Center-Right,Spanish,Independent; Yoani Sánchez; dissident
+North America,Cuba,CubaNet,Digital,Right,Spanish,Miami-based exile media
+North America,Dominican Republic,Listín Diario,Newspaper / Digital,Center,Spanish,Oldest daily
+North America,Dominican Republic,Diario Libre,Newspaper / Digital,Center,Spanish,Free daily; large circulation
+North America,Haiti,Le Nouvelliste,Newspaper / Digital,Center,French,Oldest Haitian daily
+North America,Haiti,AyiboPost,Digital,Center-Left,French / Creole,Independent digital
+North America,Jamaica,The Gleaner,Newspaper / Digital,Center,English,Oldest English Caribbean paper (1834)
+North America,Jamaica,Jamaica Observer,Newspaper / Digital,Center,English,Second national daily
+North America,Trinidad & Tobago,Trinidad Express,Newspaper / Digital,Center,English,Major daily
+North America,Trinidad & Tobago,Newsday,Newspaper / Digital,Center,English,Independent daily
+North America,Belize,Amandala,Newspaper,Center-Left,English,Largest Belizean paper
+South America,Brazil,Folha de S.Paulo,Newspaper / Digital,Center-Left,Portuguese,Largest circulation Brazilian daily
+South America,Brazil,O Globo,Newspaper / Digital,Center-Right,Portuguese,Grupo Globo; Rio-based
+South America,Brazil,O Estado de S. Paulo (Estadão),Newspaper / Digital,Center-Right,Portuguese,Quality broadsheet; São Paulo
+South America,Brazil,Valor Econômico,Newspaper / Digital,Center,Portuguese,Business/financial daily
+South America,Brazil,TV Globo,TV / Digital,Center-Right,Portuguese,Dominant Brazilian broadcaster
+South America,Brazil,Agência Brasil,Wire Service,State-Controlled,Portuguese,Government news agency (EBC)
+South America,Brazil,The Intercept Brasil,Digital,Left,Portuguese,Investigative; Glenn Greenwald co-founded
+South America,Brazil,Revista Piauí,Magazine / Digital,Center-Left,Portuguese,Long-form journalism
+South America,Brazil,Brasil de Fato,Digital,Far Left,Portuguese,MST-affiliated; social movements
+South America,Brazil,Jovem Pan,Radio / Digital,Right,Portuguese,Conservative radio/digital
+South America,Brazil,Revista Oeste,Magazine / Digital,Right,Portuguese,Conservative magazine
+South America,Brazil,UOL,Digital,Center,Portuguese,Major portal; Grupo Folha
+South America,Brazil,Nexo Jornal,Digital,Center-Left,Portuguese,Explanatory journalism
+South America,Argentina,Clarín,Newspaper / Digital,Center-Right,Spanish,Largest Argentine daily; Grupo Clarín
+South America,Argentina,La Nación,Newspaper / Digital,Center-Right,Spanish,Conservative broadsheet
+South America,Argentina,Página/12,Newspaper / Digital,Left,Spanish,Left/Kirchnerist perspective
+South America,Argentina,Infobae,Digital,Center,Spanish,Largest Spanish-language digital
+South America,Argentina,Perfil,Newspaper / Digital,Center,Spanish,Sunday paper; centrist
+South America,Argentina,El Destape,Digital,Left,Spanish,Progressive; Kirchnerist-adjacent
+South America,Argentina,La Derecha Diario,Digital,Right,Spanish,Right-wing commentary
+South America,Colombia,El Tiempo,Newspaper / Digital,Center,Spanish,Largest Colombian daily; Santos family
+South America,Colombia,El Espectador,Newspaper / Digital,Center-Left,Spanish,Oldest daily; strong investigative tradition
+South America,Colombia,Semana,Magazine / Digital,Center-Right,Spanish,Leading newsmagazine
+South America,Colombia,La Silla Vacía,Digital,Center-Left,Spanish,Political analysis and investigative
+South America,Colombia,Caracol TV/Radio,TV / Radio / Digital,Center,Spanish,Major broadcast network
+South America,Colombia,RCN,TV / Radio / Digital,Center-Right,Spanish,Second major broadcast network
+South America,Colombia,Cuestión Pública,Digital,Center-Left,Spanish,Anti-corruption investigative
+South America,Chile,El Mercurio,Newspaper / Digital,Center-Right,Spanish,Conservative paper of record; Edwards family
+South America,Chile,La Tercera,Newspaper / Digital,Center-Right,Spanish,Second major daily
+South America,Chile,CIPER Chile,Digital (Nonprofit),Center-Left,Spanish,Top investigative journalism
+South America,Chile,The Clinic,Magazine / Digital,Left,Spanish,Satirical/progressive
+South America,Chile,Interferencia,Digital,Left,Spanish,Investigative
+South America,Chile,BioBioChile,Radio / Digital,Center,Spanish,Radio network with large digital presence
+South America,Chile,Ex-Ante,Digital,Center-Right,Spanish,Political analysis
+South America,Peru,El Comercio,Newspaper / Digital,Center-Right,Spanish,Leading Peruvian daily; Grupo El Comercio
+South America,Peru,La República,Newspaper / Digital,Center-Left,Spanish,Progressive daily
+South America,Peru,IDL-Reporteros,Digital,Center-Left,Spanish,Investigative unit
+South America,Peru,Ojo Público,Digital (Nonprofit),Center-Left,Spanish,Data journalism / investigative
+South America,Peru,RPP Noticias,Radio / Digital,Center,Spanish,Largest radio network
+South America,Venezuela,El Nacional,Newspaper / Digital,Center-Right,Spanish,"Opposition; shuttered print, digital continues"
+South America,Venezuela,El Universal,Newspaper / Digital,Center,Spanish,Major daily; sold in 2014 (ownership questions)
+South America,Venezuela,Efecto Cocuyo,Digital,Center-Left,Spanish,Independent digital; post-crackdown
+South America,Venezuela,Runrun.es,Digital,Center,Spanish,Independent investigative
+South America,Venezuela,VTV (Venezolana de Televisión),TV,State-Controlled,Spanish,State broadcaster; Chavista
+South America,Venezuela,TeleSUR,TV / Digital,State-Controlled,Spanish,Venezuelan-funded pan-Latin network; left
+South America,Venezuela,Tal Cual,Digital,Center-Right,Spanish,Opposition digital
+South America,Ecuador,El Universo,Newspaper / Digital,Center-Right,Spanish,Guayaquil-based; largest daily
+South America,Ecuador,El Comercio,Newspaper / Digital,Center,Spanish,Quito-based daily
+South America,Ecuador,GK (formerly GkillCity),Digital,Center-Left,Spanish,Independent digital journalism
+South America,Ecuador,Plan V,Digital,Center-Left,Spanish,Investigative
+South America,Bolivia,El Deber,Newspaper / Digital,Center-Right,Spanish,Santa Cruz; largest daily
+South America,Bolivia,Página Siete,Newspaper / Digital,Center,Spanish,"La Paz daily (closed 2023, digital continues)"
+South America,Bolivia,Los Tiempos,Newspaper / Digital,Center,Spanish,Cochabamba daily
+South America,Bolivia,Erbol,Radio / Digital,Center-Left,Spanish,Radio network; community-oriented
+South America,Paraguay,ABC Color,Newspaper / Digital,Center-Right,Spanish,Largest Paraguayan daily
+South America,Paraguay,Última Hora,Newspaper / Digital,Center,Spanish,Second daily
+South America,Paraguay,El Surtidor,Digital,Center-Left,Spanish,Visual investigative journalism
+South America,Uruguay,El País,Newspaper / Digital,Center-Right,Spanish,Largest Uruguayan daily
+South America,Uruguay,La Diaria,Newspaper / Digital,Left,Spanish,Cooperative-owned progressive daily
+South America,Uruguay,El Observador,Newspaper / Digital,Center,Spanish,Quality daily
+Europe,United Kingdom,BBC News,Public Broadcaster,Center,English,Global reach; publicly funded
+Europe,United Kingdom,The Guardian,Newspaper / Digital,Center-Left,English,Scott Trust-owned; strong digital
+Europe,United Kingdom,The Times,Newspaper / Digital,Center-Right,English,News UK (Murdoch); paper of record
+Europe,United Kingdom,The Daily Telegraph,Newspaper / Digital,Right,English,Conservative broadsheet
+Europe,United Kingdom,Financial Times,Newspaper / Digital,Center,English,Nikkei-owned; global business standard
+Europe,United Kingdom,The Independent,Digital,Center-Left,English,Digital-only since 2016
+Europe,United Kingdom,The Economist,Magazine / Digital,Center,English,Classical liberal; global analysis
+Europe,United Kingdom,Daily Mail,Newspaper / Digital,Right,English,Tabloid; largest UK digital news site
+Europe,United Kingdom,The Sun,Newspaper / Digital,Right,English,Tabloid; News UK
+Europe,United Kingdom,Daily Mirror,Newspaper / Digital,Left,English,Labour-leaning tabloid
+Europe,United Kingdom,The Observer,Newspaper / Digital,Center-Left,English,Sunday sister of The Guardian
+Europe,United Kingdom,Sky News,TV / Digital,Center,English,Comcast-owned; 24hr news
+Europe,United Kingdom,Channel 4 News,TV / Digital,Center-Left,English,Publicly-owned; award-winning
+Europe,United Kingdom,The Spectator,Magazine / Digital,Right,English,Conservative weekly (est. 1828)
+Europe,United Kingdom,New Statesman,Magazine / Digital,Left,English,Progressive political/cultural
+Europe,United Kingdom,Private Eye,Magazine,Varies,English,Satirical investigative fortnightly
+Europe,United Kingdom,GB News,TV / Digital,Right,English,Conservative TV channel (est. 2021)
+Europe,United Kingdom,The Canary,Digital,Far Left,English,Left-wing; pro-Corbyn era
+Europe,United Kingdom,Novara Media,Digital,Far Left,English,Socialist media outlet
+Europe,United Kingdom,UnHerd,Digital,Center-Right,English,Contrarian / heterodox
+Europe,United Kingdom,Bureau of Investigative Journalism,Digital (Nonprofit),Center,English,Nonprofit investigative
+Europe,France,Le Monde,Newspaper / Digital,Center-Left,French,Paper of record; evening daily
+Europe,France,Le Figaro,Newspaper / Digital,Center-Right,French,Oldest national daily; conservative
+Europe,France,Libération,Newspaper / Digital,Left,French,Left-wing; Sartre co-founded
+Europe,France,Les Échos,Newspaper / Digital,Center-Right,French,Business daily; LVMH-owned
+Europe,France,France 24,TV / Digital,Center,French / English / Arabic,State-funded international news
+Europe,France,Mediapart,Digital,Left,French,Investigative; subscription-only
+Europe,France,L'Humanité,Newspaper / Digital,Far Left,French,Communist Party affiliated
+Europe,France,Valeurs Actuelles,Magazine / Digital,Right,French,Conservative-nationalist weekly
+Europe,France,CNews,TV,Right,French,Bolloré-owned; right-wing TV
+Europe,France,Le Point,Magazine / Digital,Center-Right,French,Centrist-conservative weekly
+Europe,France,L'Obs (Nouvel Obs),Magazine / Digital,Center-Left,French,Progressive newsweekly
+Europe,France,AFP (Agence France-Presse),Wire Service,Center,French / Multi,Global wire service; third largest
+Europe,France,RFI,Radio / Digital,Center,French / Multi,State-funded international radio
+Europe,France,BFM TV,TV / Digital,Center,French,24hr news channel
+Europe,Germany,Der Spiegel,Magazine / Digital,Center-Left,German,Largest European newsmagazine
+Europe,Germany,Die Zeit,Newspaper / Digital,Center-Left,German,Quality weekly
+Europe,Germany,Süddeutsche Zeitung,Newspaper / Digital,Center-Left,German,Largest daily; Panama Papers
+Europe,Germany,Frankfurter Allgemeine Zeitung (FAZ),Newspaper / Digital,Center-Right,German,Conservative broadsheet
+Europe,Germany,Die Welt,Newspaper / Digital,Center-Right,German,Axel Springer; conservative
+Europe,Germany,Bild,Newspaper / Digital,Right,German,Largest-circulation tabloid; Axel Springer
+Europe,Germany,Handelsblatt,Newspaper / Digital,Center-Right,German,Business daily
+Europe,Germany,Tagesschau / ARD,Public Broadcaster,Center,German,Public TV news; consortium
+Europe,Germany,ZDF,Public Broadcaster,Center,German,Second public broadcaster
+Europe,Germany,Deutsche Welle (DW),TV / Radio / Digital,Center,German / Multi,State-funded international
+Europe,Germany,taz (die tageszeitung),Newspaper / Digital,Left,German,Cooperative-owned; green/left
+Europe,Germany,Junge Freiheit,Newspaper / Digital,Far Right,German,Right-wing nationalist weekly
+Europe,Germany,Compact,Magazine / Digital,Far Right,German,Right-wing populist (banned 2024)
+Europe,Germany,Jacobin (DE),Magazine / Digital,Far Left,German,German edition of socialist mag
+Europe,Germany,Correctiv,Digital (Nonprofit),Center,German,Fact-checking and investigative nonprofit
+Europe,Italy,Corriere della Sera,Newspaper / Digital,Center,Italian,Milan-based; paper of record
+Europe,Italy,La Repubblica,Newspaper / Digital,Center-Left,Italian,GEDI Group; progressive
+Europe,Italy,La Stampa,Newspaper / Digital,Center-Left,Italian,Turin-based; GEDI Group
+Europe,Italy,Il Sole 24 Ore,Newspaper / Digital,Center-Right,Italian,Business daily; Confindustria
+Europe,Italy,Il Giornale,Newspaper / Digital,Right,Italian,Berlusconi family-owned
+Europe,Italy,Libero,Newspaper / Digital,Right,Italian,Right-wing populist daily
+Europe,Italy,Il Fatto Quotidiano,Newspaper / Digital,Left,Italian,Anti-establishment investigative
+Europe,Italy,RAI News,Public Broadcaster,Center,Italian,State broadcaster
+Europe,Italy,ANSA,Wire Service,Center,Italian,Italian national wire service
+Europe,Italy,Il Manifesto,Newspaper / Digital,Far Left,Italian,Communist daily (cooperative)
+Europe,Italy,Domani,Newspaper / Digital,Center-Left,Italian,Founded 2020; investigative
+Europe,Spain,El País,Newspaper / Digital,Center-Left,Spanish,Largest Spanish daily; PRISA Group
+Europe,Spain,El Mundo,Newspaper / Digital,Center-Right,Spanish,Second largest; Unidad Editorial
+Europe,Spain,ABC,Newspaper / Digital,Right,Spanish,Monarchist / conservative
+Europe,Spain,La Vanguardia,Newspaper / Digital,Center,Spanish / Catalan,Barcelona-based; Godó Group
+Europe,Spain,El Confidencial,Digital,Center,Spanish,Leading digital-native
+Europe,Spain,elDiario.es,Digital,Left,Spanish,Member-funded progressive
+Europe,Spain,Público,Digital,Left,Spanish,Left-wing digital
+Europe,Spain,Libertad Digital,Digital,Right,Spanish,Right-wing; Federico Jiménez Losantos
+Europe,Spain,OKDiario,Digital,Right,Spanish,Right-wing populist
+Europe,Spain,RTVE,Public Broadcaster,Center,Spanish,State broadcaster
+Europe,Spain,Ara,Newspaper / Digital,Center-Left,Catalan,Pro-independence Catalan daily
+Europe,Spain,EFE,Wire Service,Center,Spanish,Fourth largest wire service globally
+Europe,Netherlands,De Volkskrant,Newspaper / Digital,Center-Left,Dutch,Quality progressive daily
+Europe,Netherlands,NRC Handelsblad,Newspaper / Digital,Center,Dutch,Quality liberal daily
+Europe,Netherlands,De Telegraaf,Newspaper / Digital,Center-Right,Dutch,Largest Dutch daily; populist
+Europe,Netherlands,Trouw,Newspaper / Digital,Center-Left,Dutch,Progressive quality daily
+Europe,Netherlands,NOS,Public Broadcaster,Center,Dutch,Dutch public broadcasting news
+Europe,Netherlands,Follow the Money,Digital,Center,Dutch,Investigative journalism platform
+Europe,Netherlands,GeenStijl,Digital,Right,Dutch,Provocative right-wing blog
+Europe,Belgium,De Standaard,Newspaper / Digital,Center,Dutch,Quality Flemish daily
+Europe,Belgium,De Morgen,Newspaper / Digital,Center-Left,Dutch,Progressive Flemish daily
+Europe,Belgium,Le Soir,Newspaper / Digital,Center-Left,French,Major Francophone daily
+Europe,Belgium,La Libre Belgique,Newspaper / Digital,Center-Right,French,Catholic conservative
+Europe,Belgium,VRT NWS,Public Broadcaster,Center,Dutch,Flemish public broadcaster
+Europe,Belgium,RTBF,Public Broadcaster,Center,French,Francophone public broadcaster
+Europe,Belgium,Apache,Digital,Center-Left,Dutch,Investigative Flemish
+Europe,Belgium,Knack,Magazine / Digital,Center,Dutch,Flemish newsweekly
+Europe,Switzerland,Neue Zürcher Zeitung (NZZ),Newspaper / Digital,Center-Right,German,Classical liberal; globally respected
+Europe,Switzerland,Tages-Anzeiger,Newspaper / Digital,Center-Left,German,Zurich-based; Tamedia
+Europe,Switzerland,Le Temps,Newspaper / Digital,Center,French,Leading Francophone Swiss
+Europe,Switzerland,SRF / RTS / RSI,Public Broadcaster,Center,Multi,Swiss public broadcasting (3 language regions)
+Europe,Switzerland,Blick,Newspaper / Digital,Center,German,Largest Swiss tabloid
+Europe,Switzerland,WOZ,Newspaper,Left,German,Weekly; cooperative-owned
+Europe,Switzerland,Weltwoche,Magazine / Digital,Right,German,Right-wing; Roger Köppel
+Europe,Switzerland,Republik,Digital,Center-Left,German,Crowdfunded digital magazine
+Europe,Austria,Der Standard,Newspaper / Digital,Center-Left,German,Quality daily; liberal
+Europe,Austria,Die Presse,Newspaper / Digital,Center-Right,German,Conservative quality daily
+Europe,Austria,Kronen Zeitung,Newspaper / Digital,Right,German,Largest tabloid; enormous reach
+Europe,Austria,ORF,Public Broadcaster,Center,German,Austrian public broadcaster
+Europe,Austria,Profil,Magazine / Digital,Center-Left,German,Newsweekly; investigative
+Europe,Austria,Falter,Magazine / Digital,Center-Left,German,Vienna city magazine; investigative
+Europe,Austria,eXXpress,Digital,Right,German,Right-wing digital; FPÖ-sympathetic
+Europe,Portugal,Público,Newspaper / Digital,Center-Left,Portuguese,Quality reference daily
+Europe,Portugal,Diário de Notícias,Newspaper / Digital,Center,Portuguese,Historic daily
+Europe,Portugal,Expresso,Newspaper / Digital,Center,Portuguese,Leading weekly
+Europe,Portugal,Observador,Digital,Center-Right,Portuguese,Digital native; liberal-conservative
+Europe,Portugal,RTP,Public Broadcaster,Center,Portuguese,State broadcaster
+Europe,Portugal,Jornal de Notícias,Newspaper / Digital,Center,Portuguese,Porto-based popular daily
+Europe,Portugal,Lusa,Wire Service,Center,Portuguese,Portuguese news agency
+Europe,Ireland,The Irish Times,Newspaper / Digital,Center-Left,English,Paper of record; trust-owned
+Europe,Ireland,Irish Independent,Newspaper / Digital,Center-Right,English,Largest circulation; Mediahuis
+Europe,Ireland,RTÉ,Public Broadcaster,Center,English / Irish,State broadcaster
+Europe,Ireland,The Journal.ie,Digital,Center,English,Digital native news
+Europe,Ireland,TheJournal FactCheck,Digital,Center,English,Fact-checking arm
+Europe,Ireland,Gript,Digital,Right,English,Right-wing; anti-immigration
+Europe,Sweden,Dagens Nyheter,Newspaper / Digital,Center-Left,Swedish,Quality liberal daily
+Europe,Sweden,Svenska Dagbladet (SvD),Newspaper / Digital,Center-Right,Swedish,Conservative broadsheet
+Europe,Sweden,Aftonbladet,Newspaper / Digital,Center-Left,Swedish,Largest tabloid; LO-connected
+Europe,Sweden,Expressen,Newspaper / Digital,Center,Swedish,Liberal tabloid
+Europe,Sweden,SVT Nyheter,Public Broadcaster,Center,Swedish,Swedish public TV news
+Europe,Sweden,Sveriges Radio (SR),Public Radio,Center,Swedish,Public radio
+Europe,Sweden,Göteborgs-Posten,Newspaper / Digital,Center,Swedish,Major regional
+Europe,Sweden,ETC,Newspaper / Digital,Left,Swedish,Cooperative-owned left daily
+Europe,Sweden,Nya Tider,Newspaper / Digital,Far Right,Swedish,Nationalist
+Europe,Sweden,Filter,Magazine / Digital,Center,Swedish,Investigative
+Europe,Norway,Aftenposten,Newspaper / Digital,Center,Norwegian,Largest subscription daily
+Europe,Norway,VG (Verdens Gang),Newspaper / Digital,Center,Norwegian,Largest tabloid
+Europe,Norway,Dagbladet,Newspaper / Digital,Center-Left,Norwegian,Radical liberal tabloid
+Europe,Norway,NRK,Public Broadcaster,Center,Norwegian,Norwegian Broadcasting Corp
+Europe,Norway,Klassekampen,Newspaper / Digital,Left,Norwegian,Left-wing daily
+Europe,Norway,Nettavisen,Digital,Center-Right,Norwegian,Digital tabloid
+Europe,Norway,Morgenbladet,Newspaper / Digital,Center-Left,Norwegian,Weekly; intellectual
+Europe,Denmark,Politiken,Newspaper / Digital,Center-Left,Danish,Cultural radical daily
+Europe,Denmark,Berlingske,Newspaper / Digital,Center-Right,Danish,Conservative broadsheet
+Europe,Denmark,Jyllands-Posten,Newspaper / Digital,Center-Right,Danish,Largest daily; Muhammad cartoons
+Europe,Denmark,DR (Danmarks Radio),Public Broadcaster,Center,Danish,Danish public broadcaster
+Europe,Denmark,Information,Newspaper / Digital,Left,Danish,Intellectual left daily
+Europe,Denmark,Ekstra Bladet,Newspaper / Digital,Center,Danish,Populist tabloid
+Europe,Denmark,Zetland,Digital,Center-Left,Danish,Digital; constructive journalism
+Europe,Finland,Helsingin Sanomat,Newspaper / Digital,Center,Finnish,Largest Nordic daily
+Europe,Finland,Ilta-Sanomat,Newspaper / Digital,Center,Finnish,Tabloid
+Europe,Finland,Iltalehti,Newspaper / Digital,Center,Finnish,Second tabloid
+Europe,Finland,Yle,Public Broadcaster,Center,Finnish / Swedish,Finnish Broadcasting Company
+Europe,Finland,Hufvudstadsbladet,Newspaper / Digital,Center,Swedish,Swedish-language Finnish daily
+Europe,Finland,Long Play,Digital,Center-Left,Finnish,Investigative longform
+Europe,Iceland,Morgunblaðið,Newspaper / Digital,Center-Right,Icelandic,Largest daily
+Europe,Iceland,RÚV,Public Broadcaster,Center,Icelandic,National Broadcasting Service
+Europe,Iceland,Stundin,Digital,Center-Left,Icelandic,Investigative outlet
+Europe,Poland,Gazeta Wyborcza,Newspaper / Digital,Center-Left,Polish,Founded by Michnik; Agora SA
+Europe,Poland,Rzeczpospolita,Newspaper / Digital,Center-Right,Polish,Quality broadsheet; legal focus
+Europe,Poland,TVN24,TV / Digital,Center-Left,Polish,Warner Bros. Discovery Poland
+Europe,Poland,TVP (Telewizja Polska),Public Broadcaster,Varies,Polish,State TV; bias shifts with government
+Europe,Poland,Newsweek Polska,Magazine / Digital,Center-Left,Polish,Newsweek license
+Europe,Poland,Do Rzeczy,Magazine / Digital,Right,Polish,Conservative weekly
+Europe,Poland,wSieci / wPolityce,Magazine / Digital,Right,Polish,PiS-aligned conservative
+Europe,Poland,OKO.press,Digital,Center-Left,Polish,Fact-checking / investigative
+Europe,Poland,Onet,Digital,Center,Polish,Major portal
+Europe,Poland,Krytyka Polityczna,Magazine / Digital,Left,Polish,Left-wing intellectual
+Europe,Czech Republic,Hospodářské noviny,Newspaper / Digital,Center,Czech,Business daily
+Europe,Czech Republic,Deník N,Digital,Center-Left,Czech,Quality subscription digital
+Europe,Czech Republic,Respekt,Magazine / Digital,Center-Left,Czech,Quality weekly
+Europe,Czech Republic,iDNES.cz,Digital,Center-Right,Czech,Major portal; Babiš-owned MAFRA
+Europe,Czech Republic,Aktuálně.cz,Digital,Center,Czech,Economia-owned
+Europe,Czech Republic,Parlamentní listy,Digital,Far Right,Czech,Disinformation-adjacent aggregator
+Europe,Czech Republic,Česká televize (ČT),Public Broadcaster,Center,Czech,Czech Television
+Europe,Hungary,Telex,Digital,Center-Left,Hungarian,Independent; est. 2020 from Index exodus
+Europe,Hungary,444.hu,Digital,Center-Left,Hungarian,Independent digital
+Europe,Hungary,HVG,Magazine / Digital,Center,Hungarian,Economics weekly
+Europe,Hungary,Index.hu,Digital,Varies,Hungarian,Major portal; ownership changed 2020
+Europe,Hungary,Magyar Nemzet,Newspaper / Digital,Right,Hungarian,Pro-Orbán; KESMA foundation
+Europe,Hungary,Origo.hu,Digital,Right,Hungarian,Formerly independent; now pro-govt
+Europe,Hungary,MTI,Wire Service,State-Controlled,Hungarian,State news agency; govt-controlled
+Europe,Hungary,Átlátszó,Digital (Nonprofit),Center,Hungarian,Anti-corruption investigative
+Europe,Hungary,Direkt36,Digital (Nonprofit),Center-Left,Hungarian,Investigative journalism
+Europe,Romania,Libertatea,Newspaper / Digital,Center,Romanian,Tabloid; improved quality
+Europe,Romania,Digi24,TV / Digital,Center,Romanian,RCS&RDS; 24hr news
+Europe,Romania,Recorder,Digital,Center,Romanian,Video investigative journalism
+Europe,Romania,HotNews.ro,Digital,Center,Romanian,Quality online news
+Europe,Romania,România Liberă,Newspaper / Digital,Center-Right,Romanian,Historic daily
+Europe,Romania,Rise Project,Digital (Nonprofit),Center,Romanian,Investigative nonprofit
+Europe,Romania,G4Media,Digital,Center-Left,Romanian,Quality digital outlet
+Europe,Bulgaria,Capital,Newspaper / Digital,Center,Bulgarian,Business weekly
+Europe,Bulgaria,Dnevnik,Newspaper / Digital,Center,Bulgarian,Quality daily
+Europe,Bulgaria,Mediapool,Digital,Center-Left,Bulgarian,Independent online
+Europe,Bulgaria,Bivol,Digital,Center-Left,Bulgarian,Investigative; anti-corruption
+Europe,Bulgaria,BNT,Public Broadcaster,Center,Bulgarian,Bulgarian National Television
+Europe,Slovakia,Denník N,Digital,Center-Left,Slovak,Quality subscription daily
+Europe,Slovakia,SME,Newspaper / Digital,Center,Slovak,Major quality daily
+Europe,Slovakia,Aktuality.sk,Digital,Center,Slovak,Major news portal
+Europe,Slovakia,RTVS,Public Broadcaster,Center,Slovak,Slovak Radio and Television
+Europe,Slovakia,Hlavné správy,Digital,Far Right,Slovak,Pro-Russian disinformation flagged
+Europe,Croatia,Jutarnji list,Newspaper / Digital,Center-Left,Croatian,Major daily
+Europe,Croatia,Večernji list,Newspaper / Digital,Center-Right,Croatian,Conservative daily
+Europe,Croatia,Index.hr,Digital,Center,Croatian,Largest digital outlet
+Europe,Croatia,HRT,Public Broadcaster,Center,Croatian,Croatian Radio-Television
+Europe,Croatia,Telegram.hr,Digital,Center-Left,Croatian,Quality digital
+Europe,Serbia,N1,TV / Digital,Center,Serbian,CNN affiliate; independent
+Europe,Serbia,Danas,Newspaper / Digital,Center-Left,Serbian,Opposition daily
+Europe,Serbia,BIRN Serbia,Digital (Nonprofit),Center,Serbian,Balkan Investigative Reporting Network
+Europe,Serbia,Informer,Newspaper / Digital,Right,Serbian,Pro-Vučić tabloid
+Europe,Serbia,RTS,Public Broadcaster,State-Controlled,Serbian,Under govt influence
+Europe,Serbia,KRIK,Digital (Nonprofit),Center,Serbian,Crime/corruption investigative
+Europe,Slovenia,Delo,Newspaper / Digital,Center-Left,Slovenian,Largest daily
+Europe,Slovenia,Dnevnik,Newspaper / Digital,Center,Slovenian,Quality daily
+Europe,Slovenia,RTV Slovenija,Public Broadcaster,Center,Slovenian,Public broadcaster
+Europe,Slovenia,Nova24TV,Digital / TV,Right,Slovenian,SDS/Janša-aligned; Hungarian funding
+Europe,Slovenia,Pod črto,Digital,Center-Left,Slovenian,Fact-checking / investigative
+Europe,Bosnia & Herzegovina,Dnevni Avaz,Newspaper / Digital,Center,Bosnian,Largest daily
+Europe,Bosnia & Herzegovina,Oslobođenje,Newspaper / Digital,Center-Left,Bosnian,Historic multiethnic daily
+Europe,Bosnia & Herzegovina,Al Jazeera Balkans,TV / Digital,Center,Bosnian/Croatian/Serbian,Regional Al Jazeera hub
+Europe,Bosnia & Herzegovina,CIN (Center for Investigative Reporting),Digital (Nonprofit),Center,Bosnian,Investigative journalism
+Europe,North Macedonia,Meta.mk,Digital,Center,Macedonian,Media fact-checking and analysis
+Europe,North Macedonia,MIA,Wire Service,Center,Macedonian,National news agency
+Europe,North Macedonia,Prizma,Digital,Center-Left,Macedonian,Investigative
+Europe,Montenegro,Vijesti,Newspaper / Digital,Center,Montenegrin,Largest independent daily
+Europe,Montenegro,Dan,Newspaper / Digital,Center-Right,Montenegrin,Opposition daily
+Europe,Albania,Reporter.al,Digital,Center,Albanian,BIRN Albania investigative
+Europe,Albania,Balkanweb,Digital,Center,Albanian,Major news portal
+Europe,Albania,RTSH,Public Broadcaster,State-Controlled,Albanian,State broadcaster
+Europe,Albania,Exit.al,Digital,Center,Albanian / English,Independent English-language
+Europe,Kosovo,Koha Ditore,Newspaper / Digital,Center,Albanian,Major daily
+Europe,Kosovo,Kallxo.com,Digital,Center,Albanian,BIRN Kosovo; anti-corruption
+Europe,Kosovo,RTK,Public Broadcaster,Center,Albanian,Public broadcaster
+Europe,Greece,Kathimerini,Newspaper / Digital,Center-Right,Greek,Quality broadsheet
+Europe,Greece,Ta Nea,Newspaper / Digital,Center-Left,Greek,Major daily
+Europe,Greece,Efimerida ton Syntakton,Newspaper / Digital,Left,Greek,Cooperative journalists' paper
+Europe,Greece,ERT,Public Broadcaster,Center,Greek,Greek public broadcaster
+Europe,Greece,Proto Thema,Newspaper / Digital,Center-Right,Greek,Largest Sunday paper
+Europe,Greece,Inside Story,Digital,Center-Left,Greek,Investigative digital
+Europe,Greece,Documento,Newspaper / Digital,Left,Greek,SYRIZA-adjacent
+Europe,Cyprus,Phileleftheros,Newspaper / Digital,Center,Greek,Largest Greek-Cypriot daily
+Europe,Cyprus,CyBC,Public Broadcaster,Center,Greek,Cyprus Broadcasting Corp
+Europe,Malta,Times of Malta,Newspaper / Digital,Center,English,Leading daily
+Europe,Malta,The Shift News,Digital,Center,English,Investigative; Daphne legacy
+Europe,Malta,MaltaToday,Newspaper / Digital,Center,English,Second daily
+Europe,Estonia,Postimees,Newspaper / Digital,Center,Estonian,Largest daily
+Europe,Estonia,Delfi Estonia,Digital,Center,Estonian,Major portal
+Europe,Estonia,ERR,Public Broadcaster,Center,Estonian,Estonian Public Broadcasting
+Europe,Estonia,Eesti Päevaleht,Newspaper / Digital,Center-Left,Estonian,Quality daily
+Europe,Latvia,Delfi Latvia,Digital,Center,Latvian,Major portal
+Europe,Latvia,LSM (Latvian Public Media),Public Broadcaster,Center,Latvian,Public media
+Europe,Latvia,IR,Magazine / Digital,Center,Latvian,Quality newsweekly
+Europe,Latvia,Re:Baltica,Digital (Nonprofit),Center,Latvian / English,Investigative journalism
+Europe,Lithuania,Delfi Lithuania,Digital,Center,Lithuanian,Major portal
+Europe,Lithuania,15min.lt,Digital,Center,Lithuanian,Leading news portal
+Europe,Lithuania,LRT,Public Broadcaster,Center,Lithuanian,Lithuanian Radio and Television
+Europe,Lithuania,Siena,Digital,Center-Left,Lithuanian,Investigative
+Europe,Ukraine,Ukrainska Pravda,Digital,Center,Ukrainian,Leading digital; founded by Gongadze
+Europe,Ukraine,Hromadske,TV / Digital,Center-Left,Ukrainian,Independent public interest
+Europe,Ukraine,NV (Novoye Vremya),Magazine / Digital,Center,Ukrainian,Quality newsmagazine
+Europe,Ukraine,Kyiv Independent,Digital,Center,English,English-language; from Kyiv Post staff
+Europe,Ukraine,UNIAN,Wire Service,Center,Ukrainian,Independent news agency
+Europe,Ukraine,Babel,Digital,Center-Left,Ukrainian,Independent media
+Europe,Ukraine,ZN.UA (Dzerkalo Tyzhnia),Newspaper / Digital,Center,Ukrainian,Quality weekly
+Europe,Ukraine,Suspilne,Public Broadcaster,Center,Ukrainian,Ukrainian Public Broadcasting
+Europe,Moldova,ZdG (Ziarul de Gardă),Digital,Center,Romanian,Investigative journalism
+Europe,Moldova,NewsMaker,Digital,Center,Russian / Romanian,Quality bilingual outlet
+Europe,Moldova,TV8,TV / Digital,Center,Romanian / Russian,Independent TV
+Europe,Georgia,Civil.ge,Digital,Center,English / Georgian,English-language; civil society
+Europe,Georgia,Mtavari Arkhi,TV / Digital,Center-Left,Georgian,Opposition TV channel
+Europe,Georgia,On.ge,Digital,Center,Georgian,Quality digital outlet
+Europe,Georgia,Imedi TV,TV,Right,Georgian,Pro-Georgian Dream ruling party
+Europe,Georgia,GPB (Georgian Public Broadcasting),Public Broadcaster,Center,Georgian,State broadcaster
+Europe,Armenia,Civilnet,Digital,Center,Armenian / English,Independent media; CivilNet.am
+Europe,Armenia,Hetq,Digital,Center,Armenian,Investigative journalism
+Europe,Armenia,Armenian Public TV,Public Broadcaster,Center,Armenian,State broadcaster
+Europe,Azerbaijan,Meydan TV,Digital,Center,Azerbaijani,Berlin-based independent; critical
+Europe,Azerbaijan,OCCRP (Azerbaijani coverage),Digital (Nonprofit),Center,English,Cross-border investigative
+Europe,Azerbaijan,APA,Wire Service,State-Controlled,Azerbaijani,State news agency
+Europe,Azerbaijan,AzTV,Public Broadcaster,State-Controlled,Azerbaijani,State-controlled broadcaster
+Europe,Belarus,Nasha Niva,Digital,Center-Left,Belarusian,Independent; editors imprisoned
+Europe,Belarus,NEXTA,Digital (Telegram),Center,Belarusian / Russian,Telegram channel; exile media
+Europe,Belarus,BelTA,Wire Service,State-Controlled,Belarusian / Russian,State news agency
+Europe,Belarus,Zerkalo.io,Digital,Center,Russian,Exile successor to TUT.by
+Europe,Russia,TASS,Wire Service,State-Controlled,Russian,State wire service
+Europe,Russia,RIA Novosti,Wire Service,State-Controlled,Russian,State media
+Europe,Russia,RT (Russia Today),TV / Digital,State-Controlled,Russian / Multi,International propaganda arm
+Europe,Russia,Channel One / Perviy Kanal,TV,State-Controlled,Russian,Main state TV channel
+Europe,Russia,Novaya Gazeta,Newspaper / Digital,Center-Left,Russian,Independent (suspended 2022); Muratov Nobel laureate
+Europe,Russia,Meduza,Digital,Center,Russian / English,"Riga-based exile media; designated ""undesirable"""
+Europe,Russia,The Moscow Times,Digital,Center,English,English-language; moved abroad
+Europe,Russia,Mediazona,Digital,Center-Left,Russian,Human rights / prison coverage; Pussy Riot-founded
+Europe,Russia,iStories (Важные истории),Digital,Center,Russian,Investigative; exile-based
+Europe,Russia,Kommersant,Newspaper / Digital,Center-Right,Russian,Business daily; Usmanov-owned
+Europe,Russia,Vedomosti,Newspaper / Digital,Center,Russian,Business daily (editorial independence eroded)
+Europe,Russia,Interfax,Wire Service,Center,Russian,Semi-independent wire service
+Asia,China,Xinhua,Wire Service,State-Controlled,Chinese / Multi,State news agency; global reach
+Asia,China,People's Daily,Newspaper / Digital,State-Controlled,Chinese,CCP official organ
+Asia,China,CGTN,TV / Digital,State-Controlled,Chinese / Multi,International state TV
+Asia,China,Global Times,Newspaper / Digital,State-Controlled,Chinese / English,Nationalist tabloid; People's Daily subsidiary
+Asia,China,CCTV,TV,State-Controlled,Chinese,Central state television
+Asia,China,Caixin,Magazine / Digital,Center,Chinese / English,Business; relatively independent investigative
+Asia,China,The Paper (Pengpai),Digital,Center,Chinese,State-linked but quality journalism
+Asia,China,South China Morning Post,Newspaper / Digital,Center,English,HK-based; Alibaba-owned; significant self-censorship
+Asia,China,China Daily,Newspaper / Digital,State-Controlled,English,English-language state media
+Asia,Hong Kong,Hong Kong Free Press,Digital,Center,English,Independent; nonprofit
+Asia,Hong Kong,The Standard,Newspaper / Digital,Center,English,Free English daily
+Asia,Hong Kong,RTHK,Public Broadcaster,Center,Cantonese / English,Public broadcaster; editorial independence eroded post-2020
+Asia,Hong Kong,Ming Pao,Newspaper / Digital,Center,Chinese,Quality broadsheet
+Asia,Hong Kong,Stand News (shuttered 2021),Digital,Center-Left,Chinese,Closed under national security law
+Asia,Taiwan,Liberty Times,Newspaper / Digital,Center-Left,Chinese,Pro-DPP; largest daily
+Asia,Taiwan,United Daily News,Newspaper / Digital,Center-Right,Chinese,Pro-KMT
+Asia,Taiwan,China Times,Newspaper / Digital,Right,Chinese,Want Want Group; pro-PRC leaning
+Asia,Taiwan,Apple Daily Taiwan,Digital,Center,Chinese,Tabloid; Next Digital (restructured)
+Asia,Taiwan,CNA (Central News Agency),Wire Service,Center,Chinese / English,National news agency
+Asia,Taiwan,The Reporter (報導者),Digital (Nonprofit),Center-Left,Chinese,Investigative nonprofit
+Asia,Taiwan,Taipei Times,Newspaper / Digital,Center-Left,English,English-language; Liberty Times sister
+Asia,Taiwan,CommonWealth Magazine,Magazine / Digital,Center,Chinese,Business/policy analysis
+Asia,Japan,The Asahi Shimbun,Newspaper / Digital,Center-Left,Japanese,Liberal broadsheet
+Asia,Japan,The Yomiuri Shimbun,Newspaper / Digital,Center-Right,Japanese,World's largest circulation daily
+Asia,Japan,The Mainichi Shimbun,Newspaper / Digital,Center-Left,Japanese,Liberal daily
+Asia,Japan,Nikkei (Nihon Keizai Shimbun),Newspaper / Digital,Center-Right,Japanese,Business daily; FT owner
+Asia,Japan,Sankei Shimbun,Newspaper / Digital,Right,Japanese,Conservative; nationalist leaning
+Asia,Japan,NHK,Public Broadcaster,Center,Japanese,Japan Broadcasting Corp
+Asia,Japan,Kyodo News,Wire Service,Center,Japanese,Cooperative wire service
+Asia,Japan,Jiji Press,Wire Service,Center,Japanese,Second wire service
+Asia,Japan,The Japan Times,Newspaper / Digital,Center,English,Oldest English-language daily
+Asia,Japan,Tokyo Shimbun,Newspaper / Digital,Left,Japanese,Progressive; critical of govt
+Asia,Japan,Tōyō Keizai,Magazine / Digital,Center,Japanese,Business weekly
+Asia,South Korea,Chosun Ilbo,Newspaper / Digital,Right,Korean,Largest conservative daily
+Asia,South Korea,JoongAng Ilbo,Newspaper / Digital,Center-Right,Korean,Centrist-conservative; Samsung-founded
+Asia,South Korea,Dong-A Ilbo,Newspaper / Digital,Center-Right,Korean,Conservative daily
+Asia,South Korea,Hankyoreh,Newspaper / Digital,Left,Korean,Progressive; employee-owned
+Asia,South Korea,Kyunghyang Shinmun,Newspaper / Digital,Center-Left,Korean,Progressive daily
+Asia,South Korea,KBS,Public Broadcaster,Center,Korean,Korean Broadcasting System
+Asia,South Korea,MBC,Public Broadcaster,Center-Left,Korean,Munhwa Broadcasting Corp
+Asia,South Korea,SBS,TV / Digital,Center,Korean,Private broadcaster
+Asia,South Korea,Yonhap News,Wire Service,Center,Korean,National wire service
+Asia,South Korea,The Korea Herald,Newspaper / Digital,Center,English,English-language daily
+Asia,South Korea,Newstapa,Digital (Nonprofit),Center-Left,Korean,Investigative; crowdfunded
+Asia,South Korea,OhmyNews,Digital,Left,Korean,Citizen journalism pioneer
+Asia,North Korea,KCNA,Wire Service,State-Controlled,Korean,Official state news agency
+Asia,North Korea,Rodong Sinmun,Newspaper,State-Controlled,Korean,Workers' Party organ
+Asia,Mongolia,Montsame,Wire Service,Center,Mongolian,State news agency
+Asia,Mongolia,UB Post,Newspaper / Digital,Center,English,English-language daily
+Asia,Mongolia,news.mn,Digital,Center,Mongolian,Major portal
+Asia,Singapore,The Straits Times,Newspaper / Digital,Center-Right,English,SPH Media; dominant; govt-aligned
+Asia,Singapore,Channel NewsAsia (CNA),TV / Digital,Center,English,Mediacorp; regional reach
+Asia,Singapore,TODAY,Digital,Center,English,Mediacorp; free daily gone digital
+Asia,Singapore,Mothership,Digital,Center,English,Digital native
+Asia,Singapore,The Online Citizen,Digital,Center-Left,English,Independent; govt-targeted
+Asia,Singapore,Lianhe Zaobao,Newspaper / Digital,Center,Chinese,Largest Chinese-language outside PRC/TW
+Asia,Malaysia,The Star,Newspaper / Digital,Center,English,MCA-linked; largest English
+Asia,Malaysia,New Straits Times,Newspaper / Digital,Center-Right,English,UMNO-linked
+Asia,Malaysia,Malaysiakini,Digital,Center-Left,English / Malay,Independent digital; Steven Gan
+Asia,Malaysia,The Edge,Newspaper / Digital,Center,English,Business focus
+Asia,Malaysia,Free Malaysia Today,Digital,Center,English / Malay,Independent
+Asia,Malaysia,Utusan Malaysia,Newspaper / Digital,Right,Malay,Malay-nationalist; UMNO
+Asia,Malaysia,Sinar Harian,Newspaper / Digital,Center,Malay,Largest Malay daily
+Asia,Indonesia,Kompas,Newspaper / Digital,Center,Indonesian,Largest quality daily
+Asia,Indonesia,Tempo,Magazine / Digital,Center-Left,Indonesian / English,Investigative newsmagazine
+Asia,Indonesia,The Jakarta Post,Newspaper / Digital,Center,English,English-language daily
+Asia,Indonesia,Detik.com,Digital,Center,Indonesian,Largest digital portal
+Asia,Indonesia,Tirto.id,Digital,Center-Left,Indonesian,Data-driven journalism
+Asia,Indonesia,CNN Indonesia,TV / Digital,Center,Indonesian,Trans Media
+Asia,Indonesia,Antara,Wire Service,Center,Indonesian,National news agency
+Asia,Indonesia,Republika,Newspaper / Digital,Center-Right,Indonesian,Islamic-oriented daily
+Asia,Indonesia,Koran Tempo,Newspaper / Digital,Center-Left,Indonesian,Daily edition of Tempo
+Asia,Indonesia,Project Multatuli,Digital,Center-Left,Indonesian,Investigative nonprofit
+Asia,Philippines,Philippine Daily Inquirer,Newspaper / Digital,Center-Left,English,Largest quality daily
+Asia,Philippines,Philippine Star,Newspaper / Digital,Center,English,Second major daily
+Asia,Philippines,Rappler,Digital,Center-Left,English,Maria Ressa; Nobel laureate; targeted
+Asia,Philippines,ABS-CBN,TV / Digital,Center,Filipino / English,Major network (franchise issues)
+Asia,Philippines,GMA News,TV / Digital,Center,Filipino / English,Major broadcast network
+Asia,Philippines,Manila Bulletin,Newspaper / Digital,Center-Right,English,Oldest; establishment-friendly
+Asia,Philippines,PCIJ,Digital (Nonprofit),Center-Left,English,Philippine Center for Investigative Journalism
+Asia,Philippines,Manila Times,Newspaper / Digital,Right,English,Pro-administration
+Asia,Thailand,Bangkok Post,Newspaper / Digital,Center,English,English-language daily
+Asia,Thailand,The Nation (Thailand),Newspaper / Digital,Center-Right,English,English-language; restructured
+Asia,Thailand,Matichon,Newspaper / Digital,Center-Left,Thai,Quality daily
+Asia,Thailand,Thai PBS,Public Broadcaster,Center,Thai,Independent public broadcaster
+Asia,Thailand,Prachatai,Digital,Left,Thai / English,Independent; human rights focus
+Asia,Thailand,Khaosod English,Digital,Center-Left,English,English arm of Thai daily
+Asia,Thailand,The Standard (TH),Digital,Center,Thai,Digital media
+Asia,Thailand,Manager Daily,Newspaper / Digital,Right,Thai,Royalist conservative
+Asia,Vietnam,VnExpress,Digital,State-Controlled,Vietnamese,Largest portal; state-approved
+Asia,Vietnam,Tuổi Trẻ,Newspaper / Digital,State-Controlled,Vietnamese,Youth league paper; relatively dynamic
+Asia,Vietnam,VietnamNet,Digital,State-Controlled,Vietnamese / English,Ministry-owned portal
+Asia,Vietnam,VNA (Vietnam News Agency),Wire Service,State-Controlled,Vietnamese,Official state wire
+Asia,Vietnam,The Vietnamese,Digital,Center,Vietnamese,Exile media; overseas-based
+Asia,Myanmar,The Irrawaddy,Digital,Center,Burmese / English,Exile/independent; critical of junta
+Asia,Myanmar,Myanmar Now,Digital,Center,Burmese / English,Independent; underground since coup
+Asia,Myanmar,Mizzima,Digital,Center,Burmese / English,Independent
+Asia,Myanmar,Global New Light of Myanmar,Newspaper,State-Controlled,English,Junta state paper
+Asia,Myanmar,Democratic Voice of Burma (DVB),Digital / TV,Center-Left,Burmese,Exile-operated independent
+Asia,Cambodia,VOD (Voice of Democracy),Digital / Radio,Center,Khmer,Independent (shutdown ordered 2023)
+Asia,Cambodia,Cambodia Daily,Digital,Center-Left,English,Closed 2017; online intermittent
+Asia,Cambodia,Phnom Penh Post,Newspaper / Digital,Center,English,Sold 2018; independence questioned
+Asia,Cambodia,CamboJA,Digital,Center,Khmer / English,Journalism association media
+Asia,Laos,Vientiane Times,Newspaper / Digital,State-Controlled,English,State-run English daily
+Asia,Laos,KPL (Lao News Agency),Wire Service,State-Controlled,Lao,State news agency
+Asia,Brunei,Borneo Bulletin,Newspaper / Digital,State-Controlled,English,Only English daily; restricted press
+Asia,Timor-Leste,Tatoli,Wire Service,Center,Portuguese / Tetum,National news agency
+Asia,Timor-Leste,Tempo Timor,Digital,Center,Tetum / Portuguese,Independent
+Asia,India,The Hindu,Newspaper / Digital,Center-Left,English,Chennai-based; quality broadsheet
+Asia,India,The Times of India,Newspaper / Digital,Center,English,Largest English daily globally
+Asia,India,Hindustan Times,Newspaper / Digital,Center,English,Second largest English
+Asia,India,The Indian Express,Newspaper / Digital,Center,English,Strong investigative tradition
+Asia,India,The Economic Times,Newspaper / Digital,Center-Right,English,Business daily; Times Group
+Asia,India,NDTV,TV / Digital,Center-Left,English / Hindi,Now Adani-owned; was independent
+Asia,India,Republic TV,TV / Digital,Right,English / Hindi,Pro-BJP; Arnab Goswami
+Asia,India,Times Now,TV / Digital,Right,English,Times Network; pro-govt lean
+Asia,India,India Today,Magazine / TV / Digital,Center,English / Hindi,Major media group
+Asia,India,The Wire,Digital,Center-Left,English,"Independent; MK Venu, Siddharth Varadarajan"
+Asia,India,Scroll.in,Digital,Center-Left,English,Independent digital
+Asia,India,The Quint,Digital,Center-Left,English,Digital-first
+Asia,India,Newslaundry,Digital,Center-Left,English,Media criticism; subscriber-funded
+Asia,India,OpIndia,Digital,Right,English / Hindi,Right-wing; Hindutva-adjacent
+Asia,India,Swarajya,Magazine / Digital,Right,English,Hindu nationalist intellectual
+Asia,India,The Print,Digital,Center,English,Shekhar Gupta; balanced
+Asia,India,PTI (Press Trust of India),Wire Service,Center,English,National wire service
+Asia,India,Dainik Jagran,Newspaper / Digital,Center-Right,Hindi,Largest Hindi daily
+Asia,India,Amar Ujala,Newspaper / Digital,Center,Hindi,Major Hindi daily
+Asia,India,Dainik Bhaskar,Newspaper / Digital,Center,Hindi,Major Hindi media group
+Asia,India,The News Minute,Digital,Center-Left,English,South India focused
+Asia,India,Alt News,Digital,Center,English / Hindi,Fact-checking
+Asia,Pakistan,Dawn,Newspaper / Digital,Center-Left,English,Leading English daily; Jang Group rival
+Asia,Pakistan,The News International,Newspaper / Digital,Center,English,Jang Group
+Asia,Pakistan,Geo TV,TV / Digital,Center,Urdu,Largest TV network; Jang Group
+Asia,Pakistan,Express Tribune,Newspaper / Digital,Center,English,Lakson Group
+Asia,Pakistan,Jang,Newspaper / Digital,Center,Urdu,Largest Urdu daily
+Asia,Pakistan,ARY News,TV / Digital,Center-Right,Urdu / English,Pro-PTI/Imran Khan leaning
+Asia,Pakistan,Bol News,TV / Digital,Right,Urdu,Controversy-prone; sensationalist
+Asia,Pakistan,APP (Associated Press of Pakistan),Wire Service,State-Controlled,Urdu / English,State wire service
+Asia,Bangladesh,The Daily Star,Newspaper / Digital,Center,English,Leading English daily
+Asia,Bangladesh,Prothom Alo,Newspaper / Digital,Center,Bengali,Largest Bengali daily
+Asia,Bangladesh,bdnews24.com,Digital,Center,Bengali / English,First online news outlet
+Asia,Bangladesh,Dhaka Tribune,Newspaper / Digital,Center,English,Quality English daily
+Asia,Bangladesh,New Age,Newspaper / Digital,Center-Left,English,Progressive daily
+Asia,Bangladesh,BSS (Bangladesh Sangbad Sangstha),Wire Service,State-Controlled,Bengali,State news agency
+Asia,Sri Lanka,Daily Mirror (LK),Newspaper / Digital,Center,English,Major English daily
+Asia,Sri Lanka,Sunday Times (LK),Newspaper / Digital,Center,English,Wijeya Newspapers
+Asia,Sri Lanka,Groundviews,Digital,Center-Left,English,Citizen journalism; CPA
+Asia,Sri Lanka,Lankadeepa,Newspaper / Digital,Center,Sinhala,Largest Sinhala daily
+Asia,Sri Lanka,Tamil Mirror,Newspaper / Digital,Center,Tamil,Tamil-language daily
+Asia,Nepal,The Kathmandu Post,Newspaper / Digital,Center,English,Leading English daily
+Asia,Nepal,Kantipur,Newspaper / Digital,Center,Nepali,Largest Nepali daily
+Asia,Nepal,Republica,Newspaper / Digital,Center,English,Nagarik's English edition
+Asia,Nepal,Online Khabar,Digital,Center,Nepali / English,Digital native
+Asia,Afghanistan,TOLOnews,TV / Digital,Center,Dari / Pashto,Largest Afghan network; under Taliban pressure
+Asia,Afghanistan,Pajhwok Afghan News,Wire Service / Digital,Center,Multi,Independent news agency
+Asia,Afghanistan,Hasht-e Subh,Newspaper / Digital,Center,Dari,Largest daily; resistance-adjacent
+Asia,Afghanistan,Bakhtar News Agency,Wire Service,State-Controlled,Dari / Pashto,Taliban-controlled state agency
+Asia,Bhutan,Kuensel,Newspaper / Digital,Center,English / Dzongkha,National newspaper
+Asia,Bhutan,BBS (Bhutan Broadcasting Service),Public Broadcaster,Center,Dzongkha,State broadcaster
+Asia,Maldives,Maldives Independent,Digital,Center,English,Independent (predecessor shuttered)
+Asia,Maldives,Raajje.mv,Digital,Center,Dhivehi,Digital outlet
+Asia,Maldives,PSM (Public Service Media),Public Broadcaster,State-Controlled,Dhivehi,Government broadcaster
+Asia,Kazakhstan,Tengrinews,Digital,Center,Kazakh / Russian,Major portal
+Asia,Kazakhstan,Vlast.kz,Digital,Center-Left,Russian,Independent; analytical
+Asia,Kazakhstan,Kazakh TV / Khabar,TV,State-Controlled,Kazakh,State TV
+Asia,Kazakhstan,Mediazona Central Asia,Digital,Center,Russian,Investigative; prison/rights
+Asia,Uzbekistan,Kun.uz,Digital,Center,Uzbek / Russian,Major portal
+Asia,Uzbekistan,Gazeta.uz,Digital,Center,Uzbek / Russian,Quality digital
+Asia,Uzbekistan,UzA,Wire Service,State-Controlled,Uzbek,National news agency
+Asia,Kyrgyzstan,Kloop,Digital,Center-Left,Kyrgyz / Russian,Investigative (blocked/targeted)
+Asia,Kyrgyzstan,Kaktus Media,Digital,Center,Russian / Kyrgyz,Independent digital
+Asia,Kyrgyzstan,24.kg,Digital,Center,Russian / Kyrgyz,Major portal
+Asia,Tajikistan,Asia-Plus,Newspaper / Digital,Center,Tajik / Russian,Leading independent outlet
+Asia,Tajikistan,Khovar,Wire Service,State-Controlled,Tajik,National news agency
+Asia,Turkmenistan,TDH (Turkmen State News),Wire Service,State-Controlled,Turkmen,State news; among most censored
+Asia,Turkmenistan,Turkmen.news,Digital,Center,Russian / Turkmen,Exile-based independent
+Asia,Turkmenistan,Chronicles of Turkmenistan,Digital,Center,Russian / English,Exile media
+Middle East,Turkey,Hürriyet,Newspaper / Digital,Center-Right,Turkish,Demirören Group; formerly independent
+Middle East,Turkey,Cumhuriyet,Newspaper / Digital,Center-Left,Turkish,Secular republican; journalists jailed
+Middle East,Turkey,Sözcü,Newspaper / Digital,Center-Left,Turkish,Secularist; opposition
+Middle East,Turkey,Sabah,Newspaper / Digital,Right,Turkish,Pro-AKP; Turkuaz Medya
+Middle East,Turkey,Yeni Şafak,Newspaper / Digital,Right,Turkish,Islamist conservative; pro-Erdoğan
+Middle East,Turkey,Bianet,Digital,Center-Left,Turkish / English,Independent; human rights focus
+Middle East,Turkey,Medyascope,Digital,Center-Left,Turkish,Independent digital / YouTube
+Middle East,Turkey,Ahval News,Digital,Center,Turkish / English,Exile-based independent
+Middle East,Turkey,TRT World,TV / Digital,State-Controlled,Turkish / English,State broadcaster international
+Middle East,Turkey,Anadolu Agency (AA),Wire Service,State-Controlled,Turkish / Multi,State wire service
+Middle East,Turkey,Daily Sabah,Newspaper / Digital,Right,English,English-language pro-govt
+Middle East,Turkey,Duvar,Digital,Center-Left,Turkish,Independent
+Middle East,Israel,Haaretz,Newspaper / Digital,Center-Left,Hebrew / English,Liberal quality daily
+Middle East,Israel,Yedioth Ahronoth / Ynet,Newspaper / Digital,Center,Hebrew,Largest daily
+Middle East,Israel,Israel Hayom,Newspaper / Digital,Right,Hebrew,Free daily; pro-Netanyahu
+Middle East,Israel,The Times of Israel,Digital,Center,English / Multi,English-language; David Horovitz
+Middle East,Israel,The Jerusalem Post,Newspaper / Digital,Center-Right,English,English-language; right shift under ownership
+Middle East,Israel,Kan,Public Broadcaster,Center,Hebrew,Israeli Public Broadcasting
+Middle East,Israel,Channel 12 / 13 / 14,TV,Varies,Hebrew,Commercial TV; Ch14 is right-wing
+Middle East,Israel,+972 Magazine,Digital,Left,English,Israeli-Palestinian independent
+Middle East,Israel,Mako / N12,Digital / TV,Center,Hebrew,Keshet Media; Channel 12 digital
+Middle East,Israel,Walla!,Digital,Center,Hebrew,Major portal
+Middle East,Israel,Local Call (Sikha Mekomit),Digital,Left,Hebrew,+972 Hebrew sister site
+Middle East,Palestine,Ma'an News,Wire Service / Digital,Center,Arabic / English,Independent network
+Middle East,Palestine,WAFA,Wire Service,State-Controlled,Arabic,Palestinian Authority news agency
+Middle East,Palestine,Quds News Network,Digital,Center-Left,Arabic / English,Independent; Gaza-based
+Middle East,Palestine,Mondoweiss,Digital,Left,English,Pro-Palestinian; US-based
+Middle East,Lebanon,L'Orient-Le Jour,Newspaper / Digital,Center,French,Leading Francophone daily
+Middle East,Lebanon,The Daily Star (Lebanon),Newspaper / Digital,Center,English,English-language (reduced operations)
+Middle East,Lebanon,An-Nahar,Newspaper / Digital,Center,Arabic,Largest Arabic daily; anti-Hezbollah
+Middle East,Lebanon,Al-Akhbar,Newspaper / Digital,Left,Arabic,Pro-Hezbollah / resistance axis
+Middle East,Lebanon,Al Manar,TV / Digital,Far Left,Arabic,Hezbollah TV
+Middle East,Lebanon,MTV Lebanon,TV / Digital,Center-Right,Arabic,Christian / anti-Hezbollah
+Middle East,Lebanon,Daraj,Digital,Center-Left,Arabic,Independent investigative pan-Arab
+Middle East,Lebanon,Megaphone,Digital,Left,Arabic,Social media-native; protest movement
+Middle East,Jordan,The Jordan Times,Newspaper / Digital,Center,English,English-language daily
+Middle East,Jordan,Al Ghad,Newspaper / Digital,Center,Arabic,Major daily
+Middle East,Jordan,Petra (JNA),Wire Service,State-Controlled,Arabic,Jordan News Agency
+Middle East,Jordan,7iber,Digital,Center-Left,Arabic,Independent; culture/rights
+Middle East,Iraq,Rudaw,TV / Digital,Center-Right,Kurdish / English / Arabic,KRG-linked; KDP-affiliated
+Middle East,Iraq,NRT,TV / Digital,Center,Kurdish,PUK-adjacent
+Middle East,Iraq,Al-Mada,Newspaper / Digital,Center,Arabic,Quality Iraqi daily
+Middle East,Iraq,Iraq Oil Report,Digital,Center,English,Niche energy/policy
+Middle East,Iraq,Kirkuk Now,Digital,Center,Multi,Independent; multi-ethnic focus
+Middle East,Iran,IRNA,Wire Service,State-Controlled,Farsi,Islamic Republic News Agency
+Middle East,Iran,Press TV,TV / Digital,State-Controlled,English,English-language state TV
+Middle East,Iran,Shargh,Newspaper / Digital,Center-Left,Farsi,Reformist daily (frequently shut down)
+Middle East,Iran,Kayhan,Newspaper / Digital,Far Right,Farsi,Hardline; Supreme Leader-appointed editor
+Middle East,Iran,Iran International,TV / Digital,Center-Right,Farsi,London-based exile; Saudi-linked
+Middle East,Iran,Manoto,TV / Digital,Center,Farsi,London-based diaspora TV
+Middle East,Iran,IranWire,Digital,Center-Left,Farsi / English,Exile investigative
+Middle East,Iran,Radio Farda / RFE,Radio / Digital,Center,Farsi,US-funded; RFE/RL Farsi service
+Middle East,Saudi Arabia,Arab News,Newspaper / Digital,Center-Right,English,English-language; SRMG
+Middle East,Saudi Arabia,Saudi Gazette,Newspaper / Digital,Center-Right,English,English-language daily
+Middle East,Saudi Arabia,Al Arabiya,TV / Digital,Center-Right,Arabic,MBC Group; Saudi-funded; pan-Arab
+Middle East,Saudi Arabia,Asharq Al-Awsat,Newspaper / Digital,Center-Right,Arabic,Pan-Arab; Saudi-owned; London-based
+Middle East,Saudi Arabia,SPA (Saudi Press Agency),Wire Service,State-Controlled,Arabic,State news agency
+Middle East,Saudi Arabia,Okaz,Newspaper / Digital,Center-Right,Arabic,Major Arabic daily
+Middle East,Saudi Arabia,Al Riyadh,Newspaper / Digital,State-Controlled,Arabic,State-aligned daily
+Middle East,UAE,The National (UAE),Newspaper / Digital,Center-Right,English,ADG Media; state-aligned
+Middle East,UAE,Gulf News,Newspaper / Digital,Center,English,Dubai-based; Al Nisr Publishing
+Middle East,UAE,Khaleej Times,Newspaper / Digital,Center,English,Dubai English daily
+Middle East,UAE,WAM (Emirates News Agency),Wire Service,State-Controlled,Arabic / English,State wire
+Middle East,UAE,Al Ain News,Digital,Center-Right,Arabic,Abu Dhabi-linked
+Middle East,UAE,Sky News Arabia,TV / Digital,Center-Right,Arabic,Abu Dhabi Media / Sky partnership
+Middle East,Qatar,Al Jazeera,TV / Digital,Center-Left,Arabic / English,Qatar-funded; global reach; pan-Arab
+Middle East,Qatar,Al Jazeera English,TV / Digital,Center-Left,English,English service; award-winning
+Middle East,Qatar,The Peninsula,Newspaper / Digital,Center,English,English-language daily
+Middle East,Qatar,QNA,Wire Service,State-Controlled,Arabic,Qatar News Agency
+Middle East,Kuwait,Kuwait Times,Newspaper / Digital,Center,English,English daily
+Middle East,Kuwait,Al-Qabas,Newspaper / Digital,Center,Arabic,Major Arabic daily
+Middle East,Kuwait,KUNA,Wire Service,State-Controlled,Arabic,Kuwait News Agency
+Middle East,Bahrain,Gulf Daily News,Newspaper / Digital,Center,English,English daily
+Middle East,Bahrain,BNA,Wire Service,State-Controlled,Arabic,Bahrain News Agency
+Middle East,Oman,Times of Oman,Newspaper / Digital,Center,English,English daily
+Middle East,Oman,ONA (Oman News Agency),Wire Service,State-Controlled,Arabic,State agency
+Middle East,Yemen,Al-Masdar Online,Digital,Center,Arabic,Independent Yemeni news
+Middle East,Yemen,Saba (Yemen News Agency),Wire Service,State-Controlled,Arabic,Split between Houthi and govt
+Middle East,Yemen,Belqees TV,TV / Digital,Center,Arabic,Independent; critical
+Middle East,Syria,SANA,Wire Service,State-Controlled,Arabic,Assad regime news agency
+Middle East,Syria,SY24,Digital,Center,Arabic,Independent; opposition areas
+Middle East,Syria,Syria Direct,Digital,Center,Arabic / English,Independent journalism
+Middle East,Syria,Enab Baladi,Digital,Center-Left,Arabic,Citizen journalism; opposition areas
+Middle East,Syria,The Syria Report,Digital,Center,English,Economic analysis
+Middle East,Egypt,Al-Ahram,Newspaper / Digital,State-Controlled,Arabic,Largest; state-owned
+Middle East,Egypt,Al-Masry Al-Youm,Newspaper / Digital,Center,Arabic,Largest private daily
+Middle East,Egypt,Mada Masr,Digital,Center-Left,Arabic / English,Independent; targeted by authorities
+Middle East,Egypt,Daily News Egypt,Newspaper / Digital,Center,English,English-language daily
+Middle East,Egypt,Al-Shorouk,Newspaper / Digital,Center,Arabic,Private daily
+Middle East,Egypt,MENA (Middle East News Agency),Wire Service,State-Controlled,Arabic,State wire service
+Middle East,Egypt,Al-Monitor (Egypt coverage),Digital,Center,English,MENA analysis
+Africa,Libya,Libya Observer,Digital,Center,English,Independent English-language
+Africa,Libya,LANA,Wire Service,State-Controlled,Arabic,Libyan News Agency
+Africa,Libya,Libya Herald,Digital,Center,English,Independent English outlet
+Africa,Tunisia,Nawaat,Digital,Center-Left,Arabic / French,Award-winning independent
+Africa,Tunisia,Meshkal,Digital,Center,Arabic / English,Investigative platform
+Africa,Tunisia,TAP (Tunis Afrique Presse),Wire Service,State-Controlled,Arabic / French,National news agency
+Africa,Tunisia,La Presse de Tunisie,Newspaper / Digital,Center,French,Francophone daily
+Africa,Algeria,TSA (Tout Sur l'Algérie),Digital,Center,French,Leading digital outlet
+Africa,Algeria,El Watan,Newspaper / Digital,Center-Left,French,Quality Francophone daily
+Africa,Algeria,APS,Wire Service,State-Controlled,Arabic / French,Algerian Press Service
+Africa,Algeria,Echorouk,Newspaper / Digital,Center-Right,Arabic,Major Arabic daily
+Africa,Morocco,TelQuel,Magazine / Digital,Center,French / Arabic,Bold weekly magazine
+Africa,Morocco,Le360,Digital,Center,French / Arabic,Major portal
+Africa,Morocco,Medias24,Digital,Center,French,Business/financial news
+Africa,Morocco,MAP,Wire Service,State-Controlled,Arabic / French,Maghreb Arab Press
+Africa,Morocco,Hespress,Digital,Center,Arabic / French,Largest Moroccan digital
+Africa,Morocco,Le Desk,Digital,Center-Left,French,Investigative
+Africa,Nigeria,The Punch,Newspaper / Digital,Center,English,Largest daily
+Africa,Nigeria,Vanguard,Newspaper / Digital,Center,English,Major daily
+Africa,Nigeria,Premium Times,Digital,Center-Left,English,Investigative digital
+Africa,Nigeria,The Guardian (Nigeria),Newspaper / Digital,Center,English,Quality broadsheet
+Africa,Nigeria,Channels Television,TV / Digital,Center,English,Leading TV news
+Africa,Nigeria,ThisDay,Newspaper / Digital,Center,English,Quality daily
+Africa,Nigeria,Daily Trust,Newspaper / Digital,Center,English,Northern Nigeria focus
+Africa,Nigeria,Sahara Reporters,Digital,Center-Left,English,Citizen journalism; anti-corruption
+Africa,Nigeria,The Cable,Digital,Center,English,Digital news platform
+Africa,Nigeria,NAN (News Agency of Nigeria),Wire Service,State-Controlled,English,National wire
+Africa,Nigeria,FIJ (Foundation for Investigative Journalism),Digital (Nonprofit),Center,English,Investigative nonprofit
+Africa,Ghana,Daily Graphic,Newspaper / Digital,Center,English,State-owned; largest
+Africa,Ghana,Citi FM/Newsroom,Radio / Digital,Center,English,Independent; quality
+Africa,Ghana,Joy Online / JoyFM,Radio / Digital,Center,English,Multimedia Group
+Africa,Ghana,MyJoyOnline,Digital,Center,English,Major portal
+Africa,Ghana,GNA (Ghana News Agency),Wire Service,State-Controlled,English,National wire
+Africa,Ghana,The Fourth Estate,Digital,Center,English,Investigative; MFJ
+Africa,Senegal,Le Soleil,Newspaper / Digital,State-Controlled,French,State-owned daily
+Africa,Senegal,Seneweb,Digital,Center,French,Leading portal
+Africa,Senegal,APS (Agence de Presse Sénégalaise),Wire Service,State-Controlled,French,National wire
+Africa,Ivory Coast,Fraternité Matin,Newspaper / Digital,State-Controlled,French,State-owned daily
+Africa,Ivory Coast,Abidjan.net,Digital,Center,French,Major portal
+Africa,Ivory Coast,Connectionivoirienne,Digital,Center,French,Independent digital
+Africa,Burkina Faso,L'Observateur Paalga,Newspaper / Digital,Center,French,Oldest private daily
+Africa,Burkina Faso,AIB,Wire Service,State-Controlled,French,National news agency
+Africa,Mali,Malijet,Digital,Center,French,Leading digital portal
+Africa,Mali,L'Essor,Newspaper / Digital,State-Controlled,French,State daily
+Africa,Mali,AMAP,Wire Service,State-Controlled,French,Malian Press Agency
+Africa,Niger,Actuniger,Digital,Center,French,Digital portal
+Africa,Niger,ANP,Wire Service,State-Controlled,French,National agency
+Africa,Guinea,Guineenews,Digital,Center,French,Independent portal
+Africa,Guinea,AGP,Wire Service,State-Controlled,French,National agency
+Africa,Sierra Leone,Awoko,Newspaper / Digital,Center,English,Independent daily
+Africa,Sierra Leone,Politico SL,Digital,Center,English,Digital news
+Africa,Liberia,FrontPageAfrica,Digital,Center,English,Leading digital
+Africa,Liberia,Daily Observer,Newspaper / Digital,Center,English,Major daily
+Africa,Gambia,The Standard (Gambia),Newspaper / Digital,Center,English,Major daily
+Africa,Togo,Togoweb,Digital,Center,French,Portal
+Africa,Benin,La Nation,Newspaper / Digital,State-Controlled,French,State daily
+Africa,Cape Verde,A Semana,Newspaper / Digital,Center,Portuguese,Major weekly
+Africa,Guinea-Bissau,Nô Pintcha,Newspaper,State-Controlled,Portuguese,State daily
+Africa,Mauritania,AMI,Wire Service,State-Controlled,Arabic / French,Mauritanian news agency
+Africa,Kenya,Daily Nation,Newspaper / Digital,Center,English,Nation Media Group; largest
+Africa,Kenya,The Standard (Kenya),Newspaper / Digital,Center,English,Standard Group
+Africa,Kenya,The Star (Kenya),Newspaper / Digital,Center-Left,English,Independent
+Africa,Kenya,Business Daily Africa,Newspaper / Digital,Center,English,NMG business daily
+Africa,Kenya,KTN News,TV / Digital,Center,English,Standard Group TV
+Africa,Kenya,Citizen TV,TV / Digital,Center,English,Royal Media Services
+Africa,Kenya,Africa Uncensored,Digital,Center,English,Investigative journalism
+Africa,Kenya,The Elephant,Digital,Center-Left,English,Analysis and opinion
+Africa,Ethiopia,Addis Standard,Digital,Center,English,Independent magazine
+Africa,Ethiopia,Ethiopian Reporter,Newspaper / Digital,Center,Amharic / English,Private weekly
+Africa,Ethiopia,ENA (Ethiopian News Agency),Wire Service,State-Controlled,Amharic,State wire
+Africa,Ethiopia,Fana Broadcasting,TV / Radio,State-Controlled,Amharic,EPRDF/PP-affiliated
+Africa,Ethiopia,Borkena,Digital,Center-Right,English,Independent diaspora-linked
+Africa,Tanzania,The Citizen (TZ),Newspaper / Digital,Center,English,Mwananchi Communications
+Africa,Tanzania,Mwananchi,Newspaper / Digital,Center,Swahili,Largest Swahili daily
+Africa,Tanzania,TBC (Tanzania Broadcasting Corp),Public Broadcaster,State-Controlled,Swahili / English,State broadcaster
+Africa,Uganda,Daily Monitor,Newspaper / Digital,Center,English,Nation Media; independent
+Africa,Uganda,New Vision,Newspaper / Digital,Center-Right,English,Government-owned daily
+Africa,Uganda,The Observer (Uganda),Newspaper / Digital,Center,English,Independent weekly
+Africa,Uganda,NBS Television,TV / Digital,Center,English,Independent broadcaster
+Africa,Rwanda,The New Times (Rwanda),Newspaper / Digital,State-Controlled,English,Pro-government; largest
+Africa,Rwanda,KT Press,Digital,Center,English,Government-aligned digital
+Africa,Rwanda,RNA,Wire Service,State-Controlled,Kinyarwanda,Rwanda News Agency
+Africa,Burundi,IWACU,Newspaper / Digital,Center,French / Kirundi,Independent; journalists targeted
+Africa,Burundi,ABP,Wire Service,State-Controlled,French,State news agency
+Africa,Somalia,Dalsan Radio,Radio / Digital,Center,Somali,Private broadcaster
+Africa,Somalia,SONNA,Wire Service,State-Controlled,Somali,Somali National News Agency
+Africa,Somalia,Garowe Online,Digital,Center,Somali / English,Puntland-based
+Africa,South Sudan,Eye Radio,Radio / Digital,Center,English,Independent radio
+Africa,South Sudan,Radio Tamazuj,Radio / Digital,Center,English / Arabic,Independent; Netherlands-backed
+Africa,Eritrea,Hadas Eritrea,Newspaper,State-Controlled,Tigrinya,Only domestic paper; no free press
+Africa,Eritrea,ERI-TV,TV,State-Controlled,Tigrinya,State TV
+Africa,Eritrea,Asmarino,Digital,Center,English / Tigrinya,Diaspora independent
+Africa,Djibouti,ADI (Agence Djiboutienne d'Information),Wire Service,State-Controlled,French / Arabic,State agency
+Africa,Comoros,HZK Press,Digital,Center,French,Independent digital
+Africa,Mauritius,L'Express (Mauritius),Newspaper / Digital,Center,French / English,Major daily
+Africa,Mauritius,Le Mauricien,Newspaper / Digital,Center,French,Quality daily
+Africa,Madagascar,L'Express de Madagascar,Newspaper / Digital,Center,French,Major daily
+Africa,Madagascar,Midi Madagasikara,Newspaper / Digital,Center,French / Malagasy,Major daily
+Africa,Seychelles,Seychelles Nation,Newspaper / Digital,State-Controlled,English / French,State-owned
+Africa,South Africa,Mail & Guardian,Newspaper / Digital,Center-Left,English,Investigative weekly; M&G Media
+Africa,South Africa,Daily Maverick,Digital,Center-Left,English,Investigative; amaBhungane partnership
+Africa,South Africa,News24,Digital,Center,English,Largest digital; Media24
+Africa,South Africa,TimesLIVE,Digital,Center,English,Arena Holdings; Sunday Times
+Africa,South Africa,SABC News,Public Broadcaster,Center,Multi,State broadcaster; 11 languages
+Africa,South Africa,Business Day,Newspaper / Digital,Center-Right,English,Business daily; Arena
+Africa,South Africa,The Citizen (SA),Newspaper / Digital,Center,English,Daily; Caxton Media
+Africa,South Africa,EWN (Eyewitness News),Radio / Digital,Center,English,Primedia; 24hr news radio
+Africa,South Africa,GroundUp,Digital (Nonprofit),Center-Left,English,Community journalism; human rights
+Africa,South Africa,amaBhungane,Digital (Nonprofit),Center,English,Investigative journalism center
+Africa,South Africa,Sowetan,Newspaper / Digital,Center,English,Black readership; Arena
+Africa,South Africa,City Press,Newspaper / Digital,Center,English,News24/Media24
+Africa,Zimbabwe,NewsDay (Zimbabwe),Newspaper / Digital,Center,English,Alpha Media Holdings
+Africa,Zimbabwe,The Herald (Zimbabwe),Newspaper / Digital,State-Controlled,English,Zimpapers; ZANU-PF aligned
+Africa,Zimbabwe,ZimLive,Digital,Center,English,Independent; Mduduzi Mathuthu
+Africa,Zimbabwe,The Zimbabwe Independent,Newspaper / Digital,Center,English,AMH; business weekly
+Africa,Zambia,Daily Mail (Zambia),Newspaper / Digital,State-Controlled,English,State-owned
+Africa,Zambia,The Mast,Newspaper / Digital,Center-Left,English,Opposition-friendly
+Africa,Zambia,Zambia Daily Nation,Newspaper / Digital,Center,English,Independent
+Africa,Malawi,The Nation (Malawi),Newspaper / Digital,Center,English,Major daily
+Africa,Malawi,Malawi24,Digital,Center,English,Digital native
+Africa,Malawi,MANA,Wire Service,State-Controlled,English,Malawi News Agency
+Africa,Mozambique,O País,Newspaper / Digital,Center,Portuguese,Major daily
+Africa,Mozambique,@Verdade,Newspaper / Digital,Center,Portuguese,Free daily
+Africa,Mozambique,CDD (Centro para Democracia e Desenvolvimento),Digital,Center-Left,Portuguese,Analysis/monitoring
+Africa,Mozambique,AIM,Wire Service,State-Controlled,Portuguese,Mozambique Information Agency
+Africa,Botswana,Mmegi,Newspaper / Digital,Center,English,Largest independent
+Africa,Botswana,BOPA,Wire Service,State-Controlled,English,Botswana Press Agency
+Africa,Botswana,The Voice (Botswana),Newspaper / Digital,Center,English,Independent weekly
+Africa,Namibia,The Namibian,Newspaper / Digital,Center,English,Leading independent
+Africa,Namibia,New Era,Newspaper / Digital,State-Controlled,English,State-owned
+Africa,Namibia,Namibia Press Agency (Nampa),Wire Service,State-Controlled,English,National wire
+Africa,Eswatini,Times of Eswatini,Newspaper / Digital,State-Controlled,English,State-aligned; only daily
+Africa,Lesotho,Lesotho Times,Newspaper / Digital,Center,English,Major weekly
+Africa,Angola,Jornal de Angola,Newspaper / Digital,State-Controlled,Portuguese,State daily
+Africa,Angola,Maka Angola,Digital,Center-Left,Portuguese,Anti-corruption; Rafael Marques
+Africa,Angola,Club-K,Digital,Center,Portuguese,Independent digital
+Africa,DRC (Congo),Radio Okapi,Radio / Digital,Center,French / Multi,UN-backed; widest reach
+Africa,DRC (Congo),Actualité.cd,Digital,Center,French,Digital outlet
+Africa,DRC (Congo),ACP,Wire Service,State-Controlled,French,Congolese Press Agency
+Africa,Republic of Congo,ACI,Wire Service,State-Controlled,French,State agency
+Africa,Republic of Congo,Les Dépêches de Brazzaville,Newspaper / Digital,State-Controlled,French,State-aligned
+Africa,Cameroon,Cameroon Tribune,Newspaper / Digital,State-Controlled,French / English,State-owned bilingual daily
+Africa,Cameroon,Le Jour,Newspaper / Digital,Center,French,Independent daily
+Africa,Cameroon,The Post (Cameroon),Newspaper / Digital,Center,English,Anglophone daily
+Africa,Gabon,L'Union,Newspaper / Digital,State-Controlled,French,State daily
+Africa,Equatorial Guinea,ASONGA,Digital,State-Controlled,Spanish,State media
+Africa,Chad,ATPE,Wire Service,State-Controlled,French / Arabic,State agency
+Africa,CAR (Central African Republic),ACAP,Wire Service,State-Controlled,French,State agency
+Africa,São Tomé & Príncipe,Tela Nón,Digital,Center,Portuguese,Independent digital
+Africa,Pan-African,The Africa Report,Magazine / Digital,Center,English / French,Continental coverage; Jeune Afrique Group
+Africa,Pan-African,Jeune Afrique,Magazine / Digital,Center,French,Leading Francophone Africa magazine
+Africa,Pan-African,African Arguments,Digital,Center-Left,English,Royal African Society
+Africa,Pan-African,The Continent,Newsletter / Digital,Center,English,WhatsApp-first pan-African
+Africa,Pan-African,Quartz Africa,Digital,Center,English,African business/tech
+Africa,Pan-African,African Business,Magazine / Digital,Center,English,Business magazine
+Oceania,Australia,ABC News (Australia),Public Broadcaster,Center-Left,English,Australian Broadcasting Corp
+Oceania,Australia,SBS News,Public Broadcaster,Center,English / Multi,Special Broadcasting Service; multicultural
+Oceania,Australia,The Sydney Morning Herald,Newspaper / Digital,Center-Left,English,Nine Entertainment
+Oceania,Australia,The Age,Newspaper / Digital,Center-Left,English,Melbourne; Nine Entertainment
+Oceania,Australia,The Australian,Newspaper / Digital,Center-Right,English,News Corp; national broadsheet
+Oceania,Australia,The Australian Financial Review,Newspaper / Digital,Center-Right,English,Nine; business daily
+Oceania,Australia,The Guardian Australia,Digital,Center-Left,English,Guardian Media Group
+Oceania,Australia,Daily Telegraph (AU),Newspaper / Digital,Right,English,News Corp; Sydney tabloid
+Oceania,Australia,Herald Sun,Newspaper / Digital,Right,English,News Corp; Melbourne tabloid
+Oceania,Australia,Sky News Australia,TV / Digital,Right,English,News Corp; conservative commentary
+Oceania,Australia,Crikey,Digital,Center-Left,English,Independent; Private Media
+Oceania,Australia,The Saturday Paper,Newspaper / Digital,Center-Left,English,Morry Schwartz; quality weekly
+Oceania,Australia,The Monthly,Magazine / Digital,Center-Left,English,Long-form; Schwartz Media
+Oceania,Australia,Michael West Media,Digital,Center-Left,English,Independent; corporate accountability
+Oceania,Australia,AAP (Australian Associated Press),Wire Service,Center,English,National wire
+Oceania,Australia,The Conversation (AU),Digital,Center,English,Academic-sourced journalism
+Oceania,New Zealand,NZ Herald,Newspaper / Digital,Center,English,Largest daily; NZME
+Oceania,New Zealand,Stuff,Digital,Center-Left,English,Largest digital; formerly Fairfax NZ
+Oceania,New Zealand,RNZ (Radio NZ),Public Broadcaster,Center,English,Public radio/digital
+Oceania,New Zealand,TVNZ / 1News,Public Broadcaster,Center,English,State TV news
+Oceania,New Zealand,Newsroom,Digital,Center,English,Independent digital
+Oceania,New Zealand,The Spinoff,Digital,Center-Left,English,Independent; cultural/political
+Oceania,New Zealand,NZPA / AAP NZ,Wire Service,Center,English,NZ wire (now AAP)
+Oceania,Fiji,Fiji Times,Newspaper / Digital,Center,English,Oldest South Pacific daily
+Oceania,Fiji,FBC News,TV / Radio / Digital,Center,English / Fijian,Fiji Broadcasting Corp
+Oceania,Papua New Guinea,The National (PNG),Newspaper / Digital,Center,English,Major daily
+Oceania,Papua New Guinea,Post-Courier,Newspaper / Digital,Center,English,Largest daily
+Oceania,Samoa,Samoa Observer,Newspaper / Digital,Center,English / Samoan,Leading daily
+Oceania,Tonga,Matangi Tonga,Digital,Center,English / Tongan,Independent digital
+Oceania,Vanuatu,Vanuatu Daily Post,Newspaper / Digital,Center,English,Major daily
+Oceania,Solomon Islands,Solomon Star,Newspaper / Digital,Center,English,Largest daily
+Oceania,Pacific (Regional),RNZ Pacific,Radio / Digital,Center,English,NZ-funded Pacific service
+Oceania,Pacific (Regional),Pacific Islands News Association (PINA),Wire Service,Center,English,Regional news agency
+Oceania,Pacific (Regional),Asia Pacific Report,Digital,Center-Left,English,Pacific media freedom focus
+Global,International,Reuters,Wire Service,Center,English / Multi,Global wire service; Thomson Reuters
+Global,International,Associated Press (AP),Wire Service,Center,English / Multi,US-based global cooperative
+Global,International,Agence France-Presse (AFP),Wire Service,Center,French / Multi,French global wire
+Global,International,Al Jazeera English,TV / Digital,Center-Left,English,Qatar-funded global
+Global,International,BBC World Service,Radio / Digital,Center,Multi,40+ language services
+Global,International,Deutsche Welle (DW),TV / Digital,Center,Multi,German-funded; 30+ languages
+Global,International,France 24,TV / Digital,Center,French / English / Arabic / Spanish,France-funded international
+Global,International,NHK World-Japan,TV / Digital,Center,Multi,Japan-funded international
+Global,International,CGTN,TV / Digital,State-Controlled,Multi,China state international
+Global,International,RT,TV / Digital,State-Controlled,Multi,Russia state international; widely sanctioned
+Global,International,TeleSUR,TV / Digital,State-Controlled,Spanish,Venezuela-funded; left
+Global,International,Voice of America (VOA),Radio / TV / Digital,Center,Multi,US-funded; USAGM
+Global,International,Radio Free Europe / Radio Liberty (RFE/RL),Radio / Digital,Center,Multi,US-funded; post-Soviet/MENA focus
+Global,International,The Economist,Magazine / Digital,Center,English,Classical liberal; global
+Global,International,Bloomberg,Financial News,Center,English / Multi,Financial data + media
+Global,International,Financial Times,Newspaper / Digital,Center,English,Global business; Nikkei-owned
+Global,International,Foreign Affairs,Magazine / Digital,Center,English,CFR; geopolitics
+Global,International,The Diplomat,Magazine / Digital,Center,English,Asia-Pacific focus
+Global,International,Rest of World,Digital,Center,English,Technology in emerging markets
+Global,International,OCCRP,Digital (Nonprofit),Center,Multi,Organized Crime and Corruption Reporting
+Global,International,ICIJ,Digital (Nonprofit),Center,English,International Consortium of Investigative Journalists
+Global,International,Bellingcat,Digital (Nonprofit),Center,English,OSINT investigative
+Global,International,The Conversation,Digital,Center,Multi,Academic-sourced; multiple editions
+Global,International,openDemocracy,Digital,Center-Left,English,Democratic governance focus
+Global,International,Global Voices,Digital,Center-Left,Multi,Citizen media aggregation
+Global,International,Ground News,Digital / App,Center,English,Bias-rating aggregator
+Global,International,AllSides,Digital,Center,English,US bias-rating and multi-perspective
+Global,International,Media Bias/Fact Check,Digital,Center,English,Bias and factual rating database

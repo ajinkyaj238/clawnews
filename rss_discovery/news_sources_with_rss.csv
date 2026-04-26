@@ -1,0 +1,935 @@
+Region,Country,Source Name,Type,Bias / Lean,Language,Notes,RSS_URL
+North America,United States,The New York Times,Newspaper / Digital,Center-Left,English,Paper of record; extensive investigative journalism,https://rss.nytimes.com/services/xml/rss/nf/HomePage.xml
+North America,United States,The Washington Post,Newspaper / Digital,Center-Left,English,Strong political coverage; owned by Jeff Bezos,https://feeds.washingtonpost.com/rss/homepage
+North America,United States,The Wall Street Journal,Newspaper / Digital,Center-Right,English,Business focus; News Corpowned; news vs. editorial distinction,https://feeds.a.dj.com/rss/RSSWorldNews.xml
+North America,United States,USA Today,Newspaper / Digital,Center,English,Broad national reach; Gannett-owned,http://rssfeeds.usatoday.com/usatoday-NewsTopStories
+North America,United States,Los Angeles Times,Newspaper / Digital,Center-Left,English,Major West Coast paper,https://www.latimes.com/world/rss2.0.xml
+North America,United States,Chicago Tribune,Newspaper / Digital,Center,English,Major Midwest daily,https://www.chicagotribune.com/arcio/rss/
+North America,United States,The Boston Globe,Newspaper / Digital,Center-Left,English,New England paper of record,https://www.bostonglobe.com/rss/headlines
+North America,United States,San Francisco Chronicle,Newspaper / Digital,Center-Left,English,Bay Area focus,https://www.sfchronicle.com/news/rss
+North America,United States,The Associated Press (AP),Wire Service,Center,English,Non-profit cooperative; global wire service,https://feeds.apnews.com/rss/apf-topnews
+North America,United States,Reuters (US Bureau),Wire Service,Center,English,Global wire service; now Thomson Reuters,https://feeds.reuters.com/reuters/topNews
+North America,United States,NPR,Public Radio / Digital,Center-Left,English,Publicly funded; in-depth reporting,https://feeds.npr.org/1001/rss.xml
+North America,United States,PBS NewsHour,Public TV / Digital,Center-Left,English,Public television news,https://www.pbs.org/newshour/feeds/rss/headlines
+North America,United States,CNN,Cable TV / Digital,Center-Left,English,24-hour cable news; Warner Bros. Discovery,http://rss.cnn.com/rss/edition.rss
+North America,United States,MSNBC,Cable TV / Digital,Left,English,Progressive-leaning cable news; NBCUniversal,http://www.msnbc.com/feeds/latest
+North America,United States,Fox News,Cable TV / Digital,Right,English,Conservative cable news; dominant ratings,https://moxie.foxnews.com/google-publisher/latest.xml
+North America,United States,ABC News,Broadcast TV / Digital,Center-Left,English,Disney-owned network news,https://abcnews.go.com/abcnews/topstories
+North America,United States,CBS News,Broadcast TV / Digital,Center,English,Paramount Global-owned,https://www.cbsnews.com/latest/rss/main
+North America,United States,NBC News,Broadcast TV / Digital,Center-Left,English,NBCUniversal,https://feeds.nbcnews.com/nbcnews/public/news
+North America,United States,Bloomberg,Financial News / Digital,Center,English,Terminal + media; business-centric,https://feeds.bloomberg.com/markets/news.rss
+North America,United States,Politico,Digital,Center,English,DC-focused policy and politics,https://rss.politico.com/politics-news.xml
+North America,United States,The Hill,Digital,Center,English,Congressional and policy coverage,https://thehill.com/feed/
+North America,United States,Axios,Digital,Center,English,Short-form smart brevity style,https://api.axios.com/feed/
+North America,United States,The Atlantic,Magazine / Digital,Center-Left,English,Long-form analysis and culture,https://www.theatlantic.com/feed/all/
+North America,United States,The New Yorker,Magazine / Digital,Left,English,Literary journalism and commentary,https://www.newyorker.com/feed/news
+North America,United States,Vox,Digital,Left,English,Explainer journalism,https://www.vox.com/rss/index.xml
+North America,United States,HuffPost,Digital,Left,English,Progressive digital outlet,https://www.huffpost.com/section/front-page/feed
+North America,United States,Mother Jones,Magazine / Digital,Left,English,Investigative; progressive nonprofit,https://www.motherjones.com/feed/
+North America,United States,The Intercept,Digital,Left,English,Investigative; civil liberties focus,https://theintercept.com/feed/?rss
+North America,United States,Democracy Now!,Digital / Radio,Far Left,English,Independent; progressive activism,https://www.democracynow.org/democracynow.rss
+North America,United States,Jacobin,Magazine / Digital,Far Left,English,Socialist perspective,https://jacobin.com/feed/
+North America,United States,The Nation,Magazine / Digital,Left,English,Oldest weekly; progressive,https://www.thenation.com/feed/?post_type=article
+North America,United States,National Review,Magazine / Digital,Right,English,Founded by Buckley; conservative intellectual,https://www.nationalreview.com/feed/
+North America,United States,The Daily Wire,Digital,Right,English,Conservative media; Ben Shapiro,https://www.dailywire.com/feeds/rss.xml
+North America,United States,The Federalist,Digital,Right,English,Conservative commentary,https://thefederalist.com/feed/
+North America,United States,Breitbart,Digital,Far Right,English,Right-wing populist,http://feeds.feedburner.com/breitbart
+North America,United States,The Epoch Times,Newspaper / Digital,Far Right,English,Falun Gong-affiliated; conspiratorial content flagged,https://www.theepochtimes.com/feed
+North America,United States,Newsmax,Cable TV / Digital,Right,English,Conservative alternative to Fox,https://www.newsmax.com/rss/Newsmax-Top-Newsstories/1/
+North America,United States,One America News (OAN),Cable TV / Digital,Far Right,English,Far-right cable network,https://www.oann.com/feed/
+North America,United States,The American Conservative,Magazine / Digital,Right,English,Paleoconservative / realist foreign policy,https://www.theamericanconservative.com/feed/
+North America,United States,Reason,Magazine / Digital,Center-Right,English,Libertarian perspective,https://reason.com/feed/
+North America,United States,ProPublica,Digital (Nonprofit),Center-Left,English,Investigative nonprofit; Pulitzer winners,https://feeds.propublica.org/propublica/main
+North America,United States,The Marshall Project,Digital (Nonprofit),Center-Left,English,Criminal justice focused,https://www.themarshallproject.org/feeds/published
+North America,United States,Foreign Affairs,Magazine / Digital,Center,English,CFR publication; geopolitics,https://www.foreignaffairs.com/rss.xml
+North America,United States,Foreign Policy,Magazine / Digital,Center,English,International affairs analysis,https://foreignpolicy.com/feed/
+North America,United States,The Dispatch,Digital,Center-Right,English,Conservative but anti-populist,https://thedispatch.com/feed/
+North America,United States,Semafor,Digital,Center,English,Global news; transparency model,https://www.semafor.com/rss
+North America,United States,The Free Press,Digital,Center-Right,English,Bari Weiss; heterodox commentary,https://www.thefp.com/feed
+North America,United States,Univision,TV / Digital,Center-Left,Spanish,Largest Spanish-language US network,https://www.univision.com/noticias/rss
+North America,United States,Telemundo,TV / Digital,Center,Spanish,NBCUniversal Spanish-language,https://feeds.telemundo.com/rss
+North America,Canada,CBC News,Public Broadcaster,Center-Left,English / French,State-funded; national broadcaster,https://www.cbc.ca/cmlink/rss-topstories
+North America,Canada,CTV News,TV / Digital,Center,English,Bell Media; largest private broadcaster,https://www.ctvnews.ca/rss/ctvnews-ca-top-stories-public-rss-1.822009
+North America,Canada,Global News,TV / Digital,Center,English,Corus Entertainment,https://globalnews.ca/feed/
+North America,Canada,The Globe and Mail,Newspaper / Digital,Center,English,National paper of record,https://www.theglobeandmail.com/arc/outboundfeeds/rss/
+North America,Canada,National Post,Newspaper / Digital,Center-Right,English,Postmedia; conservative editorial,https://nationalpost.com/feed
+North America,Canada,Toronto Star,Newspaper / Digital,Center-Left,English,Canada's largest daily,https://www.thestar.com/content/thestar/feed.RSSManagerServlet.articles.topstories.rss
+North America,Canada,La Presse,Digital,Center-Left,French,Montreal-based; nonprofit since 2018,https://www.lapresse.ca/?feed=rss2
+North America,Canada,Le Devoir,Newspaper / Digital,Center-Left,French,Quebec intellectual daily,https://www.ledevoir.com/rss.xml
+North America,Canada,The Walrus,Magazine / Digital,Center-Left,English,Long-form Canadian affairs,https://thewalrus.ca/feed/
+North America,Canada,Maclean's,Magazine / Digital,Center,English,National news magazine,https://macleans.ca/feed/
+North America,Canada,Rebel News,Digital,Far Right,English,Right-wing populist outlet,https://www.rebelnews.com/feed
+North America,Canada,The Narwhal,Digital (Nonprofit),Center-Left,English,Environmental investigative,https://thenarwhal.ca/feed/
+North America,Canada,iPolitics,Digital,Center,English,Ottawa political coverage,https://www.ipolitics.ca/feed/
+North America,Canada,The Tyee,Digital (Nonprofit),Left,English,BC-based independent,https://thetyee.ca/feed/
+North America,Canada,Western Standard,Digital,Right,English,Alberta-based conservative,https://www.westernstandard.news/feed
+North America,Mexico,El Universal,Newspaper / Digital,Center,Spanish,One of oldest Mexican dailies,https://www.eluniversal.com.mx/rss.xml
+North America,Mexico,Reforma,Newspaper / Digital,Center-Right,Spanish,Independent quality daily,https://www.reforma.com/rss/portada.xml
+North America,Mexico,La Jornada,Newspaper / Digital,Left,Spanish,Left-leaning; UNAM-connected,https://www.jornada.com.mx/rss/edicion.xml
+North America,Mexico,Milenio,Newspaper / Digital,Center,Spanish,Multiplatform media group,https://www.milenio.com/rss
+North America,Mexico,Proceso,Magazine / Digital,Left,Spanish,Investigative; critical of government,https://www.proceso.com.mx/rss/
+North America,Mexico,Animal Político,Digital,Center-Left,Spanish,Investigative digital outlet,https://www.animalpolitico.com/feed
+North America,Mexico,Aristegui Noticias,Digital / Radio,Center-Left,Spanish,Carmen Aristegui; investigative,https://aristeguinoticias.com/feed/
+North America,Mexico,Televisa / N+,TV / Digital,Center-Right,Spanish,Dominant TV network,https://feeds.feedburner.com/nmas/general
+North America,Mexico,TV Azteca,TV / Digital,Center-Right,Spanish,Second largest TV network; Salinas Pliego,https://www.tvazteca.com/aztecanoticias/rss-gpc-seo-noticias.rss
+North America,Mexico,SinEmbargo,Digital,Left,Spanish,Digital; government-critical,https://www.sinembargo.mx/feed
+North America,Mexico,Nexos,Magazine / Digital,Center-Left,Spanish,Intellectual/political analysis,https://www.nexos.com.mx/feed/
+North America,Guatemala,Prensa Libre,Newspaper / Digital,Center-Right,Spanish,Largest Guatemalan daily,https://www.prensalibre.com/feed/
+North America,Guatemala,elPeriódico,Newspaper / Digital,Center-Left,Spanish,Investigative; editor imprisoned (2022),
+North America,Guatemala,Nómada,Digital,Center-Left,Spanish,Investigative digital,https://nomada.gt/feed/
+North America,Honduras,El Heraldo,Newspaper / Digital,Center-Right,Spanish,Major daily,https://www.elheraldo.hn/rss
+North America,Honduras,La Prensa,Newspaper / Digital,Center-Right,Spanish,San Pedro Sula based,
+North America,Honduras,Contracorriente,Digital,Center-Left,Spanish,Independent investigative,https://contracorriente.red/feed/
+North America,El Salvador,El Diario de Hoy,Newspaper / Digital,Center-Right,Spanish,Major daily,https://www.elsalvador.com/feed
+North America,El Salvador,La Prensa Gráfica,Newspaper / Digital,Center,Spanish,Largest circulation,https://www.laprensagrafica.com/rss.xml
+North America,El Salvador,El Faro,Digital,Center-Left,Spanish,Award-winning investigative; critical of Bukele,https://elfaro.net/news/feed
+North America,Nicaragua,Confidencial,Digital,Center-Left,Spanish,Carlos Fernando Chamorro; exiled,https://confidencial.digital/feed
+North America,Nicaragua,La Prensa,Newspaper / Digital,Center-Right,Spanish,Historic opposition daily; raided by govt,
+North America,Costa Rica,La Nación,Newspaper / Digital,Center-Right,Spanish,Leading daily,https://www.lanacion.com.ar/arcio/rss/
+North America,Costa Rica,Semanario Universidad,Newspaper / Digital,Center-Left,Spanish,UCR weekly,https://semanariouniversidad.com/feed
+North America,Panama,La Prensa,Newspaper / Digital,Center,Spanish,Largest Panamanian daily,
+North America,Panama,La Estrella de Panamá,Newspaper / Digital,Center,Spanish,Oldest running paper,
+North America,Cuba,Granma,Newspaper / Digital,State-Controlled,Spanish,Official Communist Party organ,http://www.granma.cu/feed
+North America,Cuba,14ymedio,Digital,Center-Right,Spanish,Independent; Yoani Sánchez; dissident,https://www.14ymedio.com/rss/
+North America,Cuba,CubaNet,Digital,Right,Spanish,Miami-based exile media,https://www.cubanet.org/feed/
+North America,Dominican Republic,Listín Diario,Newspaper / Digital,Center,Spanish,Oldest daily,https://listindiario.com/feed
+North America,Dominican Republic,Diario Libre,Newspaper / Digital,Center,Spanish,Free daily; large circulation,https://www.diariolibre.com/rss/portada.xml
+North America,Haiti,Le Nouvelliste,Newspaper / Digital,Center,French,Oldest Haitian daily,https://lenouvelliste.com/rss.xml
+North America,Haiti,AyiboPost,Digital,Center-Left,French / Creole,Independent digital,
+North America,Jamaica,The Gleaner,Newspaper / Digital,Center,English,Oldest English Caribbean paper (1834),https://jamaica-gleaner.com/rss
+North America,Jamaica,Jamaica Observer,Newspaper / Digital,Center,English,Second national daily,https://www.jamaicaobserver.com/feed
+North America,Trinidad & Tobago,Trinidad Express,Newspaper / Digital,Center,English,Major daily,
+North America,Trinidad & Tobago,Newsday,Newspaper / Digital,Center,English,Independent daily,
+North America,Belize,Amandala,Newspaper,Center-Left,English,Largest Belizean paper,https://amandala.com.bz/news/feed/
+South America,Brazil,Folha de S.Paulo,Newspaper / Digital,Center-Left,Portuguese,Largest circulation Brazilian daily,https://feeds.folha.uol.com.br/emcimadahora/rss091.xml
+South America,Brazil,O Globo,Newspaper / Digital,Center-Right,Portuguese,Grupo Globo; Rio-based,https://oglobo.globo.com/rss.xml
+South America,Brazil,O Estado de S. Paulo (Estadão),Newspaper / Digital,Center-Right,Portuguese,Quality broadsheet; São Paulo,https://www.estadao.com.br/rss/ultimas-noticias
+South America,Brazil,Valor Econômico,Newspaper / Digital,Center,Portuguese,Business/financial daily,https://valor.globo.com/rss.xml
+South America,Brazil,TV Globo,TV / Digital,Center-Right,Portuguese,Dominant Brazilian broadcaster,https://g1.globo.com/rss/g1/
+South America,Brazil,Agência Brasil,Wire Service,State-Controlled,Portuguese,Government news agency (EBC),https://agenciabrasil.ebc.com.br/rss/ultimasnoticias/feed.xml
+South America,Brazil,The Intercept Brasil,Digital,Left,Portuguese,Investigative; Glenn Greenwald co-founded,https://theintercept.com/brasil/feed/?rss
+South America,Brazil,Revista Piauí,Magazine / Digital,Center-Left,Portuguese,Long-form journalism,https://piaui.folha.uol.com.br/feed
+South America,Brazil,Brasil de Fato,Digital,Far Left,Portuguese,MST-affiliated; social movements,https://www.brasildefato.com.br/feeds/rss/en
+South America,Brazil,Jovem Pan,Radio / Digital,Right,Portuguese,Conservative radio/digital,https://jovempan.com.br/feed
+South America,Brazil,Revista Oeste,Magazine / Digital,Right,Portuguese,Conservative magazine,https://revistaoeste.com/feed
+South America,Brazil,UOL,Digital,Center,Portuguese,Major portal; Grupo Folha,https://rss.home.uol.com.br/index.xml
+South America,Brazil,Nexo Jornal,Digital,Center-Left,Portuguese,Explanatory journalism,https://www.nexojornal.com.br/feeds/rss
+South America,Argentina,Clarín,Newspaper / Digital,Center-Right,Spanish,Largest Argentine daily; Grupo Clarín,https://www.clarin.com/rss/ultimo-momento/
+South America,Argentina,La Nación,Newspaper / Digital,Center-Right,Spanish,Conservative broadsheet,https://www.lanacion.com.ar/arcio/rss/
+South America,Argentina,Página/12,Newspaper / Digital,Left,Spanish,Left/Kirchnerist perspective,https://www.pagina12.com.ar/rss
+South America,Argentina,Infobae,Digital,Center,Spanish,Largest Spanish-language digital,https://www.infobae.com/feeds/rss/
+South America,Argentina,Perfil,Newspaper / Digital,Center,Spanish,Sunday paper; centrist,https://www.perfil.com/feed
+South America,Argentina,El Destape,Digital,Left,Spanish,Progressive; Kirchnerist-adjacent,https://www.eldestapeweb.com/rss.xml
+South America,Argentina,La Derecha Diario,Digital,Right,Spanish,Right-wing commentary,https://www.laDerechaDiario.com.ar/feed/
+South America,Colombia,El Tiempo,Newspaper / Digital,Center,Spanish,Largest Colombian daily; Santos family,https://www.eltiempo.com/rss/ultimas_noticias.xml
+South America,Colombia,El Espectador,Newspaper / Digital,Center-Left,Spanish,Oldest daily; strong investigative tradition,https://www.elespectador.com/arc/outboundfeeds/rss/
+South America,Colombia,Semana,Magazine / Digital,Center-Right,Spanish,Leading newsmagazine,https://www.semana.com/rss-feed/
+South America,Colombia,La Silla Vacía,Digital,Center-Left,Spanish,Political analysis and investigative,https://lasillavacia.com/feed/
+South America,Colombia,Caracol TV/Radio,TV / Radio / Digital,Center,Spanish,Major broadcast network,https://www.caracoltv.com/rss
+South America,Colombia,RCN,TV / Radio / Digital,Center-Right,Spanish,Second major broadcast network,https://www.rcnradio.com/feed
+South America,Colombia,Cuestión Pública,Digital,Center-Left,Spanish,Anti-corruption investigative,https://cuestionpublica.com/feed/
+South America,Chile,El Mercurio,Newspaper / Digital,Center-Right,Spanish,Conservative paper of record; Edwards family,https://www.emol.com/rss/_utilidades/rssExport.aspx?idcategoria=0
+South America,Chile,La Tercera,Newspaper / Digital,Center-Right,Spanish,Second major daily,https://www.latercera.com/feed/
+South America,Chile,CIPER Chile,Digital (Nonprofit),Center-Left,Spanish,Top investigative journalism,https://www.ciperchile.cl/feed/
+South America,Chile,The Clinic,Magazine / Digital,Left,Spanish,Satirical/progressive,https://www.theclinic.cl/feed
+South America,Chile,Interferencia,Digital,Left,Spanish,Investigative,https://interferencia.cl/rss.xml
+South America,Chile,BioBioChile,Radio / Digital,Center,Spanish,Radio network with large digital presence,https://www.biobiochile.cl/feed
+South America,Chile,Ex-Ante,Digital,Center-Right,Spanish,Political analysis,https://www.ex-ante.cl/feed
+South America,Peru,El Comercio,Newspaper / Digital,Center-Right,Spanish,Leading Peruvian daily; Grupo El Comercio,https://elcomercio.pe/arcio/rss/
+South America,Peru,La República,Newspaper / Digital,Center-Left,Spanish,Progressive daily,https://larepublica.pe/rss/
+South America,Peru,IDL-Reporteros,Digital,Center-Left,Spanish,Investigative unit,
+South America,Peru,Ojo Público,Digital (Nonprofit),Center-Left,Spanish,Data journalism / investigative,https://ojo-publico.com/?feed=rss2
+South America,Peru,RPP Noticias,Radio / Digital,Center,Spanish,Largest radio network,https://rpp.pe/rss/feed
+South America,Venezuela,El Nacional,Newspaper / Digital,Center-Right,Spanish,"Opposition; shuttered print, digital continues",
+South America,Venezuela,El Universal,Newspaper / Digital,Center,Spanish,Major daily; sold in 2014 (ownership questions),https://www.eluniversal.com.mx/rss.xml
+South America,Venezuela,Efecto Cocuyo,Digital,Center-Left,Spanish,Independent digital; post-crackdown,https://efectococuyo.com/feed/
+South America,Venezuela,Runrun.es,Digital,Center,Spanish,Independent investigative,https://runrun.es/feed/
+South America,Venezuela,VTV (Venezolana de Televisión),TV,State-Controlled,Spanish,State broadcaster; Chavista,
+South America,Venezuela,TeleSUR,TV / Digital,State-Controlled,Spanish,Venezuelan-funded pan-Latin network; left,https://www.telesurtv.net/rss/
+South America,Venezuela,Tal Cual,Digital,Center-Right,Spanish,Opposition digital,https://talcualdigital.com/feed
+South America,Ecuador,El Universo,Newspaper / Digital,Center-Right,Spanish,Guayaquil-based; largest daily,https://www.eluniverso.com/rss
+South America,Ecuador,El Comercio,Newspaper / Digital,Center,Spanish,Quito-based daily,https://elcomercio.pe/arcio/rss/
+South America,Ecuador,GK (formerly GkillCity),Digital,Center-Left,Spanish,Independent digital journalism,https://gk.city/feed/
+South America,Ecuador,Plan V,Digital,Center-Left,Spanish,Investigative,https://planv.com.ec/feed/
+South America,Bolivia,El Deber,Newspaper / Digital,Center-Right,Spanish,Santa Cruz; largest daily,https://eldeber.com.bo/feed
+South America,Bolivia,Página Siete,Newspaper / Digital,Center,Spanish,"La Paz daily (closed 2023, digital continues)",https://www.paginasiete.bo/rss/
+South America,Bolivia,Los Tiempos,Newspaper / Digital,Center,Spanish,Cochabamba daily,https://www.lostiempos.com/rss.xml
+South America,Bolivia,Erbol,Radio / Digital,Center-Left,Spanish,Radio network; community-oriented,https://erbol.com.bo/rss.xml
+South America,Paraguay,ABC Color,Newspaper / Digital,Center-Right,Spanish,Largest Paraguayan daily,https://www.abc.com.py/rss
+South America,Paraguay,Última Hora,Newspaper / Digital,Center,Spanish,Second daily,https://www.ultimahora.com/feed
+South America,Paraguay,El Surtidor,Digital,Center-Left,Spanish,Visual investigative journalism,https://www.elsurtidor.com/feed/
+South America,Uruguay,El País,Newspaper / Digital,Center-Right,Spanish,Largest Uruguayan daily,https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
+South America,Uruguay,La Diaria,Newspaper / Digital,Left,Spanish,Cooperative-owned progressive daily,https://ladiaria.com.uy/feed/
+South America,Uruguay,El Observador,Newspaper / Digital,Center,Spanish,Quality daily,https://www.elobservador.com.uy/rss.xml
+Europe,United Kingdom,BBC News,Public Broadcaster,Center,English,Global reach; publicly funded,http://feeds.bbci.co.uk/news/rss.xml
+Europe,United Kingdom,The Guardian,Newspaper / Digital,Center-Left,English,Scott Trust-owned; strong digital,https://www.theguardian.com/world/rss
+Europe,United Kingdom,The Times,Newspaper / Digital,Center-Right,English,News UK (Murdoch); paper of record,https://www.thetimes.co.uk/rss/feed
+Europe,United Kingdom,The Daily Telegraph,Newspaper / Digital,Right,English,Conservative broadsheet,https://www.telegraph.co.uk/rss.xml
+Europe,United Kingdom,Financial Times,Newspaper / Digital,Center,English,Nikkei-owned; global business standard,https://www.ft.com/world?format=rss
+Europe,United Kingdom,The Independent,Digital,Center-Left,English,Digital-only since 2016,https://www.independent.co.uk/news/rss
+Europe,United Kingdom,The Economist,Magazine / Digital,Center,English,Classical liberal; global analysis,https://www.economist.com/rss/the_world_this_week_rss.xml
+Europe,United Kingdom,Daily Mail,Newspaper / Digital,Right,English,Tabloid; largest UK digital news site,https://www.dailymail.co.uk/articles.rss
+Europe,United Kingdom,The Sun,Newspaper / Digital,Right,English,Tabloid; News UK,https://www.thesun.co.uk/feed/
+Europe,United Kingdom,Daily Mirror,Newspaper / Digital,Left,English,Labour-leaning tabloid,https://www.mirror.co.uk/news/?service=rss
+Europe,United Kingdom,The Observer,Newspaper / Digital,Center-Left,English,Sunday sister of The Guardian,https://www.theguardian.com/theobserver/rss
+Europe,United Kingdom,Sky News,TV / Digital,Center,English,Comcast-owned; 24hr news,https://feeds.skynews.com/feeds/rss/home.xml
+Europe,United Kingdom,Channel 4 News,TV / Digital,Center-Left,English,Publicly-owned; award-winning,https://www.channel4.com/news/feed/topstories/rss.xml
+Europe,United Kingdom,The Spectator,Magazine / Digital,Right,English,Conservative weekly (est. 1828),https://www.spectator.co.uk/feed/
+Europe,United Kingdom,New Statesman,Magazine / Digital,Left,English,Progressive political/cultural,https://www.newstatesman.com/feed
+Europe,United Kingdom,Private Eye,Magazine,Varies,English,Satirical investigative fortnightly,https://www.private-eye.co.uk/rss
+Europe,United Kingdom,GB News,TV / Digital,Right,English,Conservative TV channel (est. 2021),https://www.gbnews.com/feeds/news.rss
+Europe,United Kingdom,The Canary,Digital,Far Left,English,Left-wing; pro-Corbyn era,https://www.thecanary.co/feed/
+Europe,United Kingdom,Novara Media,Digital,Far Left,English,Socialist media outlet,https://novaramedia.com/feed/
+Europe,United Kingdom,UnHerd,Digital,Center-Right,English,Contrarian / heterodox,https://unherd.com/feed/
+Europe,United Kingdom,Bureau of Investigative Journalism,Digital (Nonprofit),Center,English,Nonprofit investigative,https://www.thebureauinvestigates.com/feed
+Europe,France,Le Monde,Newspaper / Digital,Center-Left,French,Paper of record; evening daily,https://www.lemonde.fr/rss/une.xml
+Europe,France,Le Figaro,Newspaper / Digital,Center-Right,French,Oldest national daily; conservative,https://www.lefigaro.fr/rss/figaro_actualites.xml
+Europe,France,Libération,Newspaper / Digital,Left,French,Left-wing; Sartre co-founded,https://www.liberation.fr/arc/outboundfeeds/rss/?outputType=xml
+Europe,France,Les Échos,Newspaper / Digital,Center-Right,French,Business daily; LVMH-owned,https://www.lesechos.fr/rss/rss_une.xml
+Europe,France,France 24,TV / Digital,Center,French / English / Arabic,State-funded international news,https://www.france24.com/en/rss
+Europe,France,Mediapart,Digital,Left,French,Investigative; subscription-only,https://www.mediapart.fr/articles/feed
+Europe,France,L'Humanité,Newspaper / Digital,Far Left,French,Communist Party affiliated,https://www.humanite.fr/feed
+Europe,France,Valeurs Actuelles,Magazine / Digital,Right,French,Conservative-nationalist weekly,https://www.valeursactuelles.com/feed
+Europe,France,CNews,TV,Right,French,Bolloré-owned; right-wing TV,https://www.cnews.fr/rss.xml
+Europe,France,Le Point,Magazine / Digital,Center-Right,French,Centrist-conservative weekly,https://www.lepoint.fr/rss.xml
+Europe,France,L'Obs (Nouvel Obs),Magazine / Digital,Center-Left,French,Progressive newsweekly,https://www.nouvelobs.com/rss.xml
+Europe,France,AFP (Agence France-Presse),Wire Service,Center,French / Multi,Global wire service; third largest,https://www.afp.com/en/rss-feeds
+Europe,France,RFI,Radio / Digital,Center,French / Multi,State-funded international radio,https://www.rfi.fr/en/rss-feeds
+Europe,France,BFM TV,TV / Digital,Center,French,24hr news channel,https://www.bfmtv.com/rss/info/flux-rss/
+Europe,Germany,Der Spiegel,Magazine / Digital,Center-Left,German,Largest European newsmagazine,https://www.spiegel.de/schlagzeilen/index.rss
+Europe,Germany,Die Zeit,Newspaper / Digital,Center-Left,German,Quality weekly,https://newsfeed.zeit.de/index
+Europe,Germany,Süddeutsche Zeitung,Newspaper / Digital,Center-Left,German,Largest daily; Panama Papers,https://rss.sueddeutsche.de/rss/topthemen
+Europe,Germany,Frankfurter Allgemeine Zeitung (FAZ),Newspaper / Digital,Center-Right,German,Conservative broadsheet,https://www.faz.net/rss/aktuell/
+Europe,Germany,Die Welt,Newspaper / Digital,Center-Right,German,Axel Springer; conservative,https://www.welt.de/feeds/latest.rss
+Europe,Germany,Bild,Newspaper / Digital,Right,German,Largest-circulation tabloid; Axel Springer,"https://www.bild.de/rssfeeds/rss3-20745882,short=1/rss3-20745882,short=1.bild.xml"
+Europe,Germany,Handelsblatt,Newspaper / Digital,Center-Right,German,Business daily,https://www.handelsblatt.com/contentexport/feed/schlagzeilen
+Europe,Germany,Tagesschau / ARD,Public Broadcaster,Center,German,Public TV news; consortium,https://www.tagesschau.de/xml/rss2/
+Europe,Germany,ZDF,Public Broadcaster,Center,German,Second public broadcaster,https://www.zdf.de/rss-feed.xml
+Europe,Germany,Deutsche Welle (DW),TV / Radio / Digital,Center,German / Multi,State-funded international,https://rss.dw.com/rdf/rss-en-all
+Europe,Germany,taz (die tageszeitung),Newspaper / Digital,Left,German,Cooperative-owned; green/left,https://taz.de/!p4608;rss/
+Europe,Germany,Junge Freiheit,Newspaper / Digital,Far Right,German,Right-wing nationalist weekly,https://jungefreiheit.de/feed/
+Europe,Germany,Compact,Magazine / Digital,Far Right,German,Right-wing populist (banned 2024),https://www.compact-online.de/feed/
+Europe,Germany,Jacobin (DE),Magazine / Digital,Far Left,German,German edition of socialist mag,https://jacobin.de/rss
+Europe,Germany,Correctiv,Digital (Nonprofit),Center,German,Fact-checking and investigative nonprofit,https://correctiv.org/feed/
+Europe,Italy,Corriere della Sera,Newspaper / Digital,Center,Italian,Milan-based; paper of record,https://xml2.corriereobjects.it/rss/homepage.xml
+Europe,Italy,La Repubblica,Newspaper / Digital,Center-Left,Italian,GEDI Group; progressive,https://www.repubblica.it/rss/homepage/rss2.0.xml
+Europe,Italy,La Stampa,Newspaper / Digital,Center-Left,Italian,Turin-based; GEDI Group,https://www.lastampa.it/rss
+Europe,Italy,Il Sole 24 Ore,Newspaper / Digital,Center-Right,Italian,Business daily; Confindustria,https://www.ilsole24ore.com/rss/italia--e-mondo.xml
+Europe,Italy,Il Giornale,Newspaper / Digital,Right,Italian,Berlusconi family-owned,https://www.ilgiornale.it/rss.xml
+Europe,Italy,Libero,Newspaper / Digital,Right,Italian,Right-wing populist daily,https://www.liberoquotidiano.it/rss.xml
+Europe,Italy,Il Fatto Quotidiano,Newspaper / Digital,Left,Italian,Anti-establishment investigative,https://www.ilfattoquotidiano.it/feed/
+Europe,Italy,RAI News,Public Broadcaster,Center,Italian,State broadcaster,https://www.rainews.it/rss
+Europe,Italy,ANSA,Wire Service,Center,Italian,Italian national wire service,https://www.ansa.it/sito/ansait_rss.xml
+Europe,Italy,Il Manifesto,Newspaper / Digital,Far Left,Italian,Communist daily (cooperative),https://ilmanifesto.it/feed
+Europe,Italy,Domani,Newspaper / Digital,Center-Left,Italian,Founded 2020; investigative,https://www.editorialedomani.it/feed
+Europe,Spain,El País,Newspaper / Digital,Center-Left,Spanish,Largest Spanish daily; PRISA Group,https://feeds.elpais.com/mrss-s/pages/ep/site/elpais.com/portada
+Europe,Spain,El Mundo,Newspaper / Digital,Center-Right,Spanish,Second largest; Unidad Editorial,https://e00-elmundo.uecdn.es/elmundo/rss/portada.xml
+Europe,Spain,ABC,Newspaper / Digital,Right,Spanish,Monarchist / conservative,https://www.abc.es/rss/feeds/abc_EspanaEspana.xml
+Europe,Spain,La Vanguardia,Newspaper / Digital,Center,Spanish / Catalan,Barcelona-based; Godó Group,https://www.lavanguardia.com/mvc/feed/rss/home
+Europe,Spain,El Confidencial,Digital,Center,Spanish,Leading digital-native,https://rss.elconfidencial.com/espana/
+Europe,Spain,elDiario.es,Digital,Left,Spanish,Member-funded progressive,https://www.eldiario.es/rss/
+Europe,Spain,Público,Digital,Left,Spanish,Left-wing digital,https://www.publico.pt/api/rss
+Europe,Spain,Libertad Digital,Digital,Right,Spanish,Right-wing; Federico Jiménez Losantos,https://www.libertaddigital.com/rss.xml
+Europe,Spain,OKDiario,Digital,Right,Spanish,Right-wing populist,https://okdiario.com/feed
+Europe,Spain,RTVE,Public Broadcaster,Center,Spanish,State broadcaster,https://www.rtve.es/api/videos/noticias/feed.rss
+Europe,Spain,Ara,Newspaper / Digital,Center-Left,Catalan,Pro-independence Catalan daily,https://www.ara.cat/rss.xml
+Europe,Spain,EFE,Wire Service,Center,Spanish,Fourth largest wire service globally,https://efenoticias.com/feed/
+Europe,Netherlands,De Volkskrant,Newspaper / Digital,Center-Left,Dutch,Quality progressive daily,https://www.volkskrant.nl/rss.xml
+Europe,Netherlands,NRC Handelsblad,Newspaper / Digital,Center,Dutch,Quality liberal daily,https://www.nrc.nl/rss/
+Europe,Netherlands,De Telegraaf,Newspaper / Digital,Center-Right,Dutch,Largest Dutch daily; populist,https://www.telegraaf.nl/rss
+Europe,Netherlands,Trouw,Newspaper / Digital,Center-Left,Dutch,Progressive quality daily,https://www.trouw.nl/rss.xml
+Europe,Netherlands,NOS,Public Broadcaster,Center,Dutch,Dutch public broadcasting news,https://feeds.nos.nl/nosnieuwsalgemeen
+Europe,Netherlands,Follow the Money,Digital,Center,Dutch,Investigative journalism platform,https://www.ftm.nl/feed
+Europe,Netherlands,GeenStijl,Digital,Right,Dutch,Provocative right-wing blog,https://www.geenstijl.nl/feeds/rss/
+Europe,Belgium,De Standaard,Newspaper / Digital,Center,Dutch,Quality Flemish daily,https://www.standaard.be/rss/section/3dc3a6c4-4634-4b64-9a00-3bab2c4b73e0
+Europe,Belgium,De Morgen,Newspaper / Digital,Center-Left,Dutch,Progressive Flemish daily,https://www.demorgen.be/rss.xml
+Europe,Belgium,Le Soir,Newspaper / Digital,Center-Left,French,Major Francophone daily,https://www.lesoir.be/arc/outboundfeeds/rss/
+Europe,Belgium,La Libre Belgique,Newspaper / Digital,Center-Right,French,Catholic conservative,https://www.lalibre.be/arc/outboundfeeds/rss/
+Europe,Belgium,VRT NWS,Public Broadcaster,Center,Dutch,Flemish public broadcaster,https://www.vrt.be/vrtnws/nl.rss.articles.xml
+Europe,Belgium,RTBF,Public Broadcaster,Center,French,Francophone public broadcaster,https://www.rtbf.be/api/sso/v1/news/articles?rss
+Europe,Belgium,Apache,Digital,Center-Left,Dutch,Investigative Flemish,https://www.apache.be/feed
+Europe,Belgium,Knack,Magazine / Digital,Center,Dutch,Flemish newsweekly,https://www.knack.be/feed/
+Europe,Switzerland,Neue Zürcher Zeitung (NZZ),Newspaper / Digital,Center-Right,German,Classical liberal; globally respected,https://www.nzz.ch/recent.rss
+Europe,Switzerland,Tages-Anzeiger,Newspaper / Digital,Center-Left,German,Zurich-based; Tamedia,https://www.tagesanzeiger.ch/rss.html
+Europe,Switzerland,Le Temps,Newspaper / Digital,Center,French,Leading Francophone Swiss,https://www.letemps.ch/rss
+Europe,Switzerland,SRF / RTS / RSI,Public Broadcaster,Center,Multi,Swiss public broadcasting (3 language regions),https://www.srf.ch/news/bnf/rss/1890-LATEST
+Europe,Switzerland,Blick,Newspaper / Digital,Center,German,Largest Swiss tabloid,https://www.blick.ch/news/rss.xml
+Europe,Switzerland,WOZ,Newspaper,Left,German,Weekly; cooperative-owned,https://www.woz.ch/feed
+Europe,Switzerland,Weltwoche,Magazine / Digital,Right,German,Right-wing; Roger Köppel,https://www.weltwoche.ch/feed/
+Europe,Switzerland,Republik,Digital,Center-Left,German,Crowdfunded digital magazine,https://www.republik.ch/feed.xml
+Europe,Austria,Der Standard,Newspaper / Digital,Center-Left,German,Quality daily; liberal,https://www.derstandard.at/rss
+Europe,Austria,Die Presse,Newspaper / Digital,Center-Right,German,Conservative quality daily,https://www.diepresse.com/rss/home
+Europe,Austria,Kronen Zeitung,Newspaper / Digital,Right,German,Largest tabloid; enormous reach,https://www.krone.at/rss/alle
+Europe,Austria,ORF,Public Broadcaster,Center,German,Austrian public broadcaster,https://rss.orf.at/news.xml
+Europe,Austria,Profil,Magazine / Digital,Center-Left,German,Newsweekly; investigative,https://www.profil.at/rss/
+Europe,Austria,Falter,Magazine / Digital,Center-Left,German,Vienna city magazine; investigative,https://www.falter.at/rss
+Europe,Austria,eXXpress,Digital,Right,German,Right-wing digital; FPÖ-sympathetic,https://www.exxpress.at/feed
+Europe,Portugal,Público,Newspaper / Digital,Center-Left,Portuguese,Quality reference daily,https://www.publico.pt/api/rss
+Europe,Portugal,Diário de Notícias,Newspaper / Digital,Center,Portuguese,Historic daily,https://www.dn.pt/rss/
+Europe,Portugal,Expresso,Newspaper / Digital,Center,Portuguese,Leading weekly,https://expresso.pt/rss
+Europe,Portugal,Observador,Digital,Center-Right,Portuguese,Digital native; liberal-conservative,https://observador.pt/feed/
+Europe,Portugal,RTP,Public Broadcaster,Center,Portuguese,State broadcaster,https://www.rtp.pt/noticias/rss.php
+Europe,Portugal,Jornal de Notícias,Newspaper / Digital,Center,Portuguese,Porto-based popular daily,https://www.jn.pt/rss/
+Europe,Portugal,Lusa,Wire Service,Center,Portuguese,Portuguese news agency,https://www.lusa.pt/rss.xml
+Europe,Ireland,The Irish Times,Newspaper / Digital,Center-Left,English,Paper of record; trust-owned,https://www.irishtimes.com/cmlink/news-rss-1.1319291
+Europe,Ireland,Irish Independent,Newspaper / Digital,Center-Right,English,Largest circulation; Mediahuis,https://www.independent.ie/rss/
+Europe,Ireland,RTÉ,Public Broadcaster,Center,English / Irish,State broadcaster,https://www.rte.ie/rss/news.xml
+Europe,Ireland,The Journal.ie,Digital,Center,English,Digital native news,https://www.thejournal.ie/feed/
+Europe,Ireland,TheJournal FactCheck,Digital,Center,English,Fact-checking arm,https://www.thejournal.ie/feed
+Europe,Ireland,Gript,Digital,Right,English,Right-wing; anti-immigration,https://gript.ie/feed/
+Europe,Sweden,Dagens Nyheter,Newspaper / Digital,Center-Left,Swedish,Quality liberal daily,https://www.dn.se/rss/
+Europe,Sweden,Svenska Dagbladet (SvD),Newspaper / Digital,Center-Right,Swedish,Conservative broadsheet,https://www.svd.se/?service=rss
+Europe,Sweden,Aftonbladet,Newspaper / Digital,Center-Left,Swedish,Largest tabloid; LO-connected,https://rss.aftonbladet.se/rss2/small/pages/sections/senastenytt/
+Europe,Sweden,Expressen,Newspaper / Digital,Center,Swedish,Liberal tabloid,https://www.expressen.se/rss
+Europe,Sweden,SVT Nyheter,Public Broadcaster,Center,Swedish,Swedish public TV news,https://www.svt.se/nyheter/rss.xml
+Europe,Sweden,Sveriges Radio (SR),Public Radio,Center,Swedish,Public radio,https://sverigesradio.se/rss/artikel/
+Europe,Sweden,Göteborgs-Posten,Newspaper / Digital,Center,Swedish,Major regional,https://www.gp.se/feeds/rss/
+Europe,Sweden,ETC,Newspaper / Digital,Left,Swedish,Cooperative-owned left daily,https://www.etc.se/feed
+Europe,Sweden,Nya Tider,Newspaper / Digital,Far Right,Swedish,Nationalist,https://www.nyatider.nu/feed
+Europe,Sweden,Filter,Magazine / Digital,Center,Swedish,Investigative,https://filtermag.se/feed/
+Europe,Norway,Aftenposten,Newspaper / Digital,Center,Norwegian,Largest subscription daily,https://www.aftenposten.no/rss
+Europe,Norway,VG (Verdens Gang),Newspaper / Digital,Center,Norwegian,Largest tabloid,https://www.vg.no/rss/feed/forsiden/
+Europe,Norway,Dagbladet,Newspaper / Digital,Center-Left,Norwegian,Radical liberal tabloid,https://www.dagbladet.no/rss/
+Europe,Norway,NRK,Public Broadcaster,Center,Norwegian,Norwegian Broadcasting Corp,https://www.nrk.no/toppsaker.rss
+Europe,Norway,Klassekampen,Newspaper / Digital,Left,Norwegian,Left-wing daily,https://www.klassekampen.no/feed/
+Europe,Norway,Nettavisen,Digital,Center-Right,Norwegian,Digital tabloid,https://www.nettavisen.no/rss.xml
+Europe,Norway,Morgenbladet,Newspaper / Digital,Center-Left,Norwegian,Weekly; intellectual,https://www.morgenbladet.no/feed/
+Europe,Denmark,Politiken,Newspaper / Digital,Center-Left,Danish,Cultural radical daily,https://politiken.dk/rss/senestenyheder.rss
+Europe,Denmark,Berlingske,Newspaper / Digital,Center-Right,Danish,Conservative broadsheet,https://www.berlingske.dk/rss/
+Europe,Denmark,Jyllands-Posten,Newspaper / Digital,Center-Right,Danish,Largest daily; Muhammad cartoons,https://jyllands-posten.dk/feed/
+Europe,Denmark,DR (Danmarks Radio),Public Broadcaster,Center,Danish,Danish public broadcaster,https://www.dr.dk/nyheder/service/feeds/allenyheder
+Europe,Denmark,Information,Newspaper / Digital,Left,Danish,Intellectual left daily,https://www.information.dk/rss
+Europe,Denmark,Ekstra Bladet,Newspaper / Digital,Center,Danish,Populist tabloid,https://ekstrabladet.dk/rss/
+Europe,Denmark,Zetland,Digital,Center-Left,Danish,Digital; constructive journalism,https://www.zetland.dk/rss
+Europe,Finland,Helsingin Sanomat,Newspaper / Digital,Center,Finnish,Largest Nordic daily,https://www.hs.fi/rss/tuoreimmat.xml
+Europe,Finland,Ilta-Sanomat,Newspaper / Digital,Center,Finnish,Tabloid,https://www.is.fi/rss
+Europe,Finland,Iltalehti,Newspaper / Digital,Center,Finnish,Second tabloid,https://www.iltalehti.fi/rss.xml
+Europe,Finland,Yle,Public Broadcaster,Center,Finnish / Swedish,Finnish Broadcasting Company,https://feeds.yle.fi/uutiset/v1/recent.rss?publisherIds=YLE_UUTISET
+Europe,Finland,Hufvudstadsbladet,Newspaper / Digital,Center,Swedish,Swedish-language Finnish daily,https://www.hbl.fi/feeds/feed.xml
+Europe,Finland,Long Play,Digital,Center-Left,Finnish,Investigative longform,https://www.longplay.fi/feed.xml
+Europe,Iceland,Morgunblaðið,Newspaper / Digital,Center-Right,Icelandic,Largest daily,https://www.mbl.is/feeds/rss/forsida/
+Europe,Iceland,RÚV,Public Broadcaster,Center,Icelandic,National Broadcasting Service,https://www.ruv.is/rss/
+Europe,Iceland,Stundin,Digital,Center-Left,Icelandic,Investigative outlet,https://stundin.is/feed/
+Europe,Poland,Gazeta Wyborcza,Newspaper / Digital,Center-Left,Polish,Founded by Michnik; Agora SA,https://rss.gazeta.pl/pub/rss/wyborcza_kraj.xml
+Europe,Poland,Rzeczpospolita,Newspaper / Digital,Center-Right,Polish,Quality broadsheet; legal focus,https://www.rp.pl/rss/
+Europe,Poland,TVN24,TV / Digital,Center-Left,Polish,Warner Bros. Discovery Poland,https://tvn24.pl/najnowsze.xml
+Europe,Poland,TVP (Telewizja Polska),Public Broadcaster,Varies,Polish,State TV; bias shifts with government,https://tvp.info/feed
+Europe,Poland,Newsweek Polska,Magazine / Digital,Center-Left,Polish,Newsweek license,https://www.newsweek.pl/rss.xml
+Europe,Poland,Do Rzeczy,Magazine / Digital,Right,Polish,Conservative weekly,https://dorzeczy.pl/feed
+Europe,Poland,wSieci / wPolityce,Magazine / Digital,Right,Polish,PiS-aligned conservative,https://wpolityce.pl/feed
+Europe,Poland,OKO.press,Digital,Center-Left,Polish,Fact-checking / investigative,https://oko.press/feed/
+Europe,Poland,Onet,Digital,Center,Polish,Major portal,https://wiadomosci.onet.pl/.feed
+Europe,Poland,Krytyka Polityczna,Magazine / Digital,Left,Polish,Left-wing intellectual,https://krytykapolityczna.pl/feed/
+Europe,Czech Republic,Hospodářské noviny,Newspaper / Digital,Center,Czech,Business daily,https://archiv.hn.cz/rss/
+Europe,Czech Republic,Deník N,Digital,Center-Left,Czech,Quality subscription digital,https://denikn.cz/feed/
+Europe,Czech Republic,Respekt,Magazine / Digital,Center-Left,Czech,Quality weekly,https://www.respekt.cz/rss
+Europe,Czech Republic,iDNES.cz,Digital,Center-Right,Czech,Major portal; Babiš-owned MAFRA,https://www.idnes.cz/rss/
+Europe,Czech Republic,Aktuálně.cz,Digital,Center,Czech,Economia-owned,https://aktualne.cz/rss
+Europe,Czech Republic,Parlamentní listy,Digital,Far Right,Czech,Disinformation-adjacent aggregator,https://www.parlamentnilisty.cz/rss/
+Europe,Czech Republic,Česká televize (ČT),Public Broadcaster,Center,Czech,Czech Television,https://ct24.ceskatelevize.cz/rss
+Europe,Hungary,Telex,Digital,Center-Left,Hungarian,Independent; est. 2020 from Index exodus,https://telex.hu/rss
+Europe,Hungary,444.hu,Digital,Center-Left,Hungarian,Independent digital,https://444.hu/feed
+Europe,Hungary,HVG,Magazine / Digital,Center,Hungarian,Economics weekly,https://hvg.hu/rss
+Europe,Hungary,Index.hu,Digital,Varies,Hungarian,Major portal; ownership changed 2020,https://index.hu/24ora/rss/
+Europe,Hungary,Magyar Nemzet,Newspaper / Digital,Right,Hungarian,Pro-Orbán; KESMA foundation,https://magyarnemzet.hu/publicapi/hu/rss/magyar_nemzet/articles
+Europe,Hungary,Origo.hu,Digital,Right,Hungarian,Formerly independent; now pro-govt,https://www.origo.hu/contentpartner/rss/itthon/origo.xml
+Europe,Hungary,MTI,Wire Service,State-Controlled,Hungarian,State news agency; govt-controlled,
+Europe,Hungary,Átlátszó,Digital (Nonprofit),Center,Hungarian,Anti-corruption investigative,https://atlatszo.hu/feed/
+Europe,Hungary,Direkt36,Digital (Nonprofit),Center-Left,Hungarian,Investigative journalism,https://www.direkt36.hu/feed/
+Europe,Romania,Libertatea,Newspaper / Digital,Center,Romanian,Tabloid; improved quality,https://www.libertatea.ro/rss
+Europe,Romania,Digi24,TV / Digital,Center,Romanian,RCS&RDS; 24hr news,https://www.digi24.ro/rss
+Europe,Romania,Recorder,Digital,Center,Romanian,Video investigative journalism,https://recorder.ro/feed/
+Europe,Romania,HotNews.ro,Digital,Center,Romanian,Quality online news,https://www.hotnews.ro/rss/
+Europe,Romania,România Liberă,Newspaper / Digital,Center-Right,Romanian,Historic daily,https://romanialibera.ro/feed
+Europe,Romania,Rise Project,Digital (Nonprofit),Center,Romanian,Investigative nonprofit,https://www.riseproject.ro/feed
+Europe,Romania,G4Media,Digital,Center-Left,Romanian,Quality digital outlet,https://www.g4media.ro/feed
+Europe,Bulgaria,Capital,Newspaper / Digital,Center,Bulgarian,Business weekly,
+Europe,Bulgaria,Dnevnik,Newspaper / Digital,Center,Bulgarian,Quality daily,
+Europe,Bulgaria,Mediapool,Digital,Center-Left,Bulgarian,Independent online,https://www.mediapool.bg/rss
+Europe,Bulgaria,Bivol,Digital,Center-Left,Bulgarian,Investigative; anti-corruption,https://bivol.bg/feed
+Europe,Bulgaria,BNT,Public Broadcaster,Center,Bulgarian,Bulgarian National Television,https://bnt.bg/rss/news
+Europe,Slovakia,Denník N,Digital,Center-Left,Slovak,Quality subscription daily,https://dennikn.sk/feed/
+Europe,Slovakia,SME,Newspaper / Digital,Center,Slovak,Major quality daily,https://www.sme.sk/rss
+Europe,Slovakia,Aktuality.sk,Digital,Center,Slovak,Major news portal,https://www.aktuality.sk/rss/
+Europe,Slovakia,RTVS,Public Broadcaster,Center,Slovak,Slovak Radio and Television,https://www.rtvs.sk/rss/spravy
+Europe,Slovakia,Hlavné správy,Digital,Far Right,Slovak,Pro-Russian disinformation flagged,https://www.hlavnespravy.sk/feed
+Europe,Croatia,Jutarnji list,Newspaper / Digital,Center-Left,Croatian,Major daily,https://www.jutarnji.hr/feed
+Europe,Croatia,Večernji list,Newspaper / Digital,Center-Right,Croatian,Conservative daily,https://www.vecernji.hr/feeds/latest
+Europe,Croatia,Index.hr,Digital,Center,Croatian,Largest digital outlet,https://www.index.hr/rss
+Europe,Croatia,HRT,Public Broadcaster,Center,Croatian,Croatian Radio-Television,https://vijesti.hrt.hr/feed/rss
+Europe,Croatia,Telegram.hr,Digital,Center-Left,Croatian,Quality digital,https://www.telegram.hr/feed/
+Europe,Serbia,N1,TV / Digital,Center,Serbian,CNN affiliate; independent,https://n1info.com/feed/
+Europe,Serbia,Danas,Newspaper / Digital,Center-Left,Serbian,Opposition daily,https://www.danas.rs/feed/
+Europe,Serbia,BIRN Serbia,Digital (Nonprofit),Center,Serbian,Balkan Investigative Reporting Network,https://birn.eu.com/feed/
+Europe,Serbia,Informer,Newspaper / Digital,Right,Serbian,Pro-Vučić tabloid,https://www.informer.rs/rss
+Europe,Serbia,RTS,Public Broadcaster,State-Controlled,Serbian,Under govt influence,https://www.rts.rs/rss/
+Europe,Serbia,KRIK,Digital (Nonprofit),Center,Serbian,Crime/corruption investigative,https://www.krik.rs/feed/
+Europe,Slovenia,Delo,Newspaper / Digital,Center-Left,Slovenian,Largest daily,https://www.delo.si/feed/
+Europe,Slovenia,Dnevnik,Newspaper / Digital,Center,Slovenian,Quality daily,
+Europe,Slovenia,RTV Slovenija,Public Broadcaster,Center,Slovenian,Public broadcaster,https://www.rtvslo.si/feed/rss
+Europe,Slovenia,Nova24TV,Digital / TV,Right,Slovenian,SDS/Janša-aligned; Hungarian funding,https://nova24tv.si/feed
+Europe,Slovenia,Pod črto,Digital,Center-Left,Slovenian,Fact-checking / investigative,https://pod-crto.si/feed/
+Europe,Bosnia & Herzegovina,Dnevni Avaz,Newspaper / Digital,Center,Bosnian,Largest daily,https://avaz.ba/rss
+Europe,Bosnia & Herzegovina,Oslobođenje,Newspaper / Digital,Center-Left,Bosnian,Historic multiethnic daily,https://www.oslobodjenje.ba/rss.xml
+Europe,Bosnia & Herzegovina,Al Jazeera Balkans,TV / Digital,Center,Bosnian/Croatian/Serbian,Regional Al Jazeera hub,https://balkans.aljazeera.net/feed/
+Europe,Bosnia & Herzegovina,CIN (Center for Investigative Reporting),Digital (Nonprofit),Center,Bosnian,Investigative journalism,https://cin.ba/feed/
+Europe,North Macedonia,Meta.mk,Digital,Center,Macedonian,Media fact-checking and analysis,https://meta.mk/feed/
+Europe,North Macedonia,MIA,Wire Service,Center,Macedonian,National news agency,https://mia.mk/rss/
+Europe,North Macedonia,Prizma,Digital,Center-Left,Macedonian,Investigative,https://prizma.mk/feed/
+Europe,Montenegro,Vijesti,Newspaper / Digital,Center,Montenegrin,Largest independent daily,https://www.vijesti.me/rss
+Europe,Montenegro,Dan,Newspaper / Digital,Center-Right,Montenegrin,Opposition daily,https://www.dan.co.me/rss
+Europe,Albania,Reporter.al,Digital,Center,Albanian,BIRN Albania investigative,https://www.reporter.al/feed
+Europe,Albania,Balkanweb,Digital,Center,Albanian,Major news portal,https://www.balkanweb.com/feed/
+Europe,Albania,RTSH,Public Broadcaster,State-Controlled,Albanian,State broadcaster,https://www.rtsh.al/feed
+Europe,Albania,Exit.al,Digital,Center,Albanian / English,Independent English-language,https://exit.al/en/feed/
+Europe,Kosovo,Koha Ditore,Newspaper / Digital,Center,Albanian,Major daily,https://www.koha.net/rss
+Europe,Kosovo,Kallxo.com,Digital,Center,Albanian,BIRN Kosovo; anti-corruption,https://kallxo.com/feed/
+Europe,Kosovo,RTK,Public Broadcaster,Center,Albanian,Public broadcaster,https://www.rtklive.com/sq/feed/
+Europe,Greece,Kathimerini,Newspaper / Digital,Center-Right,Greek,Quality broadsheet,https://www.kathimerini.gr/rss/
+Europe,Greece,Ta Nea,Newspaper / Digital,Center-Left,Greek,Major daily,https://www.tanea.gr/feed/
+Europe,Greece,Efimerida ton Syntakton,Newspaper / Digital,Left,Greek,Cooperative journalists' paper,https://www.efsyn.gr/rss
+Europe,Greece,ERT,Public Broadcaster,Center,Greek,Greek public broadcaster,https://www.ert.gr/feed/
+Europe,Greece,Proto Thema,Newspaper / Digital,Center-Right,Greek,Largest Sunday paper,https://www.protothema.gr/rss
+Europe,Greece,Inside Story,Digital,Center-Left,Greek,Investigative digital,https://pcr.apple.com/id1336513408
+Europe,Greece,Documento,Newspaper / Digital,Left,Greek,SYRIZA-adjacent,https://www.documento.gr/feed/
+Europe,Cyprus,Phileleftheros,Newspaper / Digital,Center,Greek,Largest Greek-Cypriot daily,https://www.philenews.com/feed
+Europe,Cyprus,CyBC,Public Broadcaster,Center,Greek,Cyprus Broadcasting Corp,https://www.cybc.com.cy/rss
+Europe,Malta,Times of Malta,Newspaper / Digital,Center,English,Leading daily,https://timesofmalta.com/?feed=rss2
+Europe,Malta,The Shift News,Digital,Center,English,Investigative; Daphne legacy,https://theshiftnews.com/home/feed/
+Europe,Malta,MaltaToday,Newspaper / Digital,Center,English,Second daily,https://www.maltatoday.com.mt/rss.xml
+Europe,Estonia,Postimees,Newspaper / Digital,Center,Estonian,Largest daily,https://www.postimees.ee/rss
+Europe,Estonia,Delfi Estonia,Digital,Center,Estonian,Major portal,https://www.delfi.ee/rss/uudised/
+Europe,Estonia,ERR,Public Broadcaster,Center,Estonian,Estonian Public Broadcasting,https://www.err.ee/rss
+Europe,Estonia,Eesti Päevaleht,Newspaper / Digital,Center-Left,Estonian,Quality daily,https://epl.delfi.ee/rss/
+Europe,Latvia,Delfi Latvia,Digital,Center,Latvian,Major portal,https://www.delfi.lv/rss
+Europe,Latvia,LSM (Latvian Public Media),Public Broadcaster,Center,Latvian,Public media,https://www.lsm.lv/rss/
+Europe,Latvia,IR,Magazine / Digital,Center,Latvian,Quality newsweekly,https://ir.lv/rss
+Europe,Latvia,Re:Baltica,Digital (Nonprofit),Center,Latvian / English,Investigative journalism,https://rebaltica.lv/feed/
+Europe,Lithuania,Delfi Lithuania,Digital,Center,Lithuanian,Major portal,https://www.delfi.lt/rss
+Europe,Lithuania,15min.lt,Digital,Center,Lithuanian,Leading news portal,https://www.15min.lt/rss
+Europe,Lithuania,LRT,Public Broadcaster,Center,Lithuanian,Lithuanian Radio and Television,https://www.lrt.lt/rss.xml
+Europe,Lithuania,Siena,Digital,Center-Left,Lithuanian,Investigative,https://siena.lt/feed/
+Europe,Ukraine,Ukrainska Pravda,Digital,Center,Ukrainian,Leading digital; founded by Gongadze,https://www.pravda.com.ua/eng/rss/
+Europe,Ukraine,Hromadske,TV / Digital,Center-Left,Ukrainian,Independent public interest,https://hromadske.ua/rss
+Europe,Ukraine,NV (Novoye Vremya),Magazine / Digital,Center,Ukrainian,Quality newsmagazine,https://nv.ua/rss/all.xml
+Europe,Ukraine,Kyiv Independent,Digital,Center,English,English-language; from Kyiv Post staff,https://kyivindependent.com/feed/
+Europe,Ukraine,UNIAN,Wire Service,Center,Ukrainian,Independent news agency,https://www.unian.info/rss/all.rss
+Europe,Ukraine,Babel,Digital,Center-Left,Ukrainian,Independent media,https://babel.ua/rss.xml
+Europe,Ukraine,ZN.UA (Dzerkalo Tyzhnia),Newspaper / Digital,Center,Ukrainian,Quality weekly,https://zn.ua/ukr/rss/full/
+Europe,Ukraine,Suspilne,Public Broadcaster,Center,Ukrainian,Ukrainian Public Broadcasting,https://suspilne.media/rss
+Europe,Moldova,ZdG (Ziarul de Gardă),Digital,Center,Romanian,Investigative journalism,https://www.zdg.md/feed
+Europe,Moldova,NewsMaker,Digital,Center,Russian / Romanian,Quality bilingual outlet,https://newsmaker.md/ru/feed
+Europe,Moldova,TV8,TV / Digital,Center,Romanian / Russian,Independent TV,https://tv8.md/feed
+Europe,Georgia,Civil.ge,Digital,Center,English / Georgian,English-language; civil society,https://civil.ge/feed
+Europe,Georgia,Mtavari Arkhi,TV / Digital,Center-Left,Georgian,Opposition TV channel,https://mtavari.tv/feed
+Europe,Georgia,On.ge,Digital,Center,Georgian,Quality digital outlet,https://on.ge/rss
+Europe,Georgia,Imedi TV,TV,Right,Georgian,Pro-Georgian Dream ruling party,https://imedi.ge/feed
+Europe,Georgia,GPB (Georgian Public Broadcasting),Public Broadcaster,Center,Georgian,State broadcaster,https://1tv.ge/rss/
+Europe,Armenia,Civilnet,Digital,Center,Armenian / English,Independent media; CivilNet.am,https://www.civilnet.am/feed/
+Europe,Armenia,Hetq,Digital,Center,Armenian,Investigative journalism,https://hetq.am/hy/rss
+Europe,Armenia,Armenian Public TV,Public Broadcaster,Center,Armenian,State broadcaster,https://www.1tv.am/rss
+Europe,Azerbaijan,Meydan TV,Digital,Center,Azerbaijani,Berlin-based independent; critical,https://www.meydan.tv/az/feed/
+Europe,Azerbaijan,OCCRP (Azerbaijani coverage),Digital (Nonprofit),Center,English,Cross-border investigative,https://www.occrp.org/en/feed
+Europe,Azerbaijan,APA,Wire Service,State-Controlled,Azerbaijani,State news agency,
+Europe,Azerbaijan,AzTV,Public Broadcaster,State-Controlled,Azerbaijani,State-controlled broadcaster,
+Europe,Belarus,Nasha Niva,Digital,Center-Left,Belarusian,Independent; editors imprisoned,https://nashaniva.com/feed
+Europe,Belarus,NEXTA,Digital (Telegram),Center,Belarusian / Russian,Telegram channel; exile media,https://nexta.tv/?format=feed&type=rss
+Europe,Belarus,BelTA,Wire Service,State-Controlled,Belarusian / Russian,State news agency,https://belta.by/rss
+Europe,Belarus,Zerkalo.io,Digital,Center,Russian,Exile successor to TUT.by,https://news.zerkalo.io/rss/index.rss
+Europe,Russia,TASS,Wire Service,State-Controlled,Russian,State wire service,https://tass.com/rss/v2.xml
+Europe,Russia,RIA Novosti,Wire Service,State-Controlled,Russian,State media,https://ria.ru/export/rss2/archive/index.xml
+Europe,Russia,RT (Russia Today),TV / Digital,State-Controlled,Russian / Multi,International propaganda arm,https://www.rt.com/rss/
+Europe,Russia,Channel One / Perviy Kanal,TV,State-Controlled,Russian,Main state TV channel,https://www.1tv.ru/rss/
+Europe,Russia,Novaya Gazeta,Newspaper / Digital,Center-Left,Russian,Independent (suspended 2022); Muratov Nobel laureate,https://novayagazeta.ru/rss/all.xml
+Europe,Russia,Meduza,Digital,Center,Russian / English,"Riga-based exile media; designated ""undesirable""",https://meduza.io/rss/all
+Europe,Russia,The Moscow Times,Digital,Center,English,English-language; moved abroad,https://www.themoscowtimes.com/rss/news
+Europe,Russia,Mediazona,Digital,Center-Left,Russian,Human rights / prison coverage; Pussy Riot-founded,https://zona.media/rss
+Europe,Russia,iStories (Важные истории),Digital,Center,Russian,Investigative; exile-based,https://istories.media/feed/
+Europe,Russia,Kommersant,Newspaper / Digital,Center-Right,Russian,Business daily; Usmanov-owned,https://www.kommersant.ru/RSS/news.xml
+Europe,Russia,Vedomosti,Newspaper / Digital,Center,Russian,Business daily (editorial independence eroded),https://www.vedomosti.ru/rss/news
+Europe,Russia,Interfax,Wire Service,Center,Russian,Semi-independent wire service,https://www.interfax.ru/rss.asp
+Asia,China,Xinhua,Wire Service,State-Controlled,Chinese / Multi,State news agency; global reach,https://www.xinhuanet.com/english/rss/worldrss.xml
+Asia,China,People's Daily,Newspaper / Digital,State-Controlled,Chinese,CCP official organ,http://en.people.cn/rss/politics_rss.xml
+Asia,China,CGTN,TV / Digital,State-Controlled,Chinese / Multi,International state TV,https://www.cgtn.com/subscribe/feeds/rss2.0.xml
+Asia,China,Global Times,Newspaper / Digital,State-Controlled,Chinese / English,Nationalist tabloid; People's Daily subsidiary,https://www.globaltimes.cn/rss/outbrain.xml
+Asia,China,CCTV,TV,State-Controlled,Chinese,Central state television,https://english.cctv.com/feed
+Asia,China,Caixin,Magazine / Digital,Center,Chinese / English,Business; relatively independent investigative,https://www.caixinglobal.com/rss/rss.xml
+Asia,China,The Paper (Pengpai),Digital,Center,Chinese,State-linked but quality journalism,https://www.thepaper.cn/rss_promotion.jsp
+Asia,China,South China Morning Post,Newspaper / Digital,Center,English,HK-based; Alibaba-owned; significant self-censorship,https://www.scmp.com/rss/91/feed
+Asia,China,China Daily,Newspaper / Digital,State-Controlled,English,English-language state media,https://www.chinadaily.com.cn/?feed=rss2
+Asia,Hong Kong,Hong Kong Free Press,Digital,Center,English,Independent; nonprofit,https://hongkongfp.com/feed/
+Asia,Hong Kong,The Standard,Newspaper / Digital,Center,English,Free English daily,
+Asia,Hong Kong,RTHK,Public Broadcaster,Center,Cantonese / English,Public broadcaster; editorial independence eroded post-2020,https://news.rthk.hk/rthk/en/rss/
+Asia,Hong Kong,Ming Pao,Newspaper / Digital,Center,Chinese,Quality broadsheet,https://www.mingpao.com/rss/mingpaonews.xml
+Asia,Hong Kong,Stand News (shuttered 2021),Digital,Center-Left,Chinese,Closed under national security law,
+Asia,Taiwan,Liberty Times,Newspaper / Digital,Center-Left,Chinese,Pro-DPP; largest daily,https://www.ltn.com.tw/rss/news.xml
+Asia,Taiwan,United Daily News,Newspaper / Digital,Center-Right,Chinese,Pro-KMT,https://udn.com/rssfeed/news/2/LANG/1/RSS.XML
+Asia,Taiwan,China Times,Newspaper / Digital,Right,Chinese,Want Want Group; pro-PRC leaning,https://www.chinatimes.com/rss/
+Asia,Taiwan,Apple Daily Taiwan,Digital,Center,Chinese,Tabloid; Next Digital (restructured),https://appledaily.com/feed/
+Asia,Taiwan,CNA (Central News Agency),Wire Service,Center,Chinese / English,National news agency,https://www.cna.com.tw/rss/aall.aspx
+Asia,Taiwan,The Reporter (報導者),Digital (Nonprofit),Center-Left,Chinese,Investigative nonprofit,https://www.twreporter.org/api/v2/index_page/news?format=rss
+Asia,Taiwan,Taipei Times,Newspaper / Digital,Center-Left,English,English-language; Liberty Times sister,https://www.taipeitimes.com/rss
+Asia,Taiwan,CommonWealth Magazine,Magazine / Digital,Center,Chinese,Business/policy analysis,https://www.cw.com.tw/rss/
+Asia,Japan,The Asahi Shimbun,Newspaper / Digital,Center-Left,Japanese,Liberal broadsheet,https://www.asahi.com/rss/asahi/newsheadlines.rdf
+Asia,Japan,The Yomiuri Shimbun,Newspaper / Digital,Center-Right,Japanese,World's largest circulation daily,https://www.yomiuri.co.jp/rss/
+Asia,Japan,The Mainichi Shimbun,Newspaper / Digital,Center-Left,Japanese,Liberal daily,https://mainichi.jp/rss
+Asia,Japan,Nikkei (Nihon Keizai Shimbun),Newspaper / Digital,Center-Right,Japanese,Business daily; FT owner,https://www.nikkei.com/rss/
+Asia,Japan,Sankei Shimbun,Newspaper / Digital,Right,Japanese,Conservative; nationalist leaning,https://www.sankei.com/rss/
+Asia,Japan,NHK,Public Broadcaster,Center,Japanese,Japan Broadcasting Corp,https://www3.nhk.or.jp/rss/news/cat0.xml
+Asia,Japan,Kyodo News,Wire Service,Center,Japanese,Cooperative wire service,https://english.kyodonews.net/rss/all.xml
+Asia,Japan,Jiji Press,Wire Service,Center,Japanese,Second wire service,https://www.jiji.com/rss/
+Asia,Japan,The Japan Times,Newspaper / Digital,Center,English,Oldest English-language daily,https://www.japantimes.co.jp/feed/
+Asia,Japan,Tokyo Shimbun,Newspaper / Digital,Left,Japanese,Progressive; critical of govt,https://www.tokyo-np.co.jp/list/rss/all.rss
+Asia,Japan,Tōyō Keizai,Magazine / Digital,Center,Japanese,Business weekly,https://toyokeizai.net/list/rss/business
+Asia,South Korea,Chosun Ilbo,Newspaper / Digital,Right,Korean,Largest conservative daily,https://www.chosun.com/arc/outboundfeeds/rss/?outputType=xml
+Asia,South Korea,JoongAng Ilbo,Newspaper / Digital,Center-Right,Korean,Centrist-conservative; Samsung-founded,https://www.joongang.co.kr/RSS/joongang.xml
+Asia,South Korea,Dong-A Ilbo,Newspaper / Digital,Center-Right,Korean,Conservative daily,https://rss.donga.com/total.xml
+Asia,South Korea,Hankyoreh,Newspaper / Digital,Left,Korean,Progressive; employee-owned,https://www.hani.co.kr/rss
+Asia,South Korea,Kyunghyang Shinmun,Newspaper / Digital,Center-Left,Korean,Progressive daily,https://www.khan.co.kr/rss/rssdata/kh_rss.xml
+Asia,South Korea,KBS,Public Broadcaster,Center,Korean,Korean Broadcasting System,https://world.kbs.co.kr/rss/rss_english.htm
+Asia,South Korea,MBC,Public Broadcaster,Center-Left,Korean,Munhwa Broadcasting Corp,https://imnews.imbc.com/rss/
+Asia,South Korea,SBS,TV / Digital,Center,Korean,Private broadcaster,https://news.sbs.co.kr/news/rss/
+Asia,South Korea,Yonhap News,Wire Service,Center,Korean,National wire service,https://en.yna.co.kr/RSS/news.xml
+Asia,South Korea,The Korea Herald,Newspaper / Digital,Center,English,English-language daily,https://www.koreaherald.com/common/rss_xml.php?ct=102
+Asia,South Korea,Newstapa,Digital (Nonprofit),Center-Left,Korean,Investigative; crowdfunded,https://newstapa.org/feed
+Asia,South Korea,OhmyNews,Digital,Left,Korean,Citizen journalism pioneer,https://www.ohmynews.com/?feed=rss2
+Asia,North Korea,KCNA,Wire Service,State-Controlled,Korean,Official state news agency,
+Asia,North Korea,Rodong Sinmun,Newspaper,State-Controlled,Korean,Workers' Party organ,
+Asia,Mongolia,Montsame,Wire Service,Center,Mongolian,State news agency,
+Asia,Mongolia,UB Post,Newspaper / Digital,Center,English,English-language daily,
+Asia,Mongolia,news.mn,Digital,Center,Mongolian,Major portal,
+Asia,Singapore,The Straits Times,Newspaper / Digital,Center-Right,English,SPH Media; dominant; govt-aligned,https://www.straitstimes.com/news/world/rss.xml
+Asia,Singapore,Channel NewsAsia (CNA),TV / Digital,Center,English,Mediacorp; regional reach,https://www.channelnewsasia.com/rssfeeds/8395986
+Asia,Singapore,TODAY,Digital,Center,English,Mediacorp; free daily gone digital,
+Asia,Singapore,Mothership,Digital,Center,English,Digital native,https://mothership.sg/feed/
+Asia,Singapore,The Online Citizen,Digital,Center-Left,English,Independent; govt-targeted,https://www.theonlinecitizen.com/feed
+Asia,Singapore,Lianhe Zaobao,Newspaper / Digital,Center,Chinese,Largest Chinese-language outside PRC/TW,https://www.zaobao.com.sg/rss/singapore
+Asia,Malaysia,The Star,Newspaper / Digital,Center,English,MCA-linked; largest English,
+Asia,Malaysia,New Straits Times,Newspaper / Digital,Center-Right,English,UMNO-linked,https://www.nst.com.my/feed
+Asia,Malaysia,Malaysiakini,Digital,Center-Left,English / Malay,Independent digital; Steven Gan,https://www.malaysiakini.com/rss
+Asia,Malaysia,The Edge,Newspaper / Digital,Center,English,Business focus,https://www.theedgemarkets.com/rss
+Asia,Malaysia,Free Malaysia Today,Digital,Center,English / Malay,Independent,https://www.freemalaysiatoday.com/feed/
+Asia,Malaysia,Utusan Malaysia,Newspaper / Digital,Right,Malay,Malay-nationalist; UMNO,https://www.utusan.com.my/feed/
+Asia,Malaysia,Sinar Harian,Newspaper / Digital,Center,Malay,Largest Malay daily,https://www.sinarharian.com.my/feed/
+Asia,Indonesia,Kompas,Newspaper / Digital,Center,Indonesian,Largest quality daily,https://rss.kompas.com/
+Asia,Indonesia,Tempo,Magazine / Digital,Center-Left,Indonesian / English,Investigative newsmagazine,https://tempo.co/rss
+Asia,Indonesia,The Jakarta Post,Newspaper / Digital,Center,English,English-language daily,https://www.thejakartapost.com/feed/
+Asia,Indonesia,Detik.com,Digital,Center,Indonesian,Largest digital portal,https://rss.detik.com/index.php/detik_news
+Asia,Indonesia,Tirto.id,Digital,Center-Left,Indonesian,Data-driven journalism,
+Asia,Indonesia,CNN Indonesia,TV / Digital,Center,Indonesian,Trans Media,https://www.cnnindonesia.com/nasional/rss
+Asia,Indonesia,Antara,Wire Service,Center,Indonesian,National news agency,https://en.antaranews.com/rss/topstories.rss
+Asia,Indonesia,Republika,Newspaper / Digital,Center-Right,Indonesian,Islamic-oriented daily,https://www.republika.co.id/feed
+Asia,Indonesia,Koran Tempo,Newspaper / Digital,Center-Left,Indonesian,Daily edition of Tempo,https://koran.tempo.co/feed/
+Asia,Indonesia,Project Multatuli,Digital,Center-Left,Indonesian,Investigative nonprofit,https://projectmultatuli.org/feed/
+Asia,Philippines,Philippine Daily Inquirer,Newspaper / Digital,Center-Left,English,Largest quality daily,https://www.inquirer.net/rss
+Asia,Philippines,Philippine Star,Newspaper / Digital,Center,English,Second major daily,https://www.philstar.com/rss
+Asia,Philippines,Rappler,Digital,Center-Left,English,Maria Ressa; Nobel laureate; targeted,https://www.rappler.com/feed/
+Asia,Philippines,ABS-CBN,TV / Digital,Center,Filipino / English,Major network (franchise issues),https://news.abs-cbn.com/rss/news
+Asia,Philippines,GMA News,TV / Digital,Center,Filipino / English,Major broadcast network,https://www.gmanetwork.com/rss
+Asia,Philippines,Manila Bulletin,Newspaper / Digital,Center-Right,English,Oldest; establishment-friendly,https://mb.com.ph/rss/news
+Asia,Philippines,PCIJ,Digital (Nonprofit),Center-Left,English,Philippine Center for Investigative Journalism,https://pcij.org/feed/
+Asia,Philippines,Manila Times,Newspaper / Digital,Right,English,Pro-administration,https://www.manilatimes.net/rss
+Asia,Thailand,Bangkok Post,Newspaper / Digital,Center,English,English-language daily,https://www.bangkokpost.com/rss/data/topstories.xml
+Asia,Thailand,The Nation (Thailand),Newspaper / Digital,Center-Right,English,English-language; restructured,https://www.nationthailand.com/rss-feeds
+Asia,Thailand,Matichon,Newspaper / Digital,Center-Left,Thai,Quality daily,https://www.matichon.co.th/feed
+Asia,Thailand,Thai PBS,Public Broadcaster,Center,Thai,Independent public broadcaster,https://www.thaipbs.or.th/rss
+Asia,Thailand,Prachatai,Digital,Left,Thai / English,Independent; human rights focus,https://prachatai.com/feed
+Asia,Thailand,Khaosod English,Digital,Center-Left,English,English arm of Thai daily,https://www.khaosodenglish.com/feed/
+Asia,Thailand,The Standard (TH),Digital,Center,Thai,Digital media,https://www.thestandard.co.th/feed
+Asia,Thailand,Manager Daily,Newspaper / Digital,Right,Thai,Royalist conservative,https://mgronline.com/rss/
+Asia,Vietnam,VnExpress,Digital,State-Controlled,Vietnamese,Largest portal; state-approved,https://vnexpress.net/rss/tin-muc-moi-nhat.rss
+Asia,Vietnam,Tuổi Trẻ,Newspaper / Digital,State-Controlled,Vietnamese,Youth league paper; relatively dynamic,https://tuoitre.vn/rss/tin-moi-nhat.rss
+Asia,Vietnam,VietnamNet,Digital,State-Controlled,Vietnamese / English,Ministry-owned portal,https://vietnamnet.vn/rss/
+Asia,Vietnam,VNA (Vietnam News Agency),Wire Service,State-Controlled,Vietnamese,Official state wire,https://en.vietnamplus.vn/rss/home.rss
+Asia,Vietnam,The Vietnamese,Digital,Center,Vietnamese,Exile media; overseas-based,https://thevietnamese.org/feed/
+Asia,Myanmar,The Irrawaddy,Digital,Center,Burmese / English,Exile/independent; critical of junta,https://www.irrawaddy.com/feed
+Asia,Myanmar,Myanmar Now,Digital,Center,Burmese / English,Independent; underground since coup,https://myanmar-now.org/en/feed/
+Asia,Myanmar,Mizzima,Digital,Center,Burmese / English,Independent,https://mizzima.com/feed
+Asia,Myanmar,Global New Light of Myanmar,Newspaper,State-Controlled,English,Junta state paper,https://www.gnlm.com.mm/feed/
+Asia,Myanmar,Democratic Voice of Burma (DVB),Digital / TV,Center-Left,Burmese,Exile-operated independent,https://english.dvb.no/feed/
+Asia,Cambodia,VOD (Voice of Democracy),Digital / Radio,Center,Khmer,Independent (shutdown ordered 2023),https://vod.com.kh/feed/
+Asia,Cambodia,Cambodia Daily,Digital,Center-Left,English,Closed 2017; online intermittent,https://www.cambodiadaily.com/feed/
+Asia,Cambodia,Phnom Penh Post,Newspaper / Digital,Center,English,Sold 2018; independence questioned,https://www.phnompenhpost.com/rss.xml
+Asia,Cambodia,CamboJA,Digital,Center,Khmer / English,Journalism association media,https://cambojanews.com/feed/
+Asia,Laos,Vientiane Times,Newspaper / Digital,State-Controlled,English,State-run English daily,https://vientianetimes.org.la/?feed=rss2
+Asia,Laos,KPL (Lao News Agency),Wire Service,State-Controlled,Lao,State news agency,https://kpl.net.la/en/rss
+Asia,Brunei,Borneo Bulletin,Newspaper / Digital,State-Controlled,English,Only English daily; restricted press,https://borneobulletin.com.bn/feed/
+Asia,Timor-Leste,Tatoli,Wire Service,Center,Portuguese / Tetum,National news agency,https://tatoli.tl/feed
+Asia,Timor-Leste,Tempo Timor,Digital,Center,Tetum / Portuguese,Independent,https://tempotimor.com/feed/
+Asia,India,The Hindu,Newspaper / Digital,Center-Left,English,Chennai-based; quality broadsheet,https://www.thehindu.com/feeder/default.rss
+Asia,India,The Times of India,Newspaper / Digital,Center,English,Largest English daily globally,https://timesofindia.indiatimes.com/rssfeedstopstories.cms
+Asia,India,Hindustan Times,Newspaper / Digital,Center,English,Second largest English,https://www.hindustantimes.com/feeds/rss/latest-news/rssfeed.xml
+Asia,India,The Indian Express,Newspaper / Digital,Center,English,Strong investigative tradition,https://indianexpress.com/feed/
+Asia,India,The Economic Times,Newspaper / Digital,Center-Right,English,Business daily; Times Group,https://economictimes.indiatimes.com/rssfeedsdefault.cms
+Asia,India,NDTV,TV / Digital,Center-Left,English / Hindi,Now Adani-owned; was independent,https://feeds.feedburner.com/ndtvnews-top-stories
+Asia,India,Republic TV,TV / Digital,Right,English / Hindi,Pro-BJP; Arnab Goswami,https://www.republicworld.com/rss/
+Asia,India,Times Now,TV / Digital,Right,English,Times Network; pro-govt lean,https://www.timesnownews.com/rss
+Asia,India,India Today,Magazine / TV / Digital,Center,English / Hindi,Major media group,https://www.indiatoday.in/rss/home
+Asia,India,The Wire,Digital,Center-Left,English,"Independent; MK Venu, Siddharth Varadarajan",https://thewire.in/rss/
+Asia,India,Scroll.in,Digital,Center-Left,English,Independent digital,https://scroll.in/rss
+Asia,India,The Quint,Digital,Center-Left,English,Digital-first,https://www.thequint.com/feed
+Asia,India,Newslaundry,Digital,Center-Left,English,Media criticism; subscriber-funded,https://www.newslaundry.com/feed
+Asia,India,OpIndia,Digital,Right,English / Hindi,Right-wing; Hindutva-adjacent,https://www.opindia.com/feed/
+Asia,India,Swarajya,Magazine / Digital,Right,English,Hindu nationalist intellectual,https://swarajyamag.com/feed
+Asia,India,The Print,Digital,Center,English,Shekhar Gupta; balanced,https://theprint.in/feed/
+Asia,India,PTI (Press Trust of India),Wire Service,Center,English,National wire service,https://feeds.ptinews.com/rss/pti_news.xml
+Asia,India,Dainik Jagran,Newspaper / Digital,Center-Right,Hindi,Largest Hindi daily,https://www.jagran.com/rss/news-national.xml
+Asia,India,Amar Ujala,Newspaper / Digital,Center,Hindi,Major Hindi daily,https://www.amarujala.com/feed/breaking-news.xml
+Asia,India,Dainik Bhaskar,Newspaper / Digital,Center,Hindi,Major Hindi media group,https://www.bhaskar.com/rss-feed/1061/
+Asia,India,The News Minute,Digital,Center-Left,English,South India focused,https://www.thenewsminute.com/feed
+Asia,India,Alt News,Digital,Center,English / Hindi,Fact-checking,https://www.altnews.in/feed/
+Asia,Pakistan,Dawn,Newspaper / Digital,Center-Left,English,Leading English daily; Jang Group rival,https://www.dawn.com/feeds/home
+Asia,Pakistan,The News International,Newspaper / Digital,Center,English,Jang Group,https://www.thenews.com.pk/rss/
+Asia,Pakistan,Geo TV,TV / Digital,Center,Urdu,Largest TV network; Jang Group,https://www.geo.tv/rss
+Asia,Pakistan,Express Tribune,Newspaper / Digital,Center,English,Lakson Group,https://tribune.com.pk/news/feed
+Asia,Pakistan,Jang,Newspaper / Digital,Center,Urdu,Largest Urdu daily,https://jang.com.pk/rss
+Asia,Pakistan,ARY News,TV / Digital,Center-Right,Urdu / English,Pro-PTI/Imran Khan leaning,https://arynews.tv/feed
+Asia,Pakistan,Bol News,TV / Digital,Right,Urdu,Controversy-prone; sensationalist,https://www.bolnews.com/feed
+Asia,Pakistan,APP (Associated Press of Pakistan),Wire Service,State-Controlled,Urdu / English,State wire service,https://www.app.com.pk/feed/
+Asia,Bangladesh,The Daily Star,Newspaper / Digital,Center,English,Leading English daily,https://www.thedailystar.net/rss.xml
+Asia,Bangladesh,Prothom Alo,Newspaper / Digital,Center,Bengali,Largest Bengali daily,https://www.prothomalo.com/feed
+Asia,Bangladesh,bdnews24.com,Digital,Center,Bengali / English,First online news outlet,https://bdnews24.com/rss/
+Asia,Bangladesh,Dhaka Tribune,Newspaper / Digital,Center,English,Quality English daily,https://www.dhakatribune.com/feed/
+Asia,Bangladesh,New Age,Newspaper / Digital,Center-Left,English,Progressive daily,
+Asia,Bangladesh,BSS (Bangladesh Sangbad Sangstha),Wire Service,State-Controlled,Bengali,State news agency,
+Asia,Sri Lanka,Daily Mirror (LK),Newspaper / Digital,Center,English,Major English daily,https://www.dailymirror.lk/rss
+Asia,Sri Lanka,Sunday Times (LK),Newspaper / Digital,Center,English,Wijeya Newspapers,https://www.sundaytimes.lk/?feed=rss2
+Asia,Sri Lanka,Groundviews,Digital,Center-Left,English,Citizen journalism; CPA,https://groundviews.org/feed/
+Asia,Sri Lanka,Lankadeepa,Newspaper / Digital,Center,Sinhala,Largest Sinhala daily,https://www.lankadeepa.lk/rss
+Asia,Sri Lanka,Tamil Mirror,Newspaper / Digital,Center,Tamil,Tamil-language daily,https://www.tamizmirror.lk/feed/
+Asia,Nepal,The Kathmandu Post,Newspaper / Digital,Center,English,Leading English daily,https://kathmandupost.com/rss
+Asia,Nepal,Kantipur,Newspaper / Digital,Center,Nepali,Largest Nepali daily,https://ekantipur.com/rss
+Asia,Nepal,Republica,Newspaper / Digital,Center,English,Nagarik's English edition,https://myrepublica.nagariknetwork.com/feed/
+Asia,Nepal,Online Khabar,Digital,Center,Nepali / English,Digital native,https://www.onlinekhabar.com/feed
+Asia,Afghanistan,TOLOnews,TV / Digital,Center,Dari / Pashto,Largest Afghan network; under Taliban pressure,https://tolonews.com/rss.xml
+Asia,Afghanistan,Pajhwok Afghan News,Wire Service / Digital,Center,Multi,Independent news agency,https://www.pajhwok.com/en/rss.xml
+Asia,Afghanistan,Hasht-e Subh,Newspaper / Digital,Center,Dari,Largest daily; resistance-adjacent,https://8am.af/rss/
+Asia,Afghanistan,Bakhtar News Agency,Wire Service,State-Controlled,Dari / Pashto,Taliban-controlled state agency,
+Asia,Bhutan,Kuensel,Newspaper / Digital,Center,English / Dzongkha,National newspaper,https://kuenselonline.com/feed/
+Asia,Bhutan,BBS (Bhutan Broadcasting Service),Public Broadcaster,Center,Dzongkha,State broadcaster,https://www.bbs.bt/feed
+Asia,Maldives,Maldives Independent,Digital,Center,English,Independent (predecessor shuttered),https://maldivesindependent.com/feed/
+Asia,Maldives,Raajje.mv,Digital,Center,Dhivehi,Digital outlet,https://raajje.mv/rss
+Asia,Maldives,PSM (Public Service Media),Public Broadcaster,State-Controlled,Dhivehi,Government broadcaster,
+Asia,Kazakhstan,Tengrinews,Digital,Center,Kazakh / Russian,Major portal,https://tengrinews.kz/rss/
+Asia,Kazakhstan,Vlast.kz,Digital,Center-Left,Russian,Independent; analytical,https://vlast.kz/rss/
+Asia,Kazakhstan,Kazakh TV / Khabar,TV,State-Controlled,Kazakh,State TV,https://www.khabar.kz/rss
+Asia,Kazakhstan,Mediazona Central Asia,Digital,Center,Russian,Investigative; prison/rights,https://centralasia.mediazona.ca/rss/
+Asia,Uzbekistan,Kun.uz,Digital,Center,Uzbek / Russian,Major portal,https://kun.uz/rss
+Asia,Uzbekistan,Gazeta.uz,Digital,Center,Uzbek / Russian,Quality digital,https://www.gazeta.uz/rss/
+Asia,Uzbekistan,UzA,Wire Service,State-Controlled,Uzbek,National news agency,https://www.uza.uz/rss
+Asia,Kyrgyzstan,Kloop,Digital,Center-Left,Kyrgyz / Russian,Investigative (blocked/targeted),https://kloop.kg/feed/
+Asia,Kyrgyzstan,Kaktus Media,Digital,Center,Russian / Kyrgyz,Independent digital,https://kaktus.media/rss
+Asia,Kyrgyzstan,24.kg,Digital,Center,Russian / Kyrgyz,Major portal,https://24.kg/rss
+Asia,Tajikistan,Asia-Plus,Newspaper / Digital,Center,Tajik / Russian,Leading independent outlet,https://www.asiaplustj.info/rss.xml
+Asia,Tajikistan,Khovar,Wire Service,State-Controlled,Tajik,National news agency,https://khovar.tj/feed/
+Asia,Turkmenistan,TDH (Turkmen State News),Wire Service,State-Controlled,Turkmen,State news; among most censored,https://tdh.gov.tm/rss.xml
+Asia,Turkmenistan,Turkmen.news,Digital,Center,Russian / Turkmen,Exile-based independent,https://turkmen.news/feed/
+Asia,Turkmenistan,Chronicles of Turkmenistan,Digital,Center,Russian / English,Exile media,https://www.hronikatm.com/feed
+Middle East,Turkey,Hürriyet,Newspaper / Digital,Center-Right,Turkish,Demirören Group; formerly independent,https://www.hurriyet.com.tr/rss/anasayfa
+Middle East,Turkey,Cumhuriyet,Newspaper / Digital,Center-Left,Turkish,Secular republican; journalists jailed,https://www.cumhuriyet.com.tr/rss
+Middle East,Turkey,Sözcü,Newspaper / Digital,Center-Left,Turkish,Secularist; opposition,https://www.sozcu.com.tr/rss/
+Middle East,Turkey,Sabah,Newspaper / Digital,Right,Turkish,Pro-AKP; Turkuaz Medya,https://www.sabah.com.tr/rss
+Middle East,Turkey,Yeni Şafak,Newspaper / Digital,Right,Turkish,Islamist conservative; pro-Erdoğan,https://www.yenisafak.com/rss
+Middle East,Turkey,Bianet,Digital,Center-Left,Turkish / English,Independent; human rights focus,https://bianet.org/?feed=rss2
+Middle East,Turkey,Medyascope,Digital,Center-Left,Turkish,Independent digital / YouTube,https://medyascope.tv/feed
+Middle East,Turkey,Ahval News,Digital,Center,Turkish / English,Exile-based independent,https://ahvalnews.com/en/rss.xml
+Middle East,Turkey,TRT World,TV / Digital,State-Controlled,Turkish / English,State broadcaster international,https://www.trtworld.com/rss.xml
+Middle East,Turkey,Anadolu Agency (AA),Wire Service,State-Controlled,Turkish / Multi,State wire service,https://www.aa.com.tr/en/rss/default.rss
+Middle East,Turkey,Daily Sabah,Newspaper / Digital,Right,English,English-language pro-govt,https://www.dailysabah.com/rss
+Middle East,Turkey,Duvar,Digital,Center-Left,Turkish,Independent,https://www.gazeteduvar.com.tr/feed/
+Middle East,Israel,Haaretz,Newspaper / Digital,Center-Left,Hebrew / English,Liberal quality daily,https://www.haaretz.com/srv/haaretz-en-rss-new.xml
+Middle East,Israel,Yedioth Ahronoth / Ynet,Newspaper / Digital,Center,Hebrew,Largest daily,https://www.ynet.co.il/Integration/StoryRss2.xml
+Middle East,Israel,Israel Hayom,Newspaper / Digital,Right,Hebrew,Free daily; pro-Netanyahu,https://www.israelhayom.com/feed/
+Middle East,Israel,The Times of Israel,Digital,Center,English / Multi,English-language; David Horovitz,https://www.timesofisrael.com/feed/
+Middle East,Israel,The Jerusalem Post,Newspaper / Digital,Center-Right,English,English-language; right shift under ownership,https://www.jpost.com/rss/rssfeedsfrontpage.aspx
+Middle East,Israel,Kan,Public Broadcaster,Center,Hebrew,Israeli Public Broadcasting,https://www.kan.org.il/rss/
+Middle East,Israel,Channel 12 / 13 / 14,TV,Varies,Hebrew,Commercial TV; Ch14 is right-wing,https://www.mako.co.il/rss/news
+Middle East,Israel,+972 Magazine,Digital,Left,English,Israeli-Palestinian independent,https://www.972mag.com/feed
+Middle East,Israel,Mako / N12,Digital / TV,Center,Hebrew,Keshet Media; Channel 12 digital,https://www.mako.co.il/rss/news
+Middle East,Israel,Walla!,Digital,Center,Hebrew,Major portal,https://rss.walla.co.il/feed/22
+Middle East,Israel,Local Call (Sikha Mekomit),Digital,Left,Hebrew,+972 Hebrew sister site,https://www.mekomit.co.il/feed/
+Middle East,Palestine,Ma'an News,Wire Service / Digital,Center,Arabic / English,Independent network,https://www.maannews.net/rss.aspx
+Middle East,Palestine,WAFA,Wire Service,State-Controlled,Arabic,Palestinian Authority news agency,http://www.wafa.ps/rss.aspx?id=206
+Middle East,Palestine,Quds News Network,Digital,Center-Left,Arabic / English,Independent; Gaza-based,https://qudsnen.co/rss
+Middle East,Palestine,Mondoweiss,Digital,Left,English,Pro-Palestinian; US-based,https://mondoweiss.net/feed/
+Middle East,Lebanon,L'Orient-Le Jour,Newspaper / Digital,Center,French,Leading Francophone daily,https://today.lorientlejour.com/feed
+Middle East,Lebanon,The Daily Star (Lebanon),Newspaper / Digital,Center,English,English-language (reduced operations),https://www.dailystar.com.lb/rss.aspx
+Middle East,Lebanon,An-Nahar,Newspaper / Digital,Center,Arabic,Largest Arabic daily; anti-Hezbollah,https://www.annahar.com/rss
+Middle East,Lebanon,Al-Akhbar,Newspaper / Digital,Left,Arabic,Pro-Hezbollah / resistance axis,https://al-akhbar.com/rss
+Middle East,Lebanon,Al Manar,TV / Digital,Far Left,Arabic,Hezbollah TV,https://www.almanar.com.lb/rss
+Middle East,Lebanon,MTV Lebanon,TV / Digital,Center-Right,Arabic,Christian / anti-Hezbollah,https://www.mtv.com.lb/rss
+Middle East,Lebanon,Daraj,Digital,Center-Left,Arabic,Independent investigative pan-Arab,https://daraj.com/feed/
+Middle East,Lebanon,Megaphone,Digital,Left,Arabic,Social media-native; protest movement,https://www.megaphone.news/feed
+Middle East,Jordan,The Jordan Times,Newspaper / Digital,Center,English,English-language daily,https://jordantimes.com/rss
+Middle East,Jordan,Al Ghad,Newspaper / Digital,Center,Arabic,Major daily,https://alghad.com/feed/
+Middle East,Jordan,Petra (JNA),Wire Service,State-Controlled,Arabic,Jordan News Agency,https://petra.gov.jo/rss.aspx
+Middle East,Jordan,7iber,Digital,Center-Left,Arabic,Independent; culture/rights,https://7iber.com/feed/
+Middle East,Iraq,Rudaw,TV / Digital,Center-Right,Kurdish / English / Arabic,KRG-linked; KDP-affiliated,https://www.rudaw.net/rss
+Middle East,Iraq,NRT,TV / Digital,Center,Kurdish,PUK-adjacent,https://www.nrttv.com/en/rss/
+Middle East,Iraq,Al-Mada,Newspaper / Digital,Center,Arabic,Quality Iraqi daily,https://almadapaper.net/feed
+Middle East,Iraq,Iraq Oil Report,Digital,Center,English,Niche energy/policy,https://www.iraqoilreport.com/feed/
+Middle East,Iraq,Kirkuk Now,Digital,Center,Multi,Independent; multi-ethnic focus,https://kirkuknow.com/en/feed/
+Middle East,Iran,IRNA,Wire Service,State-Controlled,Farsi,Islamic Republic News Agency,https://en.irna.ir/rss
+Middle East,Iran,Press TV,TV / Digital,State-Controlled,English,English-language state TV,https://www.presstv.ir/rss.xml
+Middle East,Iran,Shargh,Newspaper / Digital,Center-Left,Farsi,Reformist daily (frequently shut down),https://sharghdaily.com/rss
+Middle East,Iran,Kayhan,Newspaper / Digital,Far Right,Farsi,Hardline; Supreme Leader-appointed editor,https://kayhan.ir/rss
+Middle East,Iran,Iran International,TV / Digital,Center-Right,Farsi,London-based exile; Saudi-linked,https://www.iranintl.com/en/rss
+Middle East,Iran,Manoto,TV / Digital,Center,Farsi,London-based diaspora TV,https://manoto.com/rss
+Middle East,Iran,IranWire,Digital,Center-Left,Farsi / English,Exile investigative,https://iranwire.com/fa/feed/
+Middle East,Iran,Radio Farda / RFE,Radio / Digital,Center,Farsi,US-funded; RFE/RL Farsi service,https://www.radiofarda.com/api/zpqoveltk
+Middle East,Saudi Arabia,Arab News,Newspaper / Digital,Center-Right,English,English-language; SRMG,https://www.arabnews.com/rss.xml
+Middle East,Saudi Arabia,Saudi Gazette,Newspaper / Digital,Center-Right,English,English-language daily,https://saudigazette.com.sa/rss
+Middle East,Saudi Arabia,Al Arabiya,TV / Digital,Center-Right,Arabic,MBC Group; Saudi-funded; pan-Arab,https://www.alarabiya.net/tools/rss
+Middle East,Saudi Arabia,Asharq Al-Awsat,Newspaper / Digital,Center-Right,Arabic,Pan-Arab; Saudi-owned; London-based,https://english.aawsat.com/feed
+Middle East,Saudi Arabia,SPA (Saudi Press Agency),Wire Service,State-Controlled,Arabic,State news agency,https://www.spa.gov.sa/rss/latest_news.xml
+Middle East,Saudi Arabia,Okaz,Newspaper / Digital,Center-Right,Arabic,Major Arabic daily,https://www.okaz.com.sa/rss
+Middle East,Saudi Arabia,Al Riyadh,Newspaper / Digital,State-Controlled,Arabic,State-aligned daily,https://www.alriyadh.com/rss/home
+Middle East,UAE,The National (UAE),Newspaper / Digital,Center-Right,English,ADG Media; state-aligned,https://www.thenationalnews.com/rss
+Middle East,UAE,Gulf News,Newspaper / Digital,Center,English,Dubai-based; Al Nisr Publishing,https://gulfnews.com/cms/rss/news.xml
+Middle East,UAE,Khaleej Times,Newspaper / Digital,Center,English,Dubai English daily,https://www.khaleejtimes.com/rss/news
+Middle East,UAE,WAM (Emirates News Agency),Wire Service,State-Controlled,Arabic / English,State wire,https://wam.ae/en/rss
+Middle East,UAE,Al Ain News,Digital,Center-Right,Arabic,Abu Dhabi-linked,https://www.alainnews.ae/rss
+Middle East,UAE,Sky News Arabia,TV / Digital,Center-Right,Arabic,Abu Dhabi Media / Sky partnership,https://www.skynewsarabia.com/rss.xml
+Middle East,Qatar,Al Jazeera,TV / Digital,Center-Left,Arabic / English,Qatar-funded; global reach; pan-Arab,https://www.aljazeera.com/xml/rss/all.xml
+Middle East,Qatar,Al Jazeera English,TV / Digital,Center-Left,English,English service; award-winning,https://www.aljazeera.com/xml/rss/all.xml
+Middle East,Qatar,The Peninsula,Newspaper / Digital,Center,English,English-language daily,https://www.thepeninsulaqatar.com/rss.xml
+Middle East,Qatar,QNA,Wire Service,State-Controlled,Arabic,Qatar News Agency,https://www.qna.org.qa/?feed=rss2
+Middle East,Kuwait,Kuwait Times,Newspaper / Digital,Center,English,English daily,https://news.kuwaittimes.net/feed/
+Middle East,Kuwait,Al-Qabas,Newspaper / Digital,Center,Arabic,Major Arabic daily,https://www.alqabas.com/rss/
+Middle East,Kuwait,KUNA,Wire Service,State-Controlled,Arabic,Kuwait News Agency,
+Middle East,Bahrain,Gulf Daily News,Newspaper / Digital,Center,English,English daily,https://www.gdnonline.com/rss
+Middle East,Bahrain,BNA,Wire Service,State-Controlled,Arabic,Bahrain News Agency,https://www.bna.bh/rss/
+Middle East,Oman,Times of Oman,Newspaper / Digital,Center,English,English daily,https://www.timesofoman.com/rss
+Middle East,Oman,ONA (Oman News Agency),Wire Service,State-Controlled,Arabic,State agency,https://onaofficial.com/rss
+Middle East,Yemen,Al-Masdar Online,Digital,Center,Arabic,Independent Yemeni news,https://almasdaronline.com/feed/
+Middle East,Yemen,Saba (Yemen News Agency),Wire Service,State-Controlled,Arabic,Split between Houthi and govt,https://www.sabanews.net/en/rss
+Middle East,Yemen,Belqees TV,TV / Digital,Center,Arabic,Independent; critical,https://www.belqeestv.com/rss
+Middle East,Syria,SANA,Wire Service,State-Controlled,Arabic,Assad regime news agency,https://sana.sy/feed
+Middle East,Syria,SY24,Digital,Center,Arabic,Independent; opposition areas,https://www.sy-24.com/feed/
+Middle East,Syria,Syria Direct,Digital,Center,Arabic / English,Independent journalism,https://syriadirect.org/feed/
+Middle East,Syria,Enab Baladi,Digital,Center-Left,Arabic,Citizen journalism; opposition areas,https://english.enabbaladi.net/feed
+Middle East,Syria,The Syria Report,Digital,Center,English,Economic analysis,https://www.syria-report.com/rss
+Middle East,Egypt,Al-Ahram,Newspaper / Digital,State-Controlled,Arabic,Largest; state-owned,https://english.ahram.org.eg/rss/
+Middle East,Egypt,Al-Masry Al-Youm,Newspaper / Digital,Center,Arabic,Largest private daily,https://www.almasryalyoum.com/rss/
+Middle East,Egypt,Mada Masr,Digital,Center-Left,Arabic / English,Independent; targeted by authorities,https://www.madamasr.com/en/feed/
+Middle East,Egypt,Daily News Egypt,Newspaper / Digital,Center,English,English-language daily,https://www.dailynewsegypt.com/feed/
+Middle East,Egypt,Al-Shorouk,Newspaper / Digital,Center,Arabic,Private daily,https://www.shorouknews.com/feed
+Middle East,Egypt,MENA (Middle East News Agency),Wire Service,State-Controlled,Arabic,State wire service,https://www.mena.org.eg/rss
+Middle East,Egypt,Al-Monitor (Egypt coverage),Digital,Center,English,MENA analysis,https://www.al-monitor.com/rss
+Africa,Libya,Libya Observer,Digital,Center,English,Independent English-language,https://www.libyaobserver.ly/feed/
+Africa,Libya,LANA,Wire Service,State-Controlled,Arabic,Libyan News Agency,https://lana.gov.ly/rss
+Africa,Libya,Libya Herald,Digital,Center,English,Independent English outlet,https://libyaherald.com/feed/
+Africa,Tunisia,Nawaat,Digital,Center-Left,Arabic / French,Award-winning independent,https://nawaat.org/feed/
+Africa,Tunisia,Meshkal,Digital,Center,Arabic / English,Investigative platform,https://meshkal.com/feed/
+Africa,Tunisia,TAP (Tunis Afrique Presse),Wire Service,State-Controlled,Arabic / French,National news agency,https://www.tap.info.tn/feed
+Africa,Tunisia,La Presse de Tunisie,Newspaper / Digital,Center,French,Francophone daily,https://www.lapresse.tn/feed/
+Africa,Algeria,TSA (Tout Sur l'Algérie),Digital,Center,French,Leading digital outlet,https://www.tsa-algerie.com/feed/
+Africa,Algeria,El Watan,Newspaper / Digital,Center-Left,French,Quality Francophone daily,https://www.elwatan.com/feed/
+Africa,Algeria,APS,Wire Service,State-Controlled,Arabic / French,Algerian Press Service,
+Africa,Algeria,Echorouk,Newspaper / Digital,Center-Right,Arabic,Major Arabic daily,https://www.echoroukonline.com/feed
+Africa,Morocco,TelQuel,Magazine / Digital,Center,French / Arabic,Bold weekly magazine,https://telquel.ma/feed
+Africa,Morocco,Le360,Digital,Center,French / Arabic,Major portal,https://le360.ma/feed/
+Africa,Morocco,Medias24,Digital,Center,French,Business/financial news,https://medias24.com/feed/
+Africa,Morocco,MAP,Wire Service,State-Controlled,Arabic / French,Maghreb Arab Press,https://www.mapnews.ma/rss
+Africa,Morocco,Hespress,Digital,Center,Arabic / French,Largest Moroccan digital,https://www.hespress.com/feed
+Africa,Morocco,Le Desk,Digital,Center-Left,French,Investigative,https://ledesk.ma/feed/
+Africa,Nigeria,The Punch,Newspaper / Digital,Center,English,Largest daily,https://punchng.com/feed/
+Africa,Nigeria,Vanguard,Newspaper / Digital,Center,English,Major daily,
+Africa,Nigeria,Premium Times,Digital,Center-Left,English,Investigative digital,https://www.premiumtimesng.com/feed
+Africa,Nigeria,The Guardian (Nigeria),Newspaper / Digital,Center,English,Quality broadsheet,https://guardian.ng/feed/
+Africa,Nigeria,Channels Television,TV / Digital,Center,English,Leading TV news,https://www.channelstv.com/feed/
+Africa,Nigeria,ThisDay,Newspaper / Digital,Center,English,Quality daily,https://www.thisdaylive.com/index.php/feed/
+Africa,Nigeria,Daily Trust,Newspaper / Digital,Center,English,Northern Nigeria focus,https://dailytrust.com/feed
+Africa,Nigeria,Sahara Reporters,Digital,Center-Left,English,Citizen journalism; anti-corruption,https://saharareporters.com/feed/
+Africa,Nigeria,The Cable,Digital,Center,English,Digital news platform,https://www.thecable.ng/feed
+Africa,Nigeria,NAN (News Agency of Nigeria),Wire Service,State-Controlled,English,National wire,https://www.nan.ng/feed/
+Africa,Nigeria,FIJ (Foundation for Investigative Journalism),Digital (Nonprofit),Center,English,Investigative nonprofit,https://fij.ng/feed/
+Africa,Ghana,Daily Graphic,Newspaper / Digital,Center,English,State-owned; largest,https://www.graphic.com.gh/feed/
+Africa,Ghana,Citi FM/Newsroom,Radio / Digital,Center,English,Independent; quality,https://citinewsroom.com/feed/
+Africa,Ghana,Joy Online / JoyFM,Radio / Digital,Center,English,Multimedia Group,https://www.myjoyonline.com/feed/
+Africa,Ghana,MyJoyOnline,Digital,Center,English,Major portal,https://www.myjoyonline.com/feed/
+Africa,Ghana,GNA (Ghana News Agency),Wire Service,State-Controlled,English,National wire,https://www.ghananewsagency.org/rss
+Africa,Ghana,The Fourth Estate,Digital,Center,English,Investigative; MFJ,https://4thestategh.com/feed/
+Africa,Senegal,Le Soleil,Newspaper / Digital,State-Controlled,French,State-owned daily,
+Africa,Senegal,Seneweb,Digital,Center,French,Leading portal,https://www.seneweb.com/rss
+Africa,Senegal,APS (Agence de Presse Sénégalaise),Wire Service,State-Controlled,French,National wire,https://www.aps.sn/rss/
+Africa,Ivory Coast,Fraternité Matin,Newspaper / Digital,State-Controlled,French,State-owned daily,https://www.fratmat.info/rss
+Africa,Ivory Coast,Abidjan.net,Digital,Center,French,Major portal,https://news.abidjan.net/rss
+Africa,Ivory Coast,Connectionivoirienne,Digital,Center,French,Independent digital,https://connectionivoirienne.net/feed/
+Africa,Burkina Faso,L'Observateur Paalga,Newspaper / Digital,Center,French,Oldest private daily,https://lobservateur.bf/feed/
+Africa,Burkina Faso,AIB,Wire Service,State-Controlled,French,National news agency,https://www.aib.bf/rss/
+Africa,Mali,Malijet,Digital,Center,French,Leading digital portal,https://malijet.com/rss
+Africa,Mali,L'Essor,Newspaper / Digital,State-Controlled,French,State daily,https://www.essor.ml/rss
+Africa,Mali,AMAP,Wire Service,State-Controlled,French,Malian Press Agency,https://www.maliweb.net/feed
+Africa,Niger,Actuniger,Digital,Center,French,Digital portal,https://www.actuniger.com/feed/
+Africa,Niger,ANP,Wire Service,State-Controlled,French,National agency,
+Africa,Guinea,Guineenews,Digital,Center,French,Independent portal,https://guineenews.org/feed/
+Africa,Guinea,AGP,Wire Service,State-Controlled,French,National agency,https://guineeconakry.online/feed
+Africa,Sierra Leone,Awoko,Newspaper / Digital,Center,English,Independent daily,https://awoko.org/feed/
+Africa,Sierra Leone,Politico SL,Digital,Center,English,Digital news,https://politicosl.com/rss.xml
+Africa,Liberia,FrontPageAfrica,Digital,Center,English,Leading digital,https://frontpageafricaonline.com/feed/
+Africa,Liberia,Daily Observer,Newspaper / Digital,Center,English,Major daily,
+Africa,Gambia,The Standard (Gambia),Newspaper / Digital,Center,English,Major daily,https://thestandard.gm/feed/
+Africa,Togo,Togoweb,Digital,Center,French,Portal,https://togoweb.net/feed/
+Africa,Benin,La Nation,Newspaper / Digital,State-Controlled,French,State daily,
+Africa,Cape Verde,A Semana,Newspaper / Digital,Center,Portuguese,Major weekly,https://www.asemana.publ.cv/spip.php?page=backend
+Africa,Guinea-Bissau,Nô Pintcha,Newspaper,State-Controlled,Portuguese,State daily,
+Africa,Mauritania,AMI,Wire Service,State-Controlled,Arabic / French,Mauritanian news agency,https://www.ami.mr/feed
+Africa,Kenya,Daily Nation,Newspaper / Digital,Center,English,Nation Media Group; largest,https://nation.africa/rss/
+Africa,Kenya,The Standard (Kenya),Newspaper / Digital,Center,English,Standard Group,https://www.standardmedia.co.ke/rss/headlines.php
+Africa,Kenya,The Star (Kenya),Newspaper / Digital,Center-Left,English,Independent,https://www.the-star.co.ke/rss/
+Africa,Kenya,Business Daily Africa,Newspaper / Digital,Center,English,NMG business daily,https://www.businessdailyafrica.com/rss/
+Africa,Kenya,KTN News,TV / Digital,Center,English,Standard Group TV,https://www.ktnnews.com/feed/
+Africa,Kenya,Citizen TV,TV / Digital,Center,English,Royal Media Services,https://www.citizentv.co.ke/feed/
+Africa,Kenya,Africa Uncensored,Digital,Center,English,Investigative journalism,https://africauncensored.online/feed/
+Africa,Kenya,The Elephant,Digital,Center-Left,English,Analysis and opinion,https://www.theelephant.info/feed
+Africa,Ethiopia,Addis Standard,Digital,Center,English,Independent magazine,https://addisstandard.com/feed/
+Africa,Ethiopia,Ethiopian Reporter,Newspaper / Digital,Center,Amharic / English,Private weekly,https://www.ethiopianreporter.com/feed/
+Africa,Ethiopia,ENA (Ethiopian News Agency),Wire Service,State-Controlled,Amharic,State wire,https://www.ena.et/rss/
+Africa,Ethiopia,Fana Broadcasting,TV / Radio,State-Controlled,Amharic,EPRDF/PP-affiliated,https://www.fanabc.com/feed/
+Africa,Ethiopia,Borkena,Digital,Center-Right,English,Independent diaspora-linked,https://borkena.com/feed/
+Africa,Tanzania,The Citizen (TZ),Newspaper / Digital,Center,English,Mwananchi Communications,https://www.thecitizen.co.tz/rss.xml
+Africa,Tanzania,Mwananchi,Newspaper / Digital,Center,Swahili,Largest Swahili daily,https://www.mwananchi.co.tz/rss.xml
+Africa,Tanzania,TBC (Tanzania Broadcasting Corp),Public Broadcaster,State-Controlled,Swahili / English,State broadcaster,https://www.tbc.go.tz/rss/
+Africa,Uganda,Daily Monitor,Newspaper / Digital,Center,English,Nation Media; independent,https://www.monitor.co.ug/monitor/rss/
+Africa,Uganda,New Vision,Newspaper / Digital,Center-Right,English,Government-owned daily,https://www.newvision.co.ug/rss
+Africa,Uganda,The Observer (Uganda),Newspaper / Digital,Center,English,Independent weekly,https://observer.ug/feed
+Africa,Uganda,NBS Television,TV / Digital,Center,English,Independent broadcaster,https://www.nbswebsite.com/feed/
+Africa,Rwanda,The New Times (Rwanda),Newspaper / Digital,State-Controlled,English,Pro-government; largest,https://www.newtimes.co.rw/rss.xml
+Africa,Rwanda,KT Press,Digital,Center,English,Government-aligned digital,https://www.ktpress.rw/feed/
+Africa,Rwanda,RNA,Wire Service,State-Controlled,Kinyarwanda,Rwanda News Agency,https://www.rnanews.com/rss
+Africa,Burundi,IWACU,Newspaper / Digital,Center,French / Kirundi,Independent; journalists targeted,https://www.iwacu-burundi.org/feed/
+Africa,Burundi,ABP,Wire Service,State-Controlled,French,State news agency,
+Africa,Somalia,Dalsan Radio,Radio / Digital,Center,Somali,Private broadcaster,https://dalsanmedia.com/feed/
+Africa,Somalia,SONNA,Wire Service,State-Controlled,Somali,Somali National News Agency,https://sonna.so/feed/
+Africa,Somalia,Garowe Online,Digital,Center,Somali / English,Puntland-based,https://www.garoweonline.com/en/rss/
+Africa,South Sudan,Eye Radio,Radio / Digital,Center,English,Independent radio,https://www.eyeradio.org/feed/
+Africa,South Sudan,Radio Tamazuj,Radio / Digital,Center,English / Arabic,Independent; Netherlands-backed,https://radiotamazuj.org/en/rss.xml
+Africa,Eritrea,Hadas Eritrea,Newspaper,State-Controlled,Tigrinya,Only domestic paper; no free press,
+Africa,Eritrea,ERI-TV,TV,State-Controlled,Tigrinya,State TV,
+Africa,Eritrea,Asmarino,Digital,Center,English / Tigrinya,Diaspora independent,https://asmarino.com/feed/
+Africa,Djibouti,ADI (Agence Djiboutienne d'Information),Wire Service,State-Controlled,French / Arabic,State agency,
+Africa,Comoros,HZK Press,Digital,Center,French,Independent digital,https://hzk-press.com/feed/
+Africa,Mauritius,L'Express (Mauritius),Newspaper / Digital,Center,French / English,Major daily,https://lexpress.mu/feed
+Africa,Mauritius,Le Mauricien,Newspaper / Digital,Center,French,Quality daily,https://lemauricien.com/feed/
+Africa,Madagascar,L'Express de Madagascar,Newspaper / Digital,Center,French,Major daily,https://www.lexpress.mg/feed
+Africa,Madagascar,Midi Madagasikara,Newspaper / Digital,Center,French / Malagasy,Major daily,https://www.midi-madagasikara.mg/feed
+Africa,Seychelles,Seychelles Nation,Newspaper / Digital,State-Controlled,English / French,State-owned,
+Africa,South Africa,Mail & Guardian,Newspaper / Digital,Center-Left,English,Investigative weekly; M&G Media,https://mg.co.za/feed
+Africa,South Africa,Daily Maverick,Digital,Center-Left,English,Investigative; amaBhungane partnership,https://www.dailymaverick.co.za/feed/
+Africa,South Africa,News24,Digital,Center,English,Largest digital; Media24,https://feeds.24.com/articles/news24/TopStories/rss
+Africa,South Africa,TimesLIVE,Digital,Center,English,Arena Holdings; Sunday Times,https://www.timeslive.co.za/rss/
+Africa,South Africa,SABC News,Public Broadcaster,Center,Multi,State broadcaster; 11 languages,https://www.sabcnews.com/sabcnews/feed/
+Africa,South Africa,Business Day,Newspaper / Digital,Center-Right,English,Business daily; Arena,https://www.businesslive.co.za/rss/
+Africa,South Africa,The Citizen (SA),Newspaper / Digital,Center,English,Daily; Caxton Media,https://www.citizen.co.za/feed
+Africa,South Africa,EWN (Eyewitness News),Radio / Digital,Center,English,Primedia; 24hr news radio,https://ewn.co.za/Feed
+Africa,South Africa,GroundUp,Digital (Nonprofit),Center-Left,English,Community journalism; human rights,https://groundup.org.za/feed/
+Africa,South Africa,amaBhungane,Digital (Nonprofit),Center,English,Investigative journalism center,https://amabhungane.org/feed/
+Africa,South Africa,Sowetan,Newspaper / Digital,Center,English,Black readership; Arena,https://www.sowetanlive.co.za/rss/
+Africa,South Africa,City Press,Newspaper / Digital,Center,English,News24/Media24,https://www.news24.com/citypress/feed
+Africa,Zimbabwe,NewsDay (Zimbabwe),Newspaper / Digital,Center,English,Alpha Media Holdings,https://www.newsday.co.zw/feed/
+Africa,Zimbabwe,The Herald (Zimbabwe),Newspaper / Digital,State-Controlled,English,Zimpapers; ZANU-PF aligned,https://www.herald.co.zw/feed/
+Africa,Zimbabwe,ZimLive,Digital,Center,English,Independent; Mduduzi Mathuthu,https://www.zimlive.com/feed/
+Africa,Zimbabwe,The Zimbabwe Independent,Newspaper / Digital,Center,English,AMH; business weekly,https://theindependent.co.zw/feed/
+Africa,Zambia,Daily Mail (Zambia),Newspaper / Digital,State-Controlled,English,State-owned,https://www.daily-mail.co.zm/feed/
+Africa,Zambia,The Mast,Newspaper / Digital,Center-Left,English,Opposition-friendly,https://www.themastonline.com/feed/
+Africa,Zambia,Zambia Daily Nation,Newspaper / Digital,Center,English,Independent,https://www.zambiandailynation.com/feed/
+Africa,Malawi,The Nation (Malawi),Newspaper / Digital,Center,English,Major daily,https://mwnation.com/feed/
+Africa,Malawi,Malawi24,Digital,Center,English,Digital native,https://malawi24.com/feed/
+Africa,Malawi,MANA,Wire Service,State-Controlled,English,Malawi News Agency,https://www.manaonline.gov.mw/rss
+Africa,Mozambique,O País,Newspaper / Digital,Center,Portuguese,Major daily,https://opais.co.mz/feed/
+Africa,Mozambique,@Verdade,Newspaper / Digital,Center,Portuguese,Free daily,https://verdade.co.mz/feed/
+Africa,Mozambique,CDD (Centro para Democracia e Desenvolvimento),Digital,Center-Left,Portuguese,Analysis/monitoring,
+Africa,Mozambique,AIM,Wire Service,State-Controlled,Portuguese,Mozambique Information Agency,https://portaldogoverno.gov.mz/feed/
+Africa,Botswana,Mmegi,Newspaper / Digital,Center,English,Largest independent,https://www.mmegi.bw/rss
+Africa,Botswana,BOPA,Wire Service,State-Controlled,English,Botswana Press Agency,https://bopa.gov.bw/rss
+Africa,Botswana,The Voice (Botswana),Newspaper / Digital,Center,English,Independent weekly,https://www.thevoicebw.com/feed/
+Africa,Namibia,The Namibian,Newspaper / Digital,Center,English,Leading independent,https://www.namibian.com.na/rss/
+Africa,Namibia,New Era,Newspaper / Digital,State-Controlled,English,State-owned,
+Africa,Namibia,Namibia Press Agency (Nampa),Wire Service,State-Controlled,English,National wire,
+Africa,Eswatini,Times of Eswatini,Newspaper / Digital,State-Controlled,English,State-aligned; only daily,https://www.times.co.sz/feed
+Africa,Lesotho,Lesotho Times,Newspaper / Digital,Center,English,Major weekly,https://www.lestimes.com/feed/
+Africa,Angola,Jornal de Angola,Newspaper / Digital,State-Controlled,Portuguese,State daily,https://www.jornaldeangola.ao/rss.xml
+Africa,Angola,Maka Angola,Digital,Center-Left,Portuguese,Anti-corruption; Rafael Marques,https://makaangola.org/feed/
+Africa,Angola,Club-K,Digital,Center,Portuguese,Independent digital,https://club-k.net/rss
+Africa,DRC (Congo),Radio Okapi,Radio / Digital,Center,French / Multi,UN-backed; widest reach,https://www.radiookapi.net/rss.xml
+Africa,DRC (Congo),Actualité.cd,Digital,Center,French,Digital outlet,https://actualite.cd/feed
+Africa,DRC (Congo),ACP,Wire Service,State-Controlled,French,Congolese Press Agency,
+Africa,Republic of Congo,ACI,Wire Service,State-Controlled,French,State agency,
+Africa,Republic of Congo,Les Dépêches de Brazzaville,Newspaper / Digital,State-Controlled,French,State-aligned,https://www.adiac-congo.com/rss.xml
+Africa,Cameroon,Cameroon Tribune,Newspaper / Digital,State-Controlled,French / English,State-owned bilingual daily,https://www.cameroon-tribune.cm/rss
+Africa,Cameroon,Le Jour,Newspaper / Digital,Center,French,Independent daily,https://www.quotidienlejour.com/feed/
+Africa,Cameroon,The Post (Cameroon),Newspaper / Digital,Center,English,Anglophone daily,https://www.postwebcam.com/feed/
+Africa,Gabon,L'Union,Newspaper / Digital,State-Controlled,French,State daily,
+Africa,Equatorial Guinea,ASONGA,Digital,State-Controlled,Spanish,State media,https://asonga.gq/feed/
+Africa,Chad,ATPE,Wire Service,State-Controlled,French / Arabic,State agency,https://www.atcpmedia.td/rss
+Africa,CAR (Central African Republic),ACAP,Wire Service,State-Controlled,French,State agency,https://radiotelecentrafrique.com/rss
+Africa,São Tomé & Príncipe,Tela Nón,Digital,Center,Portuguese,Independent digital,https://telanon.net/feed/
+Africa,Pan-African,The Africa Report,Magazine / Digital,Center,English / French,Continental coverage; Jeune Afrique Group,https://www.theafricareport.com/feed/
+Africa,Pan-African,Jeune Afrique,Magazine / Digital,Center,French,Leading Francophone Africa magazine,https://www.jeuneafrique.com/feed/
+Africa,Pan-African,African Arguments,Digital,Center-Left,English,Royal African Society,https://africanarguments.org/feed/
+Africa,Pan-African,The Continent,Newsletter / Digital,Center,English,WhatsApp-first pan-African,https://thecontinent.org/feed/
+Africa,Pan-African,Quartz Africa,Digital,Center,English,African business/tech,https://qz.com/africa/feed/
+Africa,Pan-African,African Business,Magazine / Digital,Center,English,Business magazine,https://african.business/feed/
+Oceania,Australia,ABC News (Australia),Public Broadcaster,Center-Left,English,Australian Broadcasting Corp,https://www.abc.net.au/news/feed/51120/rss.xml
+Oceania,Australia,SBS News,Public Broadcaster,Center,English / Multi,Special Broadcasting Service; multicultural,https://www.sbs.com.au/news/topic/latest/feed
+Oceania,Australia,The Sydney Morning Herald,Newspaper / Digital,Center-Left,English,Nine Entertainment,https://www.smh.com.au/rss/feed.xml
+Oceania,Australia,The Age,Newspaper / Digital,Center-Left,English,Melbourne; Nine Entertainment,https://www.theage.com.au/rss/feed.xml
+Oceania,Australia,The Australian,Newspaper / Digital,Center-Right,English,News Corp; national broadsheet,https://www.theaustralian.com.au/feed
+Oceania,Australia,The Australian Financial Review,Newspaper / Digital,Center-Right,English,Nine; business daily,https://www.afr.com/rss
+Oceania,Australia,The Guardian Australia,Digital,Center-Left,English,Guardian Media Group,https://www.theguardian.com/australia-news/rss
+Oceania,Australia,Daily Telegraph (AU),Newspaper / Digital,Right,English,News Corp; Sydney tabloid,https://www.dailytelegraph.com.au/rss
+Oceania,Australia,Herald Sun,Newspaper / Digital,Right,English,News Corp; Melbourne tabloid,https://www.heraldsun.com.au/rss
+Oceania,Australia,Sky News Australia,TV / Digital,Right,English,News Corp; conservative commentary,https://www.skynews.com.au/feed
+Oceania,Australia,Crikey,Digital,Center-Left,English,Independent; Private Media,https://www.crikey.com.au/feed/
+Oceania,Australia,The Saturday Paper,Newspaper / Digital,Center-Left,English,Morry Schwartz; quality weekly,https://www.thesaturdaypaper.com.au/rss.xml
+Oceania,Australia,The Monthly,Magazine / Digital,Center-Left,English,Long-form; Schwartz Media,https://www.themonthly.com.au/rss
+Oceania,Australia,Michael West Media,Digital,Center-Left,English,Independent; corporate accountability,https://michaelwest.com.au/feed/
+Oceania,Australia,AAP (Australian Associated Press),Wire Service,Center,English,National wire,https://www.aap.com.au/feed/
+Oceania,Australia,The Conversation (AU),Digital,Center,English,Academic-sourced journalism,https://theconversation.com/au/feed
+Oceania,New Zealand,NZ Herald,Newspaper / Digital,Center,English,Largest daily; NZME,https://www.nzherald.co.nz/arc/outboundfeeds/rss/
+Oceania,New Zealand,Stuff,Digital,Center-Left,English,Largest digital; formerly Fairfax NZ,https://www.stuff.co.nz/rss
+Oceania,New Zealand,RNZ (Radio NZ),Public Broadcaster,Center,English,Public radio/digital,https://www.rnz.co.nz/rss/latest.rss
+Oceania,New Zealand,TVNZ / 1News,Public Broadcaster,Center,English,State TV news,https://www.1news.co.nz/rss
+Oceania,New Zealand,Newsroom,Digital,Center,English,Independent digital,
+Oceania,New Zealand,The Spinoff,Digital,Center-Left,English,Independent; cultural/political,https://thespinoff.co.nz/feed/
+Oceania,New Zealand,NZPA / AAP NZ,Wire Service,Center,English,NZ wire (now AAP),https://www.aap.com.au/feed/
+Oceania,Fiji,Fiji Times,Newspaper / Digital,Center,English,Oldest South Pacific daily,https://www.fijitimes.com.fj/feed/
+Oceania,Fiji,FBC News,TV / Radio / Digital,Center,English / Fijian,Fiji Broadcasting Corp,https://www.fbcnews.com.fj/feed/
+Oceania,Papua New Guinea,The National (PNG),Newspaper / Digital,Center,English,Major daily,https://www.thenational.com.pg/feed/
+Oceania,Papua New Guinea,Post-Courier,Newspaper / Digital,Center,English,Largest daily,https://www.postcourier.com.pg/feed
+Oceania,Samoa,Samoa Observer,Newspaper / Digital,Center,English / Samoan,Leading daily,https://www.samoaobserver.ws/feed/
+Oceania,Tonga,Matangi Tonga,Digital,Center,English / Tongan,Independent digital,https://matangitonga.to/feed
+Oceania,Vanuatu,Vanuatu Daily Post,Newspaper / Digital,Center,English,Major daily,https://www.dailypost.vu/feed/
+Oceania,Solomon Islands,Solomon Star,Newspaper / Digital,Center,English,Largest daily,https://www.solomonstarnews.com/feed/
+Oceania,Pacific (Regional),RNZ Pacific,Radio / Digital,Center,English,NZ-funded Pacific service,https://www.rnz.co.nz/international/pacific-news/rss.xml
+Oceania,Pacific (Regional),Pacific Islands News Association (PINA),Wire Service,Center,English,Regional news agency,https://pina.com.fj/feed/
+Oceania,Pacific (Regional),Asia Pacific Report,Digital,Center-Left,English,Pacific media freedom focus,https://asiapacificreport.nz/feed/
+Global,International,Reuters,Wire Service,Center,English / Multi,Global wire service; Thomson Reuters,https://feeds.reuters.com/reuters/topNews
+Global,International,Associated Press (AP),Wire Service,Center,English / Multi,US-based global cooperative,https://feeds.apnews.com/rss/apf-topnews
+Global,International,Agence France-Presse (AFP),Wire Service,Center,French / Multi,French global wire,https://www.afp.com/en/rss-feeds
+Global,International,Al Jazeera English,TV / Digital,Center-Left,English,Qatar-funded global,https://www.aljazeera.com/xml/rss/all.xml
+Global,International,BBC World Service,Radio / Digital,Center,Multi,40+ language services,http://feeds.bbci.co.uk/news/world/rss.xml
+Global,International,Deutsche Welle (DW),TV / Digital,Center,Multi,German-funded; 30+ languages,https://rss.dw.com/rdf/rss-en-all
+Global,International,France 24,TV / Digital,Center,French / English / Arabic / Spanish,France-funded international,https://www.france24.com/en/rss
+Global,International,NHK World-Japan,TV / Digital,Center,Multi,Japan-funded international,https://www3.nhk.or.jp/nhkworld/en/news/feeds/
+Global,International,CGTN,TV / Digital,State-Controlled,Multi,China state international,https://www.cgtn.com/subscribe/feeds/rss2.0.xml
+Global,International,RT,TV / Digital,State-Controlled,Multi,Russia state international; widely sanctioned,https://www.rt.com/rss/
+Global,International,TeleSUR,TV / Digital,State-Controlled,Spanish,Venezuela-funded; left,https://www.telesurtv.net/rss/
+Global,International,Voice of America (VOA),Radio / TV / Digital,Center,Multi,US-funded; USAGM,https://www.voanews.com/api/zm_qoinkqqpe
+Global,International,Radio Free Europe / Radio Liberty (RFE/RL),Radio / Digital,Center,Multi,US-funded; post-Soviet/MENA focus,https://www.rferl.org/api/epiqq
+Global,International,The Economist,Magazine / Digital,Center,English,Classical liberal; global,https://www.economist.com/rss/the_world_this_week_rss.xml
+Global,International,Bloomberg,Financial News,Center,English / Multi,Financial data + media,https://feeds.bloomberg.com/markets/news.rss
+Global,International,Financial Times,Newspaper / Digital,Center,English,Global business; Nikkei-owned,https://www.ft.com/world?format=rss
+Global,International,Foreign Affairs,Magazine / Digital,Center,English,CFR; geopolitics,https://www.foreignaffairs.com/rss.xml
+Global,International,The Diplomat,Magazine / Digital,Center,English,Asia-Pacific focus,https://thediplomat.com/feed/
+Global,International,Rest of World,Digital,Center,English,Technology in emerging markets,https://restofworld.org/feed/
+Global,International,OCCRP,Digital (Nonprofit),Center,Multi,Organized Crime and Corruption Reporting,https://www.occrp.org/en/component/k2/feed/
+Global,International,ICIJ,Digital (Nonprofit),Center,English,International Consortium of Investigative Journalists,https://www.icij.org/feed/
+Global,International,Bellingcat,Digital (Nonprofit),Center,English,OSINT investigative,https://www.bellingcat.com/feed/
+Global,International,The Conversation,Digital,Center,Multi,Academic-sourced; multiple editions,https://theconversation.com/us/feeds
+Global,International,openDemocracy,Digital,Center-Left,English,Democratic governance focus,https://www.opendemocracy.net/en/rss.xml
+Global,International,Global Voices,Digital,Center-Left,Multi,Citizen media aggregation,https://globalvoices.org/feed/
+Global,International,Ground News,Digital / App,Center,English,Bias-rating aggregator,https://ground.news/rss
+Global,International,AllSides,Digital,Center,English,US bias-rating and multi-perspective,https://www.allsides.com/rss.xml
+Global,International,Media Bias/Fact Check,Digital,Center,English,Bias and factual rating database,https://mediabiasfactcheck.com/feed
