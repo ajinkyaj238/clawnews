@@ -84,6 +84,14 @@ Recommended Vercel settings:
 
 The hosted preview renders the generated artifact at `artifacts/sample-event.json`. Run `npm run ingest:rss` and `npm run generate:brief` before deploying when you want the preview artifact refreshed.
 
+## Design References
+
+The current PWA uses the analytical theme from the redesign exploration. The original standalone canvas files are kept in `docs/design/` for reference:
+
+- `docs/design/ClawNews-Redesign.html`
+- `docs/design/clawnews-components.jsx`
+- `docs/design/tweaks-panel.jsx`
+
 ## MVP Status
 
 This repo now has a first vertical slice:
