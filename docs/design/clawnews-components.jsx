@@ -155,15 +155,48 @@ function CnTag({ t, children, color }) {
   );
 }
 
+const CN_SCORE_DESC = {
+  'Convergence': 'How much sources agree on stated facts',
+  'Disagreement': 'How much sources conflict on claims or framing',
+  'Evidence': 'How well-sourced and verifiable the reporting is',
+};
+
+function cnScoreRating(label, pct) {
+  if (pct == null) return { label: '—', color: null };
+  if (label === 'Convergence') {
+    if (pct >= 70) return { label: 'High', color: 'pine', note: 'Most sources corroborate the core facts' };
+    if (pct >= 40) return { label: 'Moderate', color: 'saffron', note: 'Partial agreement across sources' };
+    return { label: 'Low', color: 'poppy', note: 'Sources diverge significantly on the facts' };
+  }
+  if (label === 'Disagreement') {
+    if (pct >= 60) return { label: 'Polarising', color: 'poppy', note: 'Heavy conflict across sources' };
+    if (pct >= 30) return { label: 'Contested', color: 'saffron', note: 'Some meaningful disputes in the coverage' };
+    return { label: 'Low', color: 'pine', note: 'Sources are largely aligned' };
+  }
+  if (label === 'Evidence') {
+    if (pct >= 75) return { label: 'Strong', color: 'pine', note: 'Diverse sources with primary citations' };
+    if (pct >= 45) return { label: 'Moderate', color: 'saffron', note: 'Mix of primary and secondary sourcing' };
+    return { label: 'Weak', color: 'poppy', note: 'Thin sourcing or heavy reliance on secondaries' };
+  }
+  return { label: `${pct}%`, color: null, note: '' };
+}
+
 function CnScoreTile({ t, label, value }) {
   const pct = value != null ? Math.round(value * 100) : null;
+  const desc = CN_SCORE_DESC[label] || '';
+  const rating = cnScoreRating(label, pct);
+  const ratingColor = rating.color ? t[rating.color] : t.inkMuted;
   return (
-    <div style={{ flex: 1, minWidth: 0, background: t.surfaceAlt, border: `1px solid ${t.border}`, borderRadius: t.radiusSm, padding: '10px 10px' }}>
-      <div style={{ fontSize: 9, fontWeight: 700, color: t.inkMuted, textTransform: 'uppercase', letterSpacing: '0.06em', marginBottom: 6, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{label}</div>
-      <div style={{ fontSize: 20, fontWeight: 700, color: t.ink, lineHeight: 1, marginBottom: 6 }}>{pct != null ? `${pct}%` : '—'}</div>
-      <div style={{ height: 3, background: t.border, borderRadius: 2 }}>
-        {pct != null && <div style={{ height: '100%', width: `${pct}%`, background: t.scoreBarColor, borderRadius: 2 }} />}
+    <div style={{ flex: 1, minWidth: 0, background: t.surfaceAlt, border: `1px solid ${t.border}`, borderRadius: t.radiusSm, padding: '8px 8px', display: 'flex', flexDirection: 'column', gap: 4, overflow: 'hidden' }}>
+      <div style={{ fontSize: 8, fontWeight: 700, color: t.inkMuted, textTransform: 'uppercase', letterSpacing: '0.05em', whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis' }}>{label}</div>
+      <div style={{ display: 'flex', alignItems: 'baseline', gap: 4, flexWrap: 'nowrap', overflow: 'hidden' }}>
+        <div style={{ fontSize: 13, fontWeight: 700, color: ratingColor, lineHeight: 1, whiteSpace: 'nowrap', overflow: 'hidden', textOverflow: 'ellipsis', minWidth: 0 }}>{rating.label}</div>
+        {pct != null && <div style={{ fontSize: 9, color: t.inkMuted, fontWeight: 500, flexShrink: 0 }}>{pct}%</div>}
       </div>
+      <div style={{ height: 3, background: t.border, borderRadius: 2 }}>
+        {pct != null && <div style={{ height: '100%', width: `${pct}%`, background: ratingColor, borderRadius: 2, opacity: 0.7 }} />}
+      </div>
+      <div style={{ fontSize: 8, color: t.inkMuted, lineHeight: 1.4, overflow: 'hidden', display: '-webkit-box', WebkitLineClamp: 2, WebkitBoxOrient: 'vertical' }}>{rating.note || desc}</div>
     </div>
   );
 }
@@ -209,7 +242,7 @@ function CnEventCard({ t, event, onClick, isLead }) {
   return (
     <article
       onMouseEnter={() => setHovered(true)} onMouseLeave={() => setHovered(false)}
-      style={{ background: t.surface, border: `1px solid ${hovered ? t.pine + '50' : t.border}`, borderRadius: t.radius, boxShadow: hovered ? t.shadowStrong : t.shadow, padding: isLead ? '28px 28px' : '18px 20px', display: 'flex', flexDirection: 'column', gap: isLead ? 18 : 12, transition: 'box-shadow 0.2s, border-color 0.2s' }}
+      style={{ background: t.surface, border: `1px solid ${hovered ? t.pine + '50' : t.border}`, borderRadius: t.radius, boxShadow: hovered ? t.shadowStrong : t.shadow, padding: isLead ? '20px 18px' : '16px 16px', display: 'flex', flexDirection: 'column', gap: isLead ? 14 : 10, transition: 'box-shadow 0.2s, border-color 0.2s', minWidth: 0, overflow: 'hidden' }}
     >
       <div style={{ display: 'flex', alignItems: 'flex-start', justifyContent: 'space-between', gap: 16 }}>
         <div style={{ flex: 1 }}>
@@ -224,13 +257,41 @@ function CnEventCard({ t, event, onClick, isLead }) {
         <div style={{ width: 32, height: 32, borderRadius: t.radiusSm, background: t.accentBg, border: `1px solid ${t.pine}25`, display: 'flex', alignItems: 'center', justifyContent: 'center', flexShrink: 0, color: t.pine, fontSize: 14 }}>◉</div>
       </div>
 
-      <p style={{ fontSize: isLead ? 14 : 12, lineHeight: 1.75, color: t.inkMid, margin: 0 }}>{event.summary}</p>
+      <p style={{ fontSize: isLead ? 14 : 12, lineHeight: 1.75, color: t.inkMid, margin: 0, wordBreak: 'break-word', overflowWrap: 'break-word', minWidth: 0 }}>{event.summary}</p>
 
       {isLead && (
         <div style={{ display: 'flex', gap: 8 }}>
           <CnScoreTile t={t} label="Convergence" value={event.convergenceScore} />
           <CnScoreTile t={t} label="Disagreement" value={event.disagreementScore} />
-          <CnScoreTile t={t} label="Convergence" value={event.evidenceQualityScore} />
+          <CnScoreTile t={t} label="Evidence" value={event.evidenceQualityScore} />
+        </div>
+      )}
+
+      {isLead && event.agreedFacts && event.agreedFacts.length > 0 && (
+        <div style={{ borderTop: `1px solid ${t.border}`, paddingTop: 14 }}>
+          <CnEyebrow t={t} color={t.pine}>Sources agree</CnEyebrow>
+          <ul style={{ margin: '8px 0 0', padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 6 }}>
+            {event.agreedFacts.map((f, i) => (
+              <li key={i} style={{ display: 'flex', gap: 10, fontSize: 12, color: t.inkMid, lineHeight: 1.6 }}>
+                <span style={{ width: 6, height: 6, borderRadius: '50%', background: t.pine, flexShrink: 0, marginTop: 7 }} />
+                {f}
+              </li>
+            ))}
+          </ul>
+        </div>
+      )}
+
+      {isLead && event.disagreements && event.disagreements.length > 0 && (
+        <div style={{ borderTop: `1px solid ${t.border}`, paddingTop: 14 }}>
+          <CnEyebrow t={t} color={t.saffron}>Contested</CnEyebrow>
+          <ul style={{ margin: '8px 0 0', padding: 0, listStyle: 'none', display: 'flex', flexDirection: 'column', gap: 6 }}>
+            {event.disagreements.map((d, i) => (
+              <li key={i} style={{ display: 'flex', gap: 10, fontSize: 12, color: t.inkMid, lineHeight: 1.6 }}>
+                <span style={{ width: 6, height: 6, borderRadius: '50%', background: t.saffron, flexShrink: 0, marginTop: 7 }} />
+                {d.point}
+              </li>
+            ))}
+          </ul>
         </div>
       )}
 
@@ -276,7 +337,7 @@ function CnEventCard({ t, event, onClick, isLead }) {
 function CnHomeView({ t, onOpenEvent, isMobile }) {
   const totalSources = CN_EVENT.sources.length + CN_SECONDARY.reduce((a, e) => a + e.sources.length, 0);
   return (
-    <main style={{ maxWidth: 960, margin: '0 auto', padding: isMobile ? '20px 16px 56px' : '28px 28px 64px' }}>
+    <main style={{ maxWidth: 960, margin: '0 auto', padding: isMobile ? '20px 16px 56px' : '28px 28px 64px', overflowX: 'hidden' }}>
       <div style={{ marginBottom: isMobile ? 20 : 28 }}>
         <div style={{ display: 'flex', gap: 8, alignItems: 'center', marginBottom: 10, fontSize: 10, fontWeight: 700, color: t.pine, letterSpacing: '0.14em', textTransform: 'uppercase' }}>
           <span>{3} events</span>
@@ -284,7 +345,7 @@ function CnHomeView({ t, onOpenEvent, isMobile }) {
           <span>{totalSources} sources</span>
         </div>
         <h1 style={{ fontFamily: t.headingFont, fontSize: isMobile ? 28 : 38, fontWeight: 700, color: t.ink, lineHeight: 1.15, letterSpacing: '-0.02em', margin: '0 0 10px' }}>Daily Brief</h1>
-        <p style={{ fontSize: 14, color: t.inkMid, lineHeight: 1.7, maxWidth: 480, margin: 0 }}>What happened, who's making claims, and what sources are incentivised to say.</p>
+        <p style={{ fontSize: 14, color: t.inkMid, lineHeight: 1.7, maxWidth: '100%', margin: 0, overflowWrap: 'break-word' }}>What happened, who's making claims, and what sources are incentivised to say.</p>
       </div>
 
       {isMobile ? (
@@ -395,6 +456,9 @@ function CnEventDetailView({ t, event, onOpenSources, isMobile }) {
         {/* Main */}
         <div style={{ display: 'flex', flexDirection: 'column', gap: 28 }}>
           <CnSection t={t} eyebrow="Signal quality" title="Brief scores">
+            <p style={{ fontSize: 12, color: t.inkMuted, lineHeight: 1.6, margin: '0 0 12px' }}>
+              These signals are independent — high convergence means sources agree on facts, while contested disagreement means they dispute framing or interpretation. Both can be true simultaneously.
+            </p>
             <div style={{ display: 'flex', gap: 8 }}>
               <CnScoreTile t={t} label="Convergence" value={event.convergenceScore} />
               <CnScoreTile t={t} label="Disagreement" value={event.disagreementScore} />

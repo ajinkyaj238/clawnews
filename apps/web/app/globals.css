@@ -16,7 +16,9 @@
 
 html {
   min-height: 100%;
+  overflow-x: hidden;
   scroll-behavior: smooth;
+  width: 100%;
 }
 
 body {
@@ -25,7 +27,9 @@ body {
   color: var(--foreground);
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
   letter-spacing: 0;
+  overflow-x: hidden;
   text-rendering: optimizeLegibility;
+  width: 100%;
 }
 
 a {
@@ -46,4 +50,66 @@ select {
 
 .safe-bottom {
   padding-bottom: max(1.5rem, env(safe-area-inset-bottom));
+}
+
+.analytical-shell {
+  max-width: 100vw;
+  overflow-x: hidden;
+  width: 100%;
+}
+
+.analytical-header-inner {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+  width: 100%;
+}
+
+.analytical-home-grid {
+  align-items: start;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 280px);
+}
+
+.analytical-detail-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.35fr) minmax(0, 0.65fr);
+}
+
+.analytical-home-grid > *,
+.analytical-detail-grid > * {
+  max-width: 100%;
+  min-width: 0;
+}
+
+.analytical-event-card {
+  box-sizing: border-box;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.analytical-score-grid {
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  max-width: 100%;
+}
+
+@media (max-width: 720px) {
+  .analytical-home-grid,
+  .analytical-detail-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+  }
+
+  .analytical-event-card {
+    max-width: calc(100vw - 32px);
+    width: 100%;
+  }
+}
+
+@media (max-width: 430px) {
+  .analytical-score-grid {
+    grid-template-columns: 1fr;
+  }
 }

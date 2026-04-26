@@ -1,6 +1,6 @@
 # Harborview Offshore Wind Transmission Corridor
 
-A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections. This event view uses 5 article(s) from 5 source(s), with 1 contested comparison(s) surfaced for review.
+A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections. This brief compares 5 articles from 5 sources and surfaces 1 unresolved source split.
 
 Confidence: 70%
 
@@ -10,9 +10,9 @@ Confidence: 70%
 - Coastal Ratepayer Council: Supports cleaner energy goals but wants stronger bill-impact guarantees and public cost reporting.
 
 ## Source Comparisons
-- PARTIAL: State Energy Desk, Coastal Business Review, Metro Ledger, Climate Grid Watch show partial claims on: Will the corridor materially improve regional grid reliability?
-- CONFLICTING: State Energy Desk, Harbor Fishermen Alliance Bulletin, Coastal Business Review, Climate Grid Watch show conflicting claims on: Are projected ratepayer costs justified by long-term benefits?
-- PARTIAL: State Energy Desk, Harbor Fishermen Alliance Bulletin, Metro Ledger, Climate Grid Watch show partial claims on: Are fisheries and coastal habitat protections adequate?
+- PARTIAL: The corridor would reduce peak-season reliability risk by adding transfer capacity into the Harborview load pocket.
+- CONFLICTING: Sources split over whether projected ratepayer costs are justified by long-term benefits.
+- PARTIAL: The permit would require pre-construction habitat surveys and seasonal limits on seabed work.
 
 ## Audit Findings
 - INFO: At least one contested question has conflicting claims across sources.

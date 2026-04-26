@@ -81,7 +81,7 @@ export function generateEventFromArticles(input: GenerateEventInput): Event {
     ),
     agreedFacts: buildAgreedFacts(comparisons),
     disputedPoints: buildDisputedPoints(comparisons),
-    whatChanged: buildWhatChanged(sortedArticles, comparisons),
+    whatChanged: buildWhatChanged(sortedArticles, comparisons, linkedSourceProfiles),
     articles: sortedArticles,
     sourceProfiles: linkedSourceProfiles,
     stakeholders: topic.stakeholders,
@@ -155,13 +155,6 @@ function buildSourceComparisons(
         .filter((stance): stance is Stance => stance !== "unclear")
     );
     const agreement = agreementFromStances(stanceSpread);
-    const sourceNames = sourceIds
-      .map((sourceId) => {
-        const source = sourceProfiles.find((profile) => profile.id === sourceId);
-        return source?.name ?? sourceId;
-      })
-      .join(", ");
-
     return [
       SourceComparisonSchema.parse({
         id: createStableId("comparison", [eventId, question.id, agreement]),
@@ -178,7 +171,7 @@ function buildSourceComparisons(
         ownershipNotes: "See linked source profiles for ownership and funding context.",
         biasNotes:
           "Framing is inferred from article claims for this event and should be reviewed before publishing.",
-        summary: `${sourceNames} show ${agreement} claims on: ${question.question}`,
+        summary: summarizeComparison(question.question, agreement, claims),
         evidence: claims.slice(0, 4).map((claim) => claim.text),
         confidence: average(
           claims.map((claim) => claim.confidence),
@@ -307,8 +300,19 @@ function buildEventSummary(
   const contestedCount = comparisons.filter(
     (comparison) => comparison.agreement === "conflicting"
   ).length;
+  const contestedPhrase =
+    contestedCount === 0
+      ? "no unresolved source splits"
+      : formatCount(contestedCount, "unresolved source split");
 
-  return `${topic.description} This event view uses ${articles.length} article(s) from ${sourceCount} source(s), with ${contestedCount} contested comparison(s) surfaced for review.`;
+  return `${topic.description} This brief compares ${formatCount(
+    articles.length,
+    "article"
+  )} from ${formatCount(sourceCount, "source")} and surfaces ${contestedPhrase}.`;
+}
+
+function formatCount(count: number, singular: string) {
+  return `${count} ${singular}${count === 1 ? "" : "s"}`;
 }
 
 function agreementFromStances(stances: Stance[]) {
@@ -422,25 +426,229 @@ function buildDisputedPoints(comparisons: SourceComparison[]) {
     .map((comparison) => comparison.summary);
 }
 
-function buildWhatChanged(articles: Article[], comparisons: SourceComparison[]) {
+function buildWhatChanged(
+  articles: Article[],
+  comparisons: SourceComparison[],
+  sourceProfiles: SourceProfile[]
+) {
   const latest = articles.at(-1);
   const changes = [];
 
   if (latest) {
-    changes.push(`Latest source added: ${latest.title}`);
+    changes.push(summarizeLatestArticle(latest, sourceProfiles));
   }
 
   const conflicting = comparisons.filter(
     (comparison) => comparison.agreement === "conflicting"
   );
 
-  if (conflicting.length > 0) {
-    changes.push(
-      `${conflicting.length} contested point(s) remain visible in the source comparison.`
-    );
+  if (conflicting.length === 1 && conflicting[0]) {
+    changes.push(summarizeOpenConflict(conflicting[0]));
+  } else if (conflicting.length > 1) {
+    changes.push(`${conflicting.length} contested points remain unresolved.`);
   }
 
   return changes;
+}
+
+function summarizeComparison(
+  question: string,
+  agreement: SourceComparison["agreement"],
+  claims: Article["claims"]
+) {
+  if (agreement === "conflicting") {
+    return `Sources split over ${questionAsWhether(question)}.`;
+  }
+
+  const representativeClaim = claims.at(0)?.text;
+
+  if (representativeClaim) {
+    return sentenceCase(toSentence(trimAtSecondaryClause(representativeClaim)));
+  }
+
+  if (agreement === "aligned") {
+    return `Sources agree on ${questionAsWhether(question)}.`;
+  }
+
+  if (agreement === "partial") {
+    return `Sources share the basics on ${questionAsWhether(
+      question
+    )}, with details still disputed.`;
+  }
+
+  return `Sources have limited agreement on ${questionAsWhether(question)}.`;
+}
+
+function summarizeLatestArticle(article: Article, sourceProfiles: SourceProfile[]) {
+  const source = sourceProfiles.find((profile) => profile.id === article.sourceId);
+  const sourceName = source?.name ?? article.sourceId;
+  const headline = stripSourcePrefix(article.title, sourceName);
+
+  return `${sourceName} added the latest update, ${headlineAsClause(headline)}.`;
+}
+
+function summarizeOpenConflict(comparison: SourceComparison) {
+  const question = extractQuestion(comparison.summary);
+  const tradeoff = question ? questionAsTradeoff(question) : undefined;
+
+  if (tradeoff) {
+    return `${sentenceCase(tradeoff)} remains unresolved.`;
+  }
+
+  return `${sentenceCase(questionAsWhether(question ?? comparison.summary))} remains unresolved.`;
+}
+
+function extractQuestion(value: string) {
+  const claimsOn = value.match(/claims on:\s*(.+)$/i);
+
+  if (claimsOn?.[1]) {
+    return claimsOn[1];
+  }
+
+  const splitOver = value.match(/sources split over\s+(.+?)(?:\.)?$/i);
+
+  return splitOver?.[1];
+}
+
+function questionAsWhether(question: string) {
+  const cleaned = cleanSentence(question).replace(/\?$/, "");
+  const lowered = cleaned.toLowerCase();
+
+  if (lowered.startsWith("whether ")) {
+    return lowered;
+  }
+
+  const modalMatch = cleaned.match(/^(Will|Would|Can|Could|Should)\s+(.+)$/i);
+
+  if (modalMatch?.[1] && modalMatch[2]) {
+    return invertQuestion(modalMatch[1].toLowerCase(), modalMatch[2]);
+  }
+
+  const beMatch = cleaned.match(/^(Is|Are|Was|Were)\s+(.+)$/i);
+
+  if (beMatch?.[1] && beMatch[2]) {
+    return invertBeQuestion(beMatch[1].toLowerCase(), beMatch[2]);
+  }
+
+  return `whether ${lowered}`;
+}
+
+function questionAsTradeoff(question: string) {
+  const cleaned = cleanSentence(question)
+    .replace(/\?$/, "")
+    .replace(/^whether\s+/i, "");
+  const justified =
+    cleaned.match(/^Are\s+(.+?)\s+justified by\s+(.+)$/i) ??
+    cleaned.match(/^(.+?)\s+(?:are|is|were|was)\s+justified by\s+(.+)$/i);
+
+  if (justified?.[1] && justified[2]) {
+    return `the tradeoff between ${lowerFirst(justified[1])} and ${lowerFirst(justified[2])}`;
+  }
+
+  return undefined;
+}
+
+function invertQuestion(modal: string, rest: string) {
+  const words = rest.split(" ").filter(Boolean);
+  const subjectLength = inferSubjectLength(words);
+  const subject = words.slice(0, subjectLength).join(" ");
+  const predicate = words.slice(subjectLength).join(" ");
+
+  if (!subject || !predicate) {
+    return `whether ${lowerFirst(rest)}`;
+  }
+
+  return `whether ${lowerFirst(subject)} ${modal} ${predicate}`;
+}
+
+function invertBeQuestion(verb: string, rest: string) {
+  const predicateMatch = rest.match(
+    /^(.+?)\s+(adequate|available|clear|credible|enough|included|justified|required|resolved|visible)\b(.*)$/i
+  );
+
+  if (predicateMatch?.[1] && predicateMatch[2]) {
+    return `whether ${lowerFirst(predicateMatch[1])} ${verb} ${lowerFirst(
+      `${predicateMatch[2]}${predicateMatch[3] ?? ""}`
+    )}`;
+  }
+
+  return `whether ${lowerFirst(rest)} ${verb}`;
+}
+
+function inferSubjectLength(words: string[]) {
+  if (words.length <= 2) {
+    return Math.max(1, words.length - 1);
+  }
+
+  if (["a", "an", "the", "this", "that"].includes(words[0]?.toLowerCase() ?? "")) {
+    return Math.min(2, words.length - 1);
+  }
+
+  return Math.min(3, words.length - 1);
+}
+
+function trimAtSecondaryClause(value: string) {
+  return cleanSentence(value)
+    .replace(/\s*;\s*.*$/, "")
+    .replace(/\s*,\s*while\s+.*$/i, "")
+    .replace(/\s*,\s*but\s+.*$/i, "");
+}
+
+function headlineAsClause(value: string) {
+  const headline = cleanSentence(value).replace(/\.$/, "");
+  const lowerHeadline = lowerFirst(headline);
+  const replacements: Array<[RegExp, string]> = [
+    [/^asks\s+(.+)$/i, "asking $1"],
+    [/^backs\s+(.+)$/i, "backing $1"],
+    [/^challenges\s+(.+)$/i, "challenging $1"],
+    [/^says\s+(.+)$/i, "saying $1"],
+    [/^supports\s+(.+)$/i, "supporting $1"],
+    [/^urges\s+(.+)$/i, "urging $1"],
+    [/^warns\s+(.+)$/i, "warning $1"]
+  ];
+
+  for (const [pattern, replacement] of replacements) {
+    if (pattern.test(headline)) {
+      return headline.replace(pattern, replacement);
+    }
+  }
+
+  return `covering ${lowerHeadline}`;
+}
+
+function stripSourcePrefix(title: string, sourceName: string) {
+  const normalizedTitle = cleanSentence(title);
+  const normalizedSource = cleanSentence(sourceName);
+
+  if (normalizedTitle.toLowerCase().startsWith(`${normalizedSource.toLowerCase()} `)) {
+    return normalizedTitle.slice(normalizedSource.length).trim();
+  }
+
+  return normalizedTitle;
+}
+
+function toSentence(value: string) {
+  const cleaned = cleanSentence(value);
+
+  if (/[.!?]$/.test(cleaned)) {
+    return cleaned;
+  }
+
+  return `${cleaned}.`;
+}
+
+function cleanSentence(value: string) {
+  return value.replace(/\s+/g, " ").trim();
+}
+
+function sentenceCase(value: string) {
+  const cleaned = cleanSentence(value);
+  return `${cleaned.charAt(0).toUpperCase()}${cleaned.slice(1)}`;
+}
+
+function lowerFirst(value: string) {
+  const cleaned = cleanSentence(value);
+  return `${cleaned.charAt(0).toLowerCase()}${cleaned.slice(1)}`;
 }
 
 function describeFraming(agreement: SourceComparison["agreement"]) {

@@ -42,6 +42,89 @@ const analyticalTheme = {
 };
 
 type Theme = typeof analyticalTheme;
+type ScoreLabel = "Convergence" | "Disagreement" | "Evidence";
+
+const scoreDescriptions: Record<ScoreLabel, string> = {
+  Convergence: "How much sources agree on stated facts",
+  Disagreement: "How much sources conflict on claims or framing",
+  Evidence: "How well-sourced and verifiable the reporting is"
+};
+
+function scoreRating(label: ScoreLabel, pct?: number) {
+  if (pct === undefined) {
+    return { label: "—", note: scoreDescriptions[label], tone: "muted" as const };
+  }
+
+  if (label === "Convergence") {
+    if (pct >= 70) {
+      return {
+        label: "High",
+        note: "Most sources corroborate the core facts",
+        tone: "pine" as const
+      };
+    }
+
+    if (pct >= 40) {
+      return {
+        label: "Moderate",
+        note: "Partial agreement across sources",
+        tone: "saffron" as const
+      };
+    }
+
+    return {
+      label: "Low",
+      note: "Sources diverge significantly on the facts",
+      tone: "poppy" as const
+    };
+  }
+
+  if (label === "Disagreement") {
+    if (pct >= 60) {
+      return {
+        label: "Polarizing",
+        note: "Heavy conflict across sources",
+        tone: "poppy" as const
+      };
+    }
+
+    if (pct >= 30) {
+      return {
+        label: "Contested",
+        note: "Some meaningful disputes in the coverage",
+        tone: "saffron" as const
+      };
+    }
+
+    return {
+      label: "Low",
+      note: "Sources are largely aligned",
+      tone: "pine" as const
+    };
+  }
+
+  if (pct >= 75) {
+    return {
+      label: "Strong",
+      note: "Diverse sources with primary citations",
+      tone: "pine" as const
+    };
+  }
+
+  if (pct >= 45) {
+    return {
+      label: "Moderate",
+      note: "Mix of primary and secondary sourcing",
+      tone: "saffron" as const
+    };
+  }
+
+  return {
+    label: "Weak",
+    note: "Thin sourcing or heavy reliance on secondaries",
+    tone: "poppy" as const
+  };
+}
 
 export function AnalyticalClawNewsApp({
   events,
@@ -50,7 +133,6 @@ export function AnalyticalClawNewsApp({
 }: AnalyticalClawNewsAppProps) {
   const [view, setView] = useState<ViewMode>(initialView);
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const isMobile = useIsMobile();
   const leadEvent = events[0];
   const selectedEvent = useMemo(() => {
     if (!initialEventId) {
@@ -94,6 +176,7 @@ export function AnalyticalClawNewsApp({
 
   return (
     <div
+      className="analytical-shell"
       style={{
         background: analyticalTheme.bg,
         color: analyticalTheme.ink,
@@ -115,14 +198,12 @@ export function AnalyticalClawNewsApp({
         {view === "home" ? (
           <HomeView
             events={events}
-            isMobile={isMobile}
             onOpenEvent={openEvent}
             theme={analyticalTheme}
           />
         ) : (
           <EventDetailView
             event={selectedEvent}
-            isMobile={isMobile}
             onOpenSources={() => setDrawerOpen(true)}
             theme={analyticalTheme}
           />
@@ -162,6 +243,7 @@ function AnalyticalHeader({
       }}
     >
       <div
+        className="analytical-header-inner"
         style={{
           alignItems: "center",
           display: "flex",
@@ -170,7 +252,7 @@ function AnalyticalHeader({
           justifyContent: "space-between",
           margin: "0 auto",
           maxWidth: 960,
-          padding: "0 28px"
+          padding: "0 clamp(16px, 4vw, 28px)"
         }}
       >
         {view === "home" ? (
@@ -237,12 +319,10 @@ function AnalyticalHeader({
 
 function HomeView({
   events,
-  isMobile,
   onOpenEvent,
   theme
 }: {
   events: EventBrief[];
-  isMobile: boolean;
   onOpenEvent: () => void;
   theme: Theme;
 }) {
@@ -253,12 +333,15 @@ function HomeView({
   return (
     <main
       style={{
+        boxSizing: "border-box",
         margin: "0 auto",
         maxWidth: 960,
-        padding: isMobile ? "20px 16px 56px" : "28px 28px 64px"
+        overflowX: "hidden",
+        padding: "20px clamp(16px, 4vw, 28px) 64px",
+        width: "100%"
       }}
     >
-      <div style={{ marginBottom: isMobile ? 20 : 28 }}>
+      <div style={{ marginBottom: 24 }}>
         <div
           style={{
             alignItems: "center",
@@ -280,7 +363,7 @@ function HomeView({
           style={{
             color: theme.ink,
             fontFamily: theme.headingFont,
-            fontSize: isMobile ? 28 : 38,
+            fontSize: "clamp(28px, 8vw, 38px)",
             fontWeight: 700,
             letterSpacing: "-0.02em",
             lineHeight: 1.15,
@@ -295,7 +378,8 @@ function HomeView({
             fontSize: 14,
             lineHeight: 1.7,
             margin: 0,
-            maxWidth: 520
+            maxWidth: "100%",
+            overflowWrap: "break-word"
           }}
         >
           What happened, who is making claims, and what sources are
@@ -303,78 +387,52 @@ function HomeView({
         </p>
       </div>
 
-      {isMobile ? (
-        <div style={{ display: "flex", flexDirection: "column", gap: 14 }}>
-          <EventCard
-            event={lead}
-            isLead
-            onClick={onOpenEvent}
-            theme={theme}
-          />
-          {secondary.map((event) => (
-            <EventCard
-              event={event}
-              key={event.id}
-              onClick={onOpenEvent}
-              theme={theme}
-            />
-          ))}
-        </div>
-      ) : (
-        <div
-          style={{
-            alignItems: "start",
-            display: "grid",
-            gap: 20,
-            gridTemplateColumns: "1fr 280px"
-          }}
-        >
-          <EventCard
-            event={lead}
-            isLead
-            onClick={onOpenEvent}
-            theme={theme}
-          />
-          <div style={{ display: "flex", flexDirection: "column", gap: 12 }}>
+      <div className="analytical-home-grid">
+        <EventCard
+          event={lead}
+          isLead
+          onClick={onOpenEvent}
+          theme={theme}
+        />
+        <div style={{ display: "flex", flexDirection: "column", gap: 12, minWidth: 0 }}>
+          <div
+            style={{
+              borderBottom: `1px solid ${theme.border}`,
+              color: theme.inkMuted,
+              fontSize: 10,
+              fontWeight: 700,
+              letterSpacing: "0.14em",
+              paddingBottom: 8,
+              textTransform: "uppercase"
+            }}
+          >
+            More today
+          </div>
+          {secondary.length > 0 ? (
+            secondary.map((event) => (
+              <EventCard
+                event={event}
+                key={event.id}
+                onClick={onOpenEvent}
+                theme={theme}
+              />
+            ))
+          ) : (
             <div
               style={{
-                borderBottom: `1px solid ${theme.border}`,
+                border: `1px dashed ${theme.borderMid}`,
+                borderRadius: theme.radius,
                 color: theme.inkMuted,
-                fontSize: 10,
-                fontWeight: 700,
-                letterSpacing: "0.14em",
-                paddingBottom: 8,
-                textTransform: "uppercase"
+                fontSize: 12,
+                lineHeight: 1.6,
+                padding: 16
               }}
             >
-              More today
+              Additional generated events will appear here as ingestion grows.
             </div>
-            {secondary.length > 0 ? (
-              secondary.map((event) => (
-                <EventCard
-                  event={event}
-                  key={event.id}
-                  onClick={onOpenEvent}
-                  theme={theme}
-                />
-              ))
-            ) : (
-              <div
-                style={{
-                  border: `1px dashed ${theme.borderMid}`,
-                  borderRadius: theme.radius,
-                  color: theme.inkMuted,
-                  fontSize: 12,
-                  lineHeight: 1.6,
-                  padding: 16
-                }}
-              >
-                Additional generated events will appear here as ingestion grows.
-              </div>
-            )}
-          </div>
+          )}
         </div>
-      )}
+      </div>
     </main>
   );
 }
@@ -394,18 +452,24 @@ function EventCard({
 
   return (
     <article
+      className="analytical-event-card"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
       style={{
         background: theme.surface,
         border: `1px solid ${hovered ? `${theme.pine}50` : theme.border}`,
         borderRadius: theme.radius,
+        boxSizing: "border-box",
         boxShadow: hovered ? theme.shadowStrong : theme.shadow,
         display: "flex",
         flexDirection: "column",
-        gap: isLead ? 18 : 12,
-        padding: isLead ? "28px 28px" : "18px 20px",
-        transition: "box-shadow 0.2s, border-color 0.2s"
+        gap: isLead ? 14 : 10,
+        maxWidth: "100%",
+        minWidth: 0,
+        overflow: "hidden",
+        padding: isLead ? "20px 18px" : "16px 16px",
+        transition: "box-shadow 0.2s, border-color 0.2s",
+        width: "100%"
       }}
     >
       <div
@@ -416,7 +480,7 @@ function EventCard({
           justifyContent: "space-between"
         }}
       >
-        <div style={{ flex: 1 }}>
+        <div style={{ flex: 1, minWidth: 0 }}>
           <div
             style={{
               alignItems: "center",
@@ -471,17 +535,113 @@ function EventCard({
           color: theme.inkMid,
           fontSize: isLead ? 14 : 12,
           lineHeight: 1.75,
-          margin: 0
+          margin: 0,
+          minWidth: 0,
+          overflowWrap: "break-word",
+          wordBreak: "break-word"
         }}
       >
         {event.summary}
       </p>
 
       {isLead ? (
-        <div style={{ display: "flex", gap: 8 }}>
+        <div
+          className="analytical-score-grid"
+          style={{
+            display: "grid",
+            gap: 8,
+            minWidth: 0
+          }}
+        >
           <ScoreTile label="Convergence" theme={theme} value={event.convergenceScore} />
           <ScoreTile label="Disagreement" theme={theme} value={event.disagreementScore} />
           <ScoreTile label="Evidence" theme={theme} value={event.evidenceQualityScore} />
+        </div>
+      ) : null}
+
+      {isLead && event.agreedFacts.length > 0 ? (
+        <div style={{ borderTop: `1px solid ${theme.border}`, paddingTop: 14 }}>
+          <Eyebrow color={theme.pine} theme={theme}>
+            Sources agree
+          </Eyebrow>
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: 6,
+              listStyle: "none",
+              margin: "8px 0 0",
+              padding: 0
+            }}
+          >
+            {event.agreedFacts.slice(0, 3).map((fact) => (
+              <li
+                key={fact}
+                style={{
+                  color: theme.inkMid,
+                  display: "flex",
+                  fontSize: 12,
+                  gap: 10,
+                  lineHeight: 1.6
+                }}
+              >
+                <span
+                  style={{
+                    background: theme.pine,
+                    borderRadius: "50%",
+                    flexShrink: 0,
+                    height: 6,
+                    marginTop: 7,
+                    width: 6
+                  }}
+                />
+                {fact}
+              </li>
+            ))}
+          </ul>
+        </div>
+      ) : null}
+
+      {isLead && event.disagreements.length > 0 ? (
+        <div style={{ borderTop: `1px solid ${theme.border}`, paddingTop: 14 }}>
+          <Eyebrow color={theme.saffron} theme={theme}>
+            Contested
+          </Eyebrow>
+          <ul
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              gap: 6,
+              listStyle: "none",
+              margin: "8px 0 0",
+              padding: 0
+            }}
+          >
+            {event.disagreements.slice(0, 3).map((item) => (
+              <li
+                key={item.id}
+                style={{
+                  color: theme.inkMid,
+                  display: "flex",
+                  fontSize: 12,
+                  gap: 10,
+                  lineHeight: 1.6
+                }}
+              >
+                <span
+                  style={{
+                    background: theme.saffron,
+                    borderRadius: "50%",
+                    flexShrink: 0,
+                    height: 6,
+                    marginTop: 7,
+                    width: 6
+                  }}
+                />
+                {item.point}
+              </li>
+            ))}
+          </ul>
         </div>
       ) : null}
 
@@ -588,21 +748,21 @@ function EventCard({
 
 function EventDetailView({
   event,
-  isMobile,
   onOpenSources,
   theme
 }: {
   event: EventBrief;
-  isMobile: boolean;
   onOpenSources: () => void;
   theme: Theme;
 }) {
   return (
     <main
       style={{
+        boxSizing: "border-box",
         margin: "0 auto",
         maxWidth: 960,
-        padding: isMobile ? "20px 16px 64px" : "28px 28px 80px"
+        padding: "20px clamp(16px, 4vw, 28px) 80px",
+        width: "100%"
       }}
     >
       <div style={{ marginBottom: 32 }}>
@@ -629,7 +789,7 @@ function EventDetailView({
           style={{
             color: theme.ink,
             fontFamily: theme.headingFont,
-            fontSize: isMobile ? 24 : 34,
+            fontSize: "clamp(24px, 7vw, 34px)",
             fontWeight: 700,
             letterSpacing: "-0.02em",
             lineHeight: 1.2,
@@ -665,17 +825,34 @@ function EventDetailView({
       </div>
 
       <div
+        className="analytical-detail-grid"
         style={{
           alignItems: "start",
-          display: isMobile ? "flex" : "grid",
-          flexDirection: "column",
-          gap: 24,
-          gridTemplateColumns: "1.35fr 0.65fr"
+          gap: 24
         }}
       >
         <div style={{ display: "flex", flexDirection: "column", gap: 28 }}>
           <Section eyebrow="Signal quality" theme={theme} title="Brief scores">
-            <div style={{ display: "flex", gap: 8 }}>
+            <p
+              style={{
+                color: theme.inkMuted,
+                fontSize: 12,
+                lineHeight: 1.6,
+                margin: "0 0 12px"
+              }}
+            >
+              These signals are independent: high convergence means sources
+              agree on facts, while contested disagreement means they dispute
+              framing or interpretation. Both can be true simultaneously.
+            </p>
+            <div
+              className="analytical-score-grid"
+              style={{
+                display: "grid",
+                gap: 8,
+                minWidth: 0
+              }}
+            >
               <ScoreTile label="Convergence" theme={theme} value={event.convergenceScore} />
               <ScoreTile label="Disagreement" theme={theme} value={event.disagreementScore} />
               <ScoreTile label="Evidence" theme={theme} value={event.evidenceQualityScore} />
@@ -856,7 +1033,6 @@ function EventDetailView({
 
         <DetailAside
           event={event}
-          isMobile={isMobile}
           onOpenSources={onOpenSources}
           theme={theme}
         />
@@ -867,12 +1043,10 @@ function EventDetailView({
 
 function DetailAside({
   event,
-  isMobile,
   onOpenSources,
   theme
 }: {
   event: EventBrief;
-  isMobile: boolean;
   onOpenSources: () => void;
   theme: Theme;
 }) {
@@ -882,7 +1056,7 @@ function DetailAside({
         display: "flex",
         flexDirection: "column",
         gap: 14,
-        marginTop: isMobile ? 28 : 0
+        minWidth: 0
       }}
     >
       {event.impact ? (
@@ -1478,6 +1652,8 @@ function Card({
         borderLeftWidth: accent ? 3 : 1,
         borderRadius: theme.radius,
         boxShadow: theme.shadow,
+        minWidth: 0,
+        overflowWrap: "break-word",
         padding: "16px 20px"
       }}
     >
@@ -1525,11 +1701,14 @@ function ScoreTile({
   theme,
   value
 }: {
-  label: string;
+  label: ScoreLabel;
   theme: Theme;
   value?: number;
 }) {
   const pct = value === undefined ? undefined : Math.round(value * 100);
+  const rating = scoreRating(label, pct);
+  const ratingColor =
+    rating.tone === "muted" ? theme.inkMuted : theme[rating.tone];
 
   return (
     <div
@@ -1537,18 +1716,21 @@ function ScoreTile({
         background: theme.surfaceAlt,
         border: `1px solid ${theme.border}`,
         borderRadius: theme.radiusSm,
+        display: "flex",
+        flexDirection: "column",
         flex: 1,
+        gap: 4,
         minWidth: 0,
-        padding: "10px 10px"
+        overflow: "hidden",
+        padding: "8px 8px"
       }}
     >
       <div
         style={{
           color: theme.inkMuted,
-          fontSize: 9,
+          fontSize: 8,
           fontWeight: 700,
-          letterSpacing: "0.06em",
-          marginBottom: 6,
+          letterSpacing: "0.05em",
           overflow: "hidden",
           textOverflow: "ellipsis",
           textTransform: "uppercase",
@@ -1559,14 +1741,39 @@ function ScoreTile({
       </div>
       <div
         style={{
-          color: theme.ink,
-          fontSize: 20,
-          fontWeight: 700,
-          lineHeight: 1,
-          marginBottom: 6
+          alignItems: "baseline",
+          display: "flex",
+          flexWrap: "nowrap",
+          gap: 4,
+          overflow: "hidden"
         }}
       >
-        {pct === undefined ? "—" : `${pct}%`}
+        <div
+          style={{
+            color: ratingColor,
+            fontSize: 13,
+            fontWeight: 700,
+            lineHeight: 1,
+            minWidth: 0,
+            overflow: "hidden",
+            textOverflow: "ellipsis",
+            whiteSpace: "nowrap"
+          }}
+        >
+          {rating.label}
+        </div>
+        {pct !== undefined ? (
+          <div
+            style={{
+              color: theme.inkMuted,
+              flexShrink: 0,
+              fontSize: 9,
+              fontWeight: 500
+            }}
+          >
+            {pct}%
+          </div>
+        ) : null}
       </div>
       <div
         style={{
@@ -1578,13 +1785,27 @@ function ScoreTile({
         {pct !== undefined ? (
           <div
             style={{
-              background: theme.scoreBarColor,
+              background: ratingColor,
               borderRadius: 2,
               height: "100%",
+              opacity: 0.7,
               width: `${pct}%`
             }}
           />
         ) : null}
+      </div>
+      <div
+        style={{
+          color: theme.inkMuted,
+          display: "-webkit-box",
+          fontSize: 8,
+          lineHeight: 1.4,
+          overflow: "hidden",
+          WebkitBoxOrient: "vertical",
+          WebkitLineClamp: 2
+        }}
+      >
+        {rating.note}
       </div>
     </div>
   );
@@ -1607,6 +1828,7 @@ function Eyebrow({
         fontSize: 10,
         fontWeight: 700,
         letterSpacing: "0.14em",
+        overflowWrap: "anywhere",
         textTransform: "uppercase"
       }}
     >
@@ -1644,22 +1866,6 @@ function Tag({
       {children}
     </span>
   );
-}
-
-function useIsMobile() {
-  const [isMobile, setIsMobile] = useState(false);
-
-  useEffect(() => {
-    const query = window.matchMedia("(max-width: 720px)");
-    const update = () => setIsMobile(query.matches);
-
-    update();
-    query.addEventListener("change", update);
-
-    return () => query.removeEventListener("change", update);
-  }, []);
-
-  return isMobile;
 }
 
 function sourceNames(event: EventBrief, sourceIds: string[]) {
