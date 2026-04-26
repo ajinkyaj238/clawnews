@@ -95,22 +95,22 @@ function normalizeEvent(raw: JsonRecord, index: number, artifactPath: string): E
     title ?? `event-${index + 1}`
   );
   const sources = normalizeSources(record);
-  const whatChanged = normalizeChanges(record, coreEvent);
+  const sourceComparisons = normalizeComparisons(record);
+  const disagreements = normalizeDisagreements(record, sourceComparisons);
+  const agreedFacts = normalizeAgreedFacts(record, sourceComparisons);
+  const disputedPoints = normalizeDisputedPoints(record, sourceComparisons, disagreements);
+  const whatChanged = normalizeChanges(record, coreEvent, sourceComparisons, sources);
 
   return {
-    agreedFacts: normalizeStringArray(
-      pickFirst(record, ["agreedFacts", "agreed_facts", "sourceAgreement", "source_agreement"])
-    ),
+    agreedFacts,
     artifactPath,
     audit: normalizeAudit(record),
     claims: normalizeClaims(record, sources),
     confidence: normalizeScore(pickFirst(record, ["confidence"])),
     convergenceScore: normalizeScore(pickFirst(record, ["convergenceScore", "convergence_score"])),
-    disagreements: normalizeDisagreements(record),
+    disagreements,
     disagreementScore: normalizeScore(pickFirst(record, ["disagreementScore", "disagreement_score"])),
-    disputedPoints: normalizeStringArray(
-      pickFirst(record, ["disputedPoints", "disputed_points", "openQuestions", "open_questions"])
-    ),
+    disputedPoints,
     evidenceQualityScore: normalizeScore(
       pickFirst(record, ["evidenceQualityScore", "evidence_quality_score"])
     ),
@@ -129,7 +129,7 @@ function normalizeEvent(raw: JsonRecord, index: number, artifactPath: string): E
     location: pickString(record, ["location", "place", "dateline"]),
     origin: "artifact",
     slug: stableId(pickString(record, ["slug"]), title ?? id),
-    sourceComparisons: normalizeComparisons(record),
+    sourceComparisons,
     sources,
     stakeholders: normalizeStakeholders(record),
     status: pickString(record, ["status", "state"]),
@@ -271,7 +271,67 @@ function normalizeClaims(record: JsonRecord, sources: SourceProfile[]): ClaimIte
     .filter((claim): claim is ClaimItem => Boolean(claim));
 }
 
-function normalizeDisagreements(record: JsonRecord): DisagreementItem[] {
+function normalizeAgreedFacts(record: JsonRecord, comparisons: SourceComparisonItem[]) {
+  const comparisonFacts = comparisons
+    .filter(isAgreementComparison)
+    .map(comparisonToAgreementPoint);
+
+  if (comparisonFacts.length > 0) {
+    return dedupeStrings(comparisonFacts);
+  }
+
+  return dedupeStrings(
+    normalizeStringArray(
+      pickFirst(record, ["agreedFacts", "agreed_facts", "sourceAgreement", "source_agreement"])
+    ).map(simplifyLegacyPoint)
+  );
+}
+
+function normalizeDisputedPoints(
+  record: JsonRecord,
+  comparisons: SourceComparisonItem[],
+  disagreements: DisagreementItem[]
+) {
+  if (disagreements.length > 0) {
+    return disagreements.map((item) => item.point);
+  }
+
+  const comparisonDisputes = comparisons
+    .filter(isConflictComparison)
+    .map(comparisonToConflictPoint);
+
+  if (comparisonDisputes.length > 0) {
+    return dedupeStrings(comparisonDisputes);
+  }
+
+  return dedupeStrings(
+    normalizeStringArray(
+      pickFirst(record, ["disputedPoints", "disputed_points", "openQuestions", "open_questions"])
+    ).map(simplifyLegacyPoint)
+  );
+}
+
+function normalizeDisagreements(
+  record: JsonRecord,
+  comparisons: SourceComparisonItem[]
+): DisagreementItem[] {
+  const comparisonDisagreements = comparisons
+    .filter(isConflictComparison)
+    .map((comparison, index): DisagreementItem => {
+      const positions = comparison.evidence.length > 0 ? comparison.evidence : [];
+
+      return {
+        confidence: comparison.confidence,
+        id: stableId(comparison.id, `disagreement-${index + 1}`),
+        point: comparisonToConflictPoint(comparison),
+        positions
+      };
+    });
+
+  if (comparisonDisagreements.length > 0) {
+    return comparisonDisagreements;
+  }
+
   const directValues = asArray(
     pickFirst(record, [
       "disagreements",
@@ -283,14 +343,14 @@ function normalizeDisagreements(record: JsonRecord): DisagreementItem[] {
       "open_questions"
     ])
   );
-  const values = directValues.length > 0 ? directValues : asArray(record.sourceComparisons);
+  const values = directValues;
 
   return values
     .map((value, index): DisagreementItem | undefined => {
       if (typeof value === "string") {
         return {
           id: `disagreement-${index + 1}`,
-          point: cleanText(value),
+          point: simplifyLegacyPoint(value),
           positions: []
         };
       }
@@ -308,7 +368,7 @@ function normalizeDisagreements(record: JsonRecord): DisagreementItem[] {
       return {
         confidence: normalizeScore(pickFirst(value, ["confidence"])),
         id: stableId(pickString(value, ["id", "disagreementId"]), `disagreement-${index + 1}`),
-        point,
+        point: simplifyLegacyPoint(point),
         positions: normalizeStringArray(
           pickFirst(value, ["positions", "sides", "claims", "views", "evidence"])
         )
@@ -545,13 +605,20 @@ function extractArticleClaims(record: JsonRecord) {
   });
 }
 
-function normalizeChanges(record: JsonRecord, coreEvent: Partial<CoreEvent>) {
+function normalizeChanges(
+  record: JsonRecord,
+  coreEvent: Partial<CoreEvent>,
+  comparisons: SourceComparisonItem[],
+  sources: SourceProfile[]
+) {
   const directChanges = normalizeStringArray(
     pickFirst(record, ["whatChanged", "what_changed", "changes", "latestChanges", "latest_changes"])
   );
 
   if (directChanges.length > 0) {
-    return directChanges;
+    return dedupeStrings(
+      directChanges.map((change) => simplifyChange(change, coreEvent, comparisons, sources))
+    );
   }
 
   const auditFindings = (coreEvent.auditFindings ?? []) as Partial<CoreAuditFinding>[];
@@ -567,7 +634,292 @@ function normalizeChanges(record: JsonRecord, coreEvent: Partial<CoreEvent>) {
     ...normalizeStringArray(auditFindings.map((finding) => finding.summary))
   ];
 
-  return derivedChanges.filter((change): change is string => Boolean(change));
+  return dedupeStrings(
+    derivedChanges
+      .filter((change): change is string => Boolean(change))
+      .map((change) => simplifyChange(change, coreEvent, comparisons, sources))
+  );
+}
+
+function isAgreementComparison(comparison: SourceComparisonItem) {
+  const agreement = comparison.agreement?.toLowerCase() ?? "";
+  return (
+    agreement === "aligned" ||
+    agreement === "partial" ||
+    agreement.includes("agreement") ||
+    agreement.includes("align")
+  );
+}
+
+function isConflictComparison(comparison: SourceComparisonItem) {
+  const agreement = comparison.agreement?.toLowerCase() ?? "";
+  return (
+    agreement === "conflicting" ||
+    agreement.includes("conflict") ||
+    agreement.includes("contest") ||
+    agreement.includes("diverg")
+  );
+}
+
+function comparisonToAgreementPoint(comparison: SourceComparisonItem) {
+  const evidence = comparison.evidence.find(Boolean);
+
+  if (evidence) {
+    return sentenceCase(toSentence(trimAtSecondaryClause(evidence)));
+  }
+
+  return simplifyLegacyPoint(comparison.summary);
+}
+
+function comparisonToConflictPoint(comparison: SourceComparisonItem) {
+  const question = extractQuestion(comparison.summary);
+
+  if (question) {
+    return `Sources split over ${questionAsWhether(question)}.`;
+  }
+
+  return simplifyLegacyPoint(comparison.summary);
+}
+
+function simplifyLegacyPoint(value: string) {
+  const text = cleanText(value);
+  const legacySummary = text.match(/show\s+(\w+)\s+claims\s+on:\s*(.+)$/i);
+
+  if (legacySummary?.[1] && legacySummary[2]) {
+    const agreement = legacySummary[1].toLowerCase();
+
+    if (agreement === "conflicting") {
+      return `Sources split over ${questionAsWhether(legacySummary[2])}.`;
+    }
+
+    return `Sources align on ${questionAsWhether(legacySummary[2])}.`;
+  }
+
+  return toSentence(text);
+}
+
+function simplifyChange(
+  value: string,
+  coreEvent: Partial<CoreEvent>,
+  comparisons: SourceComparisonItem[],
+  sources: SourceProfile[]
+) {
+  const text = cleanText(value);
+  const latestSource = text.match(/^Latest source added:\s*(.+)$/i);
+
+  if (latestSource?.[1]) {
+    return summarizeLatestArticleChange(latestSource[1], coreEvent, sources);
+  }
+
+  if (/contested point\(s\) remain visible in the source comparison/i.test(text)) {
+    const conflict = comparisons.find(isConflictComparison);
+
+    if (conflict) {
+      return summarizeOpenConflict(conflict);
+    }
+
+    return "A contested source comparison remains unresolved.";
+  }
+
+  return toSentence(text);
+}
+
+function summarizeLatestArticleChange(
+  title: string,
+  coreEvent: Partial<CoreEvent>,
+  sources: SourceProfile[]
+) {
+  const article = findArticleByTitle(coreEvent, title);
+  const source = sources.find((candidate) => candidate.id === article?.sourceId);
+  const sourceName = source?.name ?? article?.sourceId;
+
+  if (!sourceName) {
+    return `Latest update: ${toSentence(title)}`;
+  }
+
+  const headline = stripSourcePrefix(title, sourceName);
+  return `${sourceName} added the latest update, ${headlineAsClause(headline)}.`;
+}
+
+function summarizeOpenConflict(comparison: SourceComparisonItem) {
+  const question = extractQuestion(comparison.summary);
+  const tradeoff = question ? questionAsTradeoff(question) : undefined;
+
+  if (tradeoff) {
+    return `${sentenceCase(tradeoff)} remains unresolved.`;
+  }
+
+  if (question) {
+    return `${sentenceCase(questionAsWhether(question))} remains unresolved.`;
+  }
+
+  return `${simplifyLegacyPoint(comparison.summary).replace(/\.$/, "")} remains unresolved.`;
+}
+
+function findArticleByTitle(coreEvent: Partial<CoreEvent>, title: string) {
+  const articles = coreEvent.articles ?? [];
+  const cleanedTitle = cleanText(title).toLowerCase();
+
+  return (
+    articles.find((article) => cleanText(article.title).toLowerCase() === cleanedTitle) ??
+    articles.at(-1)
+  );
+}
+
+function extractQuestion(value: string) {
+  const claimsOn = value.match(/claims on:\s*(.+)$/i);
+
+  if (claimsOn?.[1]) {
+    return claimsOn[1];
+  }
+
+  const splitOver = value.match(/sources split over\s+(.+?)(?:\.)?$/i);
+
+  return splitOver?.[1];
+}
+
+function questionAsWhether(question: string) {
+  const cleaned = cleanText(question).replace(/\?$/, "");
+  const lowered = cleaned.toLowerCase();
+
+  if (lowered.startsWith("whether ")) {
+    return lowered;
+  }
+
+  const modalMatch = cleaned.match(/^(Will|Would|Can|Could|Should)\s+(.+)$/i);
+
+  if (modalMatch?.[1] && modalMatch[2]) {
+    return invertQuestion(modalMatch[1].toLowerCase(), modalMatch[2]);
+  }
+
+  const beMatch = cleaned.match(/^(Is|Are|Was|Were)\s+(.+)$/i);
+
+  if (beMatch?.[1] && beMatch[2]) {
+    return invertBeQuestion(beMatch[1].toLowerCase(), beMatch[2]);
+  }
+
+  return `whether ${lowered}`;
+}
+
+function questionAsTradeoff(question: string) {
+  const cleaned = cleanText(question)
+    .replace(/\?$/, "")
+    .replace(/^whether\s+/i, "");
+  const justified =
+    cleaned.match(/^Are\s+(.+?)\s+justified by\s+(.+)$/i) ??
+    cleaned.match(/^(.+?)\s+(?:are|is|were|was)\s+justified by\s+(.+)$/i);
+
+  if (justified?.[1] && justified[2]) {
+    return `the tradeoff between ${lowerFirst(justified[1])} and ${lowerFirst(justified[2])}`;
+  }
+
+  return undefined;
+}
+
+function invertQuestion(modal: string, rest: string) {
+  const words = rest.split(" ").filter(Boolean);
+  const subjectLength = inferSubjectLength(words);
+  const subject = words.slice(0, subjectLength).join(" ");
+  const predicate = words.slice(subjectLength).join(" ");
+
+  if (!subject || !predicate) {
+    return `whether ${lowerFirst(rest)}`;
+  }
+
+  return `whether ${lowerFirst(subject)} ${modal} ${predicate}`;
+}
+
+function invertBeQuestion(verb: string, rest: string) {
+  const predicateMatch = rest.match(
+    /^(.+?)\s+(adequate|available|clear|credible|enough|included|justified|required|resolved|visible)\b(.*)$/i
+  );
+
+  if (predicateMatch?.[1] && predicateMatch[2]) {
+    return `whether ${lowerFirst(predicateMatch[1])} ${verb} ${lowerFirst(
+      `${predicateMatch[2]}${predicateMatch[3] ?? ""}`
+    )}`;
+  }
+
+  return `whether ${lowerFirst(rest)} ${verb}`;
+}
+
+function inferSubjectLength(words: string[]) {
+  if (words.length <= 2) {
+    return Math.max(1, words.length - 1);
+  }
+
+  if (["a", "an", "the", "this", "that"].includes(words[0]?.toLowerCase() ?? "")) {
+    return Math.min(2, words.length - 1);
+  }
+
+  return Math.min(3, words.length - 1);
+}
+
+function trimAtSecondaryClause(value: string) {
+  return cleanText(value)
+    .replace(/\s*;\s*.*$/, "")
+    .replace(/\s*,\s*while\s+.*$/i, "")
+    .replace(/\s*,\s*but\s+.*$/i, "");
+}
+
+function headlineAsClause(value: string) {
+  const headline = cleanText(value).replace(/\.$/, "");
+  const lowerHeadline = lowerFirst(headline);
+  const replacements: Array<[RegExp, string]> = [
+    [/^asks\s+(.+)$/i, "asking $1"],
+    [/^backs\s+(.+)$/i, "backing $1"],
+    [/^challenges\s+(.+)$/i, "challenging $1"],
+    [/^says\s+(.+)$/i, "saying $1"],
+    [/^supports\s+(.+)$/i, "supporting $1"],
+    [/^urges\s+(.+)$/i, "urging $1"],
+    [/^warns\s+(.+)$/i, "warning $1"]
+  ];
+
+  for (const [pattern, replacement] of replacements) {
+    if (pattern.test(headline)) {
+      return headline.replace(pattern, replacement);
+    }
+  }
+
+  return `covering ${lowerHeadline}`;
+}
+
+function stripSourcePrefix(title: string, sourceName: string) {
+  const normalizedTitle = cleanText(title);
+  const normalizedSource = cleanText(sourceName);
+
+  if (normalizedTitle.toLowerCase().startsWith(`${normalizedSource.toLowerCase()} `)) {
+    return normalizedTitle.slice(normalizedSource.length).trim();
+  }
+
+  return normalizedTitle;
+}
+
+function toSentence(value: string) {
+  const cleaned = cleanText(value);
+
+  if (/[.!?]$/.test(cleaned)) {
+    return cleaned;
+  }
+
+  return `${cleaned}.`;
+}
+
+function sentenceCase(value: string) {
+  const cleaned = cleanText(value);
+  return `${cleaned.charAt(0).toUpperCase()}${cleaned.slice(1)}`;
+}
+
+function lowerFirst(value: string) {
+  const cleaned = cleanText(value);
+  return `${cleaned.charAt(0).toLowerCase()}${cleaned.slice(1)}`;
+}
+
+function dedupeStrings(items: string[]) {
+  return dedupeBy(
+    items.map(cleanText).filter(Boolean),
+    (item) => item.toLowerCase()
+  );
 }
 
 function normalizeTags(record: JsonRecord) {

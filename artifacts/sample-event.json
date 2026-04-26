@@ -3,8 +3,8 @@
   "topicId": "harborview-offshore-wind-transmission",
   "topic": "Harborview Offshore Wind Transmission Corridor",
   "title": "Harborview Offshore Wind Transmission Corridor",
-  "neutralSummary": "A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections. This event view uses 5 article(s) from 5 source(s), with 1 contested comparison(s) surfaced for review.",
-  "summary": "A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections. This event view uses 5 article(s) from 5 source(s), with 1 contested comparison(s) surfaced for review.",
+  "neutralSummary": "A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections. This brief compares 5 articles from 5 sources and surfaces 1 unresolved source split.",
+  "summary": "A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections. This brief compares 5 articles from 5 sources and surfaces 1 unresolved source split.",
   "status": "monitoring",
   "generatedAt": "2026-04-26T12:00:00.000Z",
   "timeframe": {
@@ -18,15 +18,15 @@
   "disagreementScore": 0.33,
   "evidenceQualityScore": 0.7,
   "agreedFacts": [
-    "State Energy Desk, Coastal Business Review, Metro Ledger, Climate Grid Watch show partial claims on: Will the corridor materially improve regional grid reliability?",
-    "State Energy Desk, Harbor Fishermen Alliance Bulletin, Metro Ledger, Climate Grid Watch show partial claims on: Are fisheries and coastal habitat protections adequate?"
+    "The corridor would reduce peak-season reliability risk by adding transfer capacity into the Harborview load pocket.",
+    "The permit would require pre-construction habitat surveys and seasonal limits on seabed work."
   ],
   "disputedPoints": [
-    "State Energy Desk, Harbor Fishermen Alliance Bulletin, Coastal Business Review, Climate Grid Watch show conflicting claims on: Are projected ratepayer costs justified by long-term benefits?"
+    "Sources split over whether projected ratepayer costs are justified by long-term benefits."
   ],
   "whatChanged": [
-    "Latest source added: Climate Grid Watch urges approval of Harborview transmission corridor",
-    "1 contested point(s) remain visible in the source comparison."
+    "Climate Grid Watch added the latest update, urging approval of Harborview transmission corridor.",
+    "The tradeoff between projected ratepayer costs and long-term benefits remains unresolved."
   ],
   "articles": [
     {
@@ -497,7 +497,7 @@
       ],
       "ownershipNotes": "See linked source profiles for ownership and funding context.",
       "biasNotes": "Framing is inferred from article claims for this event and should be reviewed before publishing.",
-      "summary": "State Energy Desk, Coastal Business Review, Metro Ledger, Climate Grid Watch show partial claims on: Will the corridor materially improve regional grid reliability?",
+      "summary": "The corridor would reduce peak-season reliability risk by adding transfer capacity into the Harborview load pocket.",
       "evidence": [
         "The corridor would reduce peak-season reliability risk by adding transfer capacity into the Harborview load pocket.",
         "Industrial customers say the line could ease congestion in the Harborview load pocket.",
@@ -538,7 +538,7 @@
       ],
       "ownershipNotes": "See linked source profiles for ownership and funding context.",
       "biasNotes": "Framing is inferred from article claims for this event and should be reviewed before publishing.",
-      "summary": "State Energy Desk, Harbor Fishermen Alliance Bulletin, Coastal Business Review, Climate Grid Watch show conflicting claims on: Are projected ratepayer costs justified by long-term benefits?",
+      "summary": "Sources split over whether projected ratepayer costs are justified by long-term benefits.",
       "evidence": [
         "Officials say ratepayer impacts are justified by avoided congestion and reliability costs over the asset life.",
         "Project cost estimates leave out expected mitigation payments and port disruptions.",
@@ -581,7 +581,7 @@
       ],
       "ownershipNotes": "See linked source profiles for ownership and funding context.",
       "biasNotes": "Framing is inferred from article claims for this event and should be reviewed before publishing.",
-      "summary": "State Energy Desk, Harbor Fishermen Alliance Bulletin, Metro Ledger, Climate Grid Watch show partial claims on: Are fisheries and coastal habitat protections adequate?",
+      "summary": "The permit would require pre-construction habitat surveys and seasonal limits on seabed work.",
       "evidence": [
         "The permit would require pre-construction habitat surveys and seasonal limits on seabed work.",
         "The preferred route crosses active trawling grounds and does not yet include enforceable compensation for access losses.",
