@@ -1,0 +1,55 @@
+{
+  "id": "harborview-offshore-wind-transmission",
+  "title": "Harborview Offshore Wind Transmission Corridor",
+  "description": "A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections.",
+  "keywords": [
+    "Harborview",
+    "offshore wind",
+    "transmission corridor",
+    "ratepayer",
+    "fishing grounds",
+    "grid reliability",
+    "coastal habitat"
+  ],
+  "eventWindowDays": 45,
+  "contestedQuestions": [
+    {
+      "id": "reliability",
+      "question": "Will the corridor materially improve regional grid reliability?",
+      "relatedKeywords": ["grid reliability", "capacity", "blackout", "transmission"]
+    },
+    {
+      "id": "cost",
+      "question": "Are projected ratepayer costs justified by long-term benefits?",
+      "relatedKeywords": ["ratepayer", "cost", "bill", "subsidy"]
+    },
+    {
+      "id": "marine-impact",
+      "question": "Are fisheries and coastal habitat protections adequate?",
+      "relatedKeywords": ["fishing", "habitat", "trawl", "seabed", "marine"]
+    }
+  ],
+  "stakeholders": [
+    {
+      "id": "state-energy-office",
+      "name": "State Energy Office",
+      "role": "government",
+      "positionSummary": "Argues the corridor is needed to connect offshore generation and reduce peak-season reliability risk.",
+      "interests": ["grid reliability", "renewable procurement targets", "permit schedule"]
+    },
+    {
+      "id": "harbor-fishermen-alliance",
+      "name": "Harbor Fishermen Alliance",
+      "role": "affected-group",
+      "positionSummary": "Warns that cable routing and construction windows could disrupt trawling grounds and port revenue.",
+      "interests": ["fishing access", "construction timing", "habitat monitoring"]
+    },
+    {
+      "id": "coastal-ratepayer-council",
+      "name": "Coastal Ratepayer Council",
+      "role": "civil-society",
+      "positionSummary": "Supports cleaner energy goals but wants stronger bill-impact guarantees and public cost reporting.",
+      "interests": ["monthly bills", "public accounting", "consumer protections"]
+    }
+  ]
+}

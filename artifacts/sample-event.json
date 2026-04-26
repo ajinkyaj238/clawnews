@@ -1,0 +1,651 @@
+{
+  "id": "event-1bxpbwu",
+  "topicId": "harborview-offshore-wind-transmission",
+  "topic": "Harborview Offshore Wind Transmission Corridor",
+  "title": "Harborview Offshore Wind Transmission Corridor",
+  "neutralSummary": "A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections. This event view uses 5 article(s) from 5 source(s), with 1 contested comparison(s) surfaced for review.",
+  "summary": "A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections. This event view uses 5 article(s) from 5 source(s), with 1 contested comparison(s) surfaced for review.",
+  "status": "monitoring",
+  "generatedAt": "2026-04-26T12:00:00.000Z",
+  "timeframe": {
+    "start": "2026-04-10T14:15:00.000Z",
+    "end": "2026-04-14T11:05:00.000Z"
+  },
+  "firstSeenAt": "2026-04-10T14:15:00.000Z",
+  "lastUpdatedAt": "2026-04-14T11:05:00.000Z",
+  "sourceCount": 5,
+  "convergenceScore": 0.67,
+  "disagreementScore": 0.33,
+  "evidenceQualityScore": 0.7,
+  "agreedFacts": [
+    "State Energy Desk, Coastal Business Review, Metro Ledger, Climate Grid Watch show partial claims on: Will the corridor materially improve regional grid reliability?",
+    "State Energy Desk, Harbor Fishermen Alliance Bulletin, Metro Ledger, Climate Grid Watch show partial claims on: Are fisheries and coastal habitat protections adequate?"
+  ],
+  "disputedPoints": [
+    "State Energy Desk, Harbor Fishermen Alliance Bulletin, Coastal Business Review, Climate Grid Watch show conflicting claims on: Are projected ratepayer costs justified by long-term benefits?"
+  ],
+  "whatChanged": [
+    "Latest source added: Climate Grid Watch urges approval of Harborview transmission corridor",
+    "1 contested point(s) remain visible in the source comparison."
+  ],
+  "articles": [
+    {
+      "id": "article-state-corridor-reliability-20260410",
+      "title": "Energy office says Harborview corridor would reduce summer reliability risk",
+      "url": "https://example.org/state-energy-desk/harborview-corridor-reliability",
+      "sourceId": "state-energy-desk",
+      "author": "State Energy Desk staff",
+      "language": "en",
+      "publishedAt": "2026-04-10T14:15:00.000Z",
+      "fetchedAt": "2026-04-26T17:47:22.616Z",
+      "summary": "State officials say the offshore wind transmission corridor would add dispatchable transfer capacity before peak summer demand, while permit conditions would require marine monitoring.",
+      "topicIds": [
+        "harborview-offshore-wind-transmission"
+      ],
+      "tags": [
+        "Harborview",
+        "offshore wind",
+        "grid reliability",
+        "ratepayer"
+      ],
+      "quotes": [
+        {
+          "speaker": "Deputy Energy Commissioner Lena Ortiz",
+          "text": "The corridor is designed to move clean power into the load pocket when the grid is most constrained.",
+          "confidence": 0.84
+        }
+      ],
+      "claims": [
+        {
+          "id": "claim-state-reliability",
+          "questionId": "reliability",
+          "text": "The corridor would reduce peak-season reliability risk by adding transfer capacity into the Harborview load pocket.",
+          "stance": "supporting",
+          "evidence": "Agency planning model summary attached to the permit notice.",
+          "confidence": 0.82
+        },
+        {
+          "id": "claim-state-cost",
+          "questionId": "cost",
+          "text": "Officials say ratepayer impacts are justified by avoided congestion and reliability costs over the asset life.",
+          "stance": "supporting",
+          "confidence": 0.61
+        },
+        {
+          "id": "claim-state-marine",
+          "questionId": "marine-impact",
+          "text": "The permit would require pre-construction habitat surveys and seasonal limits on seabed work.",
+          "stance": "neutral",
+          "confidence": 0.57
+        }
+      ],
+      "confidence": 0.75
+    },
+    {
+      "id": "article-fishermen-harborview-impact-20260411",
+      "title": "Fishing groups challenge route for Harborview wind transmission cable",
+      "url": "https://example.org/harbor-fishermen-alliance/cable-route-challenge",
+      "sourceId": "harbor-fishermen-alliance",
+      "author": "Harbor Fishermen Alliance board",
+      "language": "en",
+      "publishedAt": "2026-04-11T09:30:00.000Z",
+      "fetchedAt": "2026-04-26T17:47:22.616Z",
+      "summary": "The fishermen's alliance says the preferred corridor crosses productive trawling grounds and lacks enforceable compensation if construction disrupts the spring season.",
+      "topicIds": [
+        "harborview-offshore-wind-transmission"
+      ],
+      "tags": [
+        "fishing grounds",
+        "marine",
+        "offshore wind"
+      ],
+      "quotes": [],
+      "claims": [
+        {
+          "id": "claim-fish-marine",
+          "questionId": "marine-impact",
+          "text": "The preferred route crosses active trawling grounds and does not yet include enforceable compensation for access losses.",
+          "stance": "opposing",
+          "evidence": "Member map comparing the route with spring trawl lanes.",
+          "confidence": 0.78
+        },
+        {
+          "id": "claim-fish-cost",
+          "questionId": "cost",
+          "text": "Project cost estimates leave out expected mitigation payments and port disruptions.",
+          "stance": "opposing",
+          "confidence": 0.6
+        }
+      ],
+      "confidence": 0.7
+    },
+    {
+      "id": "article-business-ratepayer-warning-20260412",
+      "title": "Manufacturers ask regulators to cap Harborview corridor bill impacts",
+      "url": "https://example.org/coastal-business-review/ratepayer-cap-harborview",
+      "sourceId": "coastal-business-review",
+      "author": "Mira Chen",
+      "language": "en",
+      "publishedAt": "2026-04-12T16:45:00.000Z",
+      "fetchedAt": "2026-04-26T17:47:22.616Z",
+      "summary": "Large power users acknowledge the corridor could ease congestion but argue regulators should cap bill impacts and require annual public reporting on project costs.",
+      "topicIds": [
+        "harborview-offshore-wind-transmission"
+      ],
+      "tags": [
+        "ratepayer",
+        "grid reliability",
+        "transmission corridor"
+      ],
+      "quotes": [],
+      "claims": [
+        {
+          "id": "claim-business-reliability",
+          "questionId": "reliability",
+          "text": "Industrial customers say the line could ease congestion in the Harborview load pocket.",
+          "stance": "supporting",
+          "confidence": 0.68
+        },
+        {
+          "id": "claim-business-cost",
+          "questionId": "cost",
+          "text": "The current financing proposal shifts too much cost risk onto ratepayers without a hard cap.",
+          "stance": "opposing",
+          "evidence": "Trade group filing summarized in the article.",
+          "confidence": 0.72
+        }
+      ],
+      "confidence": 0.68
+    },
+    {
+      "id": "article-metro-permit-hearing-20260413",
+      "title": "Harborview hearing puts wind cable benefits and coastal concerns side by side",
+      "url": "https://example.org/metro-ledger/harborview-wind-cable-hearing",
+      "sourceId": "metro-ledger",
+      "author": "Ana Bell",
+      "language": "en",
+      "publishedAt": "2026-04-13T18:20:00.000Z",
+      "fetchedAt": "2026-04-26T17:47:22.617Z",
+      "summary": "A public hearing showed support for new grid capacity alongside demands for route changes, stronger construction windows, and clearer cost reporting.",
+      "topicIds": [
+        "harborview-offshore-wind-transmission"
+      ],
+      "tags": [
+        "Harborview",
+        "coastal habitat",
+        "public hearing"
+      ],
+      "quotes": [],
+      "claims": [
+        {
+          "id": "claim-metro-reliability",
+          "questionId": "reliability",
+          "text": "The hearing record showed broad agreement that the grid needs new capacity, but disagreement over whether this route is the best option.",
+          "stance": "mixed",
+          "confidence": 0.69
+        },
+        {
+          "id": "claim-metro-marine",
+          "questionId": "marine-impact",
+          "text": "Residents and fishers asked for more specific construction windows and public habitat monitoring reports.",
+          "stance": "mixed",
+          "confidence": 0.65
+        },
+        {
+          "id": "claim-metro-process",
+          "text": "Regulators extended the written comment period by two weeks after the hearing.",
+          "stance": "neutral",
+          "confidence": 0.73
+        }
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "article-climate-grid-watch-20260414",
+      "title": "Climate Grid Watch urges approval of Harborview transmission corridor",
+      "url": "https://example.org/climate-grid-watch/approve-harborview-corridor",
+      "sourceId": "climate-grid-watch",
+      "author": "Research team",
+      "language": "en",
+      "publishedAt": "2026-04-14T11:05:00.000Z",
+      "fetchedAt": "2026-04-26T17:47:22.617Z",
+      "summary": "The advocacy group says delaying the corridor would prolong fossil peaker use, while habitat issues can be handled through monitoring and adaptive route management.",
+      "topicIds": [
+        "harborview-offshore-wind-transmission"
+      ],
+      "tags": [
+        "offshore wind",
+        "grid reliability",
+        "coastal habitat"
+      ],
+      "quotes": [],
+      "claims": [
+        {
+          "id": "claim-climate-reliability",
+          "questionId": "reliability",
+          "text": "Transmission approval would reduce reliance on local peaker plants during constrained summer evenings.",
+          "stance": "supporting",
+          "confidence": 0.76
+        },
+        {
+          "id": "claim-climate-cost",
+          "questionId": "cost",
+          "text": "Long-term fuel savings and avoided congestion justify the near-term transmission charge.",
+          "stance": "unclear",
+          "confidence": 0.65
+        },
+        {
+          "id": "claim-climate-marine",
+          "questionId": "marine-impact",
+          "text": "Adaptive routing and public monitoring can keep coastal habitat impacts within permit limits.",
+          "stance": "supporting",
+          "confidence": 0.7
+        }
+      ],
+      "confidence": 0.71
+    }
+  ],
+  "sourceProfiles": [
+    {
+      "id": "metro-ledger",
+      "name": "Metro Ledger",
+      "homepage": "https://example.org/metro-ledger",
+      "type": "local-news",
+      "country": "US",
+      "region": "Harborview metro area",
+      "language": "en",
+      "owner": "Regional independent publisher",
+      "parentCompany": "Unknown / needs verification",
+      "ultimateOwner": "Unknown / needs verification",
+      "ownership": "Regional independent publisher",
+      "businessModel": "Local advertising and subscriptions",
+      "knownFunding": [
+        "advertising",
+        "reader subscriptions"
+      ],
+      "fundingModel": [
+        "advertising",
+        "subscription"
+      ],
+      "editorialProfile": "Local civic reporting with a practical-service orientation.",
+      "likelyFraming": "May emphasize public hearings, local services, and resident impact.",
+      "knownPerspective": "Local civic reporting with a practical-service orientation.",
+      "editorialStandards": [
+        "Corrections page",
+        "Named-source preference"
+      ],
+      "notes": [
+        "Fictional source profile for MVP demonstration; ownership not externally verified."
+      ],
+      "lastVerifiedAt": "2026-04-26T12:00:00.000Z",
+      "reliability": 0.76,
+      "transparency": 0.7,
+      "confidence": 0.74
+    },
+    {
+      "id": "state-energy-desk",
+      "name": "State Energy Desk",
+      "homepage": "https://example.org/state-energy-desk",
+      "type": "government",
+      "country": "US",
+      "region": "Statewide",
+      "language": "en",
+      "owner": "State energy agency communications office",
+      "parentCompany": "State government",
+      "ultimateOwner": "State government",
+      "ownership": "State energy agency communications office",
+      "businessModel": "Public agency communications",
+      "knownFunding": [
+        "public budget"
+      ],
+      "fundingModel": [
+        "government"
+      ],
+      "editorialProfile": "Official project and permit communications.",
+      "likelyFraming": "May emphasize agency findings, legal process, and project benefits.",
+      "knownPerspective": "Official project and permit communications.",
+      "editorialStandards": [
+        "Public records retention",
+        "Agency attribution"
+      ],
+      "notes": [
+        "Official-source framing is not independent reporting."
+      ],
+      "lastVerifiedAt": "2026-04-26T12:00:00.000Z",
+      "reliability": 0.82,
+      "transparency": 0.78,
+      "confidence": 0.78
+    },
+    {
+      "id": "harbor-fishermen-alliance",
+      "name": "Harbor Fishermen Alliance Bulletin",
+      "homepage": "https://example.org/harbor-fishermen-alliance",
+      "type": "community",
+      "country": "US",
+      "region": "Harborview coast",
+      "language": "en",
+      "owner": "Member association",
+      "parentCompany": "None reported in seed data",
+      "ultimateOwner": "Member association",
+      "ownership": "Member association",
+      "businessModel": "Member dues and donations",
+      "knownFunding": [
+        "member dues",
+        "donations"
+      ],
+      "fundingModel": [
+        "member-dues",
+        "donation"
+      ],
+      "editorialProfile": "Represents commercial fishers concerned about access and habitat disruption.",
+      "likelyFraming": "May foreground access loss, compensation, and habitat risk.",
+      "knownPerspective": "Represents commercial fishers concerned about access and habitat disruption.",
+      "editorialStandards": [
+        "Member notices",
+        "Board approval for policy statements"
+      ],
+      "notes": [
+        "Advocacy/member source; claims should be compared against permit records and independent reporting."
+      ],
+      "lastVerifiedAt": "2026-04-26T12:00:00.000Z",
+      "reliability": 0.67,
+      "transparency": 0.72,
+      "confidence": 0.7
+    },
+    {
+      "id": "coastal-business-review",
+      "name": "Coastal Business Review",
+      "homepage": "https://example.org/coastal-business-review",
+      "type": "commercial",
+      "country": "US",
+      "region": "Northeast coastal markets",
+      "language": "en",
+      "owner": "Privately held trade publisher",
+      "parentCompany": "Unknown / needs verification",
+      "ultimateOwner": "Unknown / needs verification",
+      "ownership": "Privately held trade publisher",
+      "businessModel": "Subscriptions and commercial sponsorship",
+      "knownFunding": [
+        "subscription revenue",
+        "commercial sponsors"
+      ],
+      "fundingModel": [
+        "subscription",
+        "commercial-sponsor"
+      ],
+      "editorialProfile": "Business and ratepayer cost lens for infrastructure decisions.",
+      "likelyFraming": "May emphasize ratepayer exposure, industrial cost, and regulatory risk.",
+      "knownPerspective": "Business and ratepayer cost lens for infrastructure decisions.",
+      "editorialStandards": [
+        "Sponsored-content labeling",
+        "Corrections contact"
+      ],
+      "notes": [
+        "Trade publication; sponsor influence should be audited article-by-article."
+      ],
+      "lastVerifiedAt": "2026-04-26T12:00:00.000Z",
+      "reliability": 0.7,
+      "transparency": 0.66,
+      "confidence": 0.69
+    },
+    {
+      "id": "climate-grid-watch",
+      "name": "Climate Grid Watch",
+      "homepage": "https://example.org/climate-grid-watch",
+      "type": "advocacy",
+      "country": "US",
+      "region": "National",
+      "language": "en",
+      "owner": "Nonprofit climate infrastructure group",
+      "parentCompany": "None reported in seed data",
+      "ultimateOwner": "Nonprofit board",
+      "ownership": "Nonprofit climate infrastructure group",
+      "businessModel": "Foundation grants and donations",
+      "knownFunding": [
+        "foundation grants",
+        "donations"
+      ],
+      "fundingModel": [
+        "foundation",
+        "donation"
+      ],
+      "editorialProfile": "Advocates for faster transmission buildout and decarbonization.",
+      "likelyFraming": "May emphasize climate benefits, peaker reductions, and transmission urgency.",
+      "knownPerspective": "Advocates for faster transmission buildout and decarbonization.",
+      "editorialStandards": [
+        "Funders page",
+        "Report methodology notes"
+      ],
+      "notes": [
+        "Advocacy source; funding and methodology need verification before high-confidence labels."
+      ],
+      "lastVerifiedAt": "2026-04-26T12:00:00.000Z",
+      "reliability": 0.74,
+      "transparency": 0.69,
+      "confidence": 0.71
+    }
+  ],
+  "stakeholders": [
+    {
+      "id": "state-energy-office",
+      "name": "State Energy Office",
+      "role": "government",
+      "positionSummary": "Argues the corridor is needed to connect offshore generation and reduce peak-season reliability risk.",
+      "interests": [
+        "grid reliability",
+        "renewable procurement targets",
+        "permit schedule"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "id": "harbor-fishermen-alliance",
+      "name": "Harbor Fishermen Alliance",
+      "role": "affected-group",
+      "positionSummary": "Warns that cable routing and construction windows could disrupt trawling grounds and port revenue.",
+      "interests": [
+        "fishing access",
+        "construction timing",
+        "habitat monitoring"
+      ],
+      "confidence": 0.65
+    },
+    {
+      "id": "coastal-ratepayer-council",
+      "name": "Coastal Ratepayer Council",
+      "role": "civil-society",
+      "positionSummary": "Supports cleaner energy goals but wants stronger bill-impact guarantees and public cost reporting.",
+      "interests": [
+        "monthly bills",
+        "public accounting",
+        "consumer protections"
+      ],
+      "confidence": 0.65
+    }
+  ],
+  "sourceComparisons": [
+    {
+      "id": "comparison-1m3ik64",
+      "eventId": "event-1bxpbwu",
+      "questionId": "reliability",
+      "dimension": "claim",
+      "agreement": "partial",
+      "sourceIds": [
+        "state-energy-desk",
+        "coastal-business-review",
+        "metro-ledger",
+        "climate-grid-watch"
+      ],
+      "articleIds": [
+        "article-state-corridor-reliability-20260410",
+        "article-business-ratepayer-warning-20260412",
+        "article-metro-permit-hearing-20260413",
+        "article-climate-grid-watch-20260414"
+      ],
+      "stanceSpread": [
+        "supporting",
+        "mixed"
+      ],
+      "stance": "mixed",
+      "framing": "Sources share part of the factual frame while stressing different caveats.",
+      "claims": [
+        "The corridor would reduce peak-season reliability risk by adding transfer capacity into the Harborview load pocket.",
+        "Industrial customers say the line could ease congestion in the Harborview load pocket.",
+        "The hearing record showed broad agreement that the grid needs new capacity, but disagreement over whether this route is the best option.",
+        "Transmission approval would reduce reliance on local peaker plants during constrained summer evenings.",
+        "Long-term fuel savings and avoided congestion justify the near-term transmission charge."
+      ],
+      "ownershipNotes": "See linked source profiles for ownership and funding context.",
+      "biasNotes": "Framing is inferred from article claims for this event and should be reviewed before publishing.",
+      "summary": "State Energy Desk, Coastal Business Review, Metro Ledger, Climate Grid Watch show partial claims on: Will the corridor materially improve regional grid reliability?",
+      "evidence": [
+        "The corridor would reduce peak-season reliability risk by adding transfer capacity into the Harborview load pocket.",
+        "Industrial customers say the line could ease congestion in the Harborview load pocket.",
+        "The hearing record showed broad agreement that the grid needs new capacity, but disagreement over whether this route is the best option.",
+        "Transmission approval would reduce reliance on local peaker plants during constrained summer evenings."
+      ],
+      "confidence": 0.72
+    },
+    {
+      "id": "comparison-0scmr9w",
+      "eventId": "event-1bxpbwu",
+      "questionId": "cost",
+      "dimension": "claim",
+      "agreement": "conflicting",
+      "sourceIds": [
+        "state-energy-desk",
+        "harbor-fishermen-alliance",
+        "coastal-business-review",
+        "climate-grid-watch"
+      ],
+      "articleIds": [
+        "article-state-corridor-reliability-20260410",
+        "article-fishermen-harborview-impact-20260411",
+        "article-business-ratepayer-warning-20260412",
+        "article-climate-grid-watch-20260414"
+      ],
+      "stanceSpread": [
+        "supporting",
+        "opposing"
+      ],
+      "stance": "mixed",
+      "framing": "Sources emphasize different costs, risks, or benefits.",
+      "claims": [
+        "Officials say ratepayer impacts are justified by avoided congestion and reliability costs over the asset life.",
+        "Project cost estimates leave out expected mitigation payments and port disruptions.",
+        "The current financing proposal shifts too much cost risk onto ratepayers without a hard cap.",
+        "Long-term fuel savings and avoided congestion justify the near-term transmission charge."
+      ],
+      "ownershipNotes": "See linked source profiles for ownership and funding context.",
+      "biasNotes": "Framing is inferred from article claims for this event and should be reviewed before publishing.",
+      "summary": "State Energy Desk, Harbor Fishermen Alliance Bulletin, Coastal Business Review, Climate Grid Watch show conflicting claims on: Are projected ratepayer costs justified by long-term benefits?",
+      "evidence": [
+        "Officials say ratepayer impacts are justified by avoided congestion and reliability costs over the asset life.",
+        "Project cost estimates leave out expected mitigation payments and port disruptions.",
+        "The current financing proposal shifts too much cost risk onto ratepayers without a hard cap.",
+        "Long-term fuel savings and avoided congestion justify the near-term transmission charge."
+      ],
+      "confidence": 0.65
+    },
+    {
+      "id": "comparison-02glux3",
+      "eventId": "event-1bxpbwu",
+      "questionId": "marine-impact",
+      "dimension": "claim",
+      "agreement": "partial",
+      "sourceIds": [
+        "state-energy-desk",
+        "harbor-fishermen-alliance",
+        "metro-ledger",
+        "climate-grid-watch"
+      ],
+      "articleIds": [
+        "article-state-corridor-reliability-20260410",
+        "article-fishermen-harborview-impact-20260411",
+        "article-metro-permit-hearing-20260413",
+        "article-climate-grid-watch-20260414"
+      ],
+      "stanceSpread": [
+        "neutral",
+        "opposing",
+        "mixed",
+        "supporting"
+      ],
+      "stance": "mixed",
+      "framing": "Sources share part of the factual frame while stressing different caveats.",
+      "claims": [
+        "The permit would require pre-construction habitat surveys and seasonal limits on seabed work.",
+        "The preferred route crosses active trawling grounds and does not yet include enforceable compensation for access losses.",
+        "Residents and fishers asked for more specific construction windows and public habitat monitoring reports.",
+        "Adaptive routing and public monitoring can keep coastal habitat impacts within permit limits."
+      ],
+      "ownershipNotes": "See linked source profiles for ownership and funding context.",
+      "biasNotes": "Framing is inferred from article claims for this event and should be reviewed before publishing.",
+      "summary": "State Energy Desk, Harbor Fishermen Alliance Bulletin, Metro Ledger, Climate Grid Watch show partial claims on: Are fisheries and coastal habitat protections adequate?",
+      "evidence": [
+        "The permit would require pre-construction habitat surveys and seasonal limits on seabed work.",
+        "The preferred route crosses active trawling grounds and does not yet include enforceable compensation for access losses.",
+        "Residents and fishers asked for more specific construction windows and public habitat monitoring reports.",
+        "Adaptive routing and public monitoring can keep coastal habitat impacts within permit limits."
+      ],
+      "confidence": 0.68
+    }
+  ],
+  "auditFindings": [
+    {
+      "id": "audit-1yn21qm",
+      "eventId": "event-1bxpbwu",
+      "severity": "info",
+      "category": "claim-conflict",
+      "summary": "At least one contested question has conflicting claims across sources.",
+      "missingPerspectives": [],
+      "unsupportedClaims": [],
+      "ownershipUncertainties": [],
+      "recommendedReview": false,
+      "articleIds": [
+        "article-state-corridor-reliability-20260410",
+        "article-business-ratepayer-warning-20260412",
+        "article-metro-permit-hearing-20260413",
+        "article-climate-grid-watch-20260414",
+        "article-fishermen-harborview-impact-20260411"
+      ],
+      "sourceIds": [
+        "state-energy-desk",
+        "coastal-business-review",
+        "metro-ledger",
+        "climate-grid-watch",
+        "harbor-fishermen-alliance"
+      ],
+      "confidence": 0.65
+    }
+  ],
+  "audit": [
+    {
+      "id": "audit-1yn21qm",
+      "eventId": "event-1bxpbwu",
+      "severity": "info",
+      "category": "claim-conflict",
+      "summary": "At least one contested question has conflicting claims across sources.",
+      "missingPerspectives": [],
+      "unsupportedClaims": [],
+      "ownershipUncertainties": [],
+      "recommendedReview": false,
+      "articleIds": [
+        "article-state-corridor-reliability-20260410",
+        "article-business-ratepayer-warning-20260412",
+        "article-metro-permit-hearing-20260413",
+        "article-climate-grid-watch-20260414",
+        "article-fishermen-harborview-impact-20260411"
+      ],
+      "sourceIds": [
+        "state-energy-desk",
+        "coastal-business-review",
+        "metro-ledger",
+        "climate-grid-watch",
+        "harbor-fishermen-alliance"
+      ],
+      "confidence": 0.65
+    }
+  ],
+  "confidence": 0.7
+}

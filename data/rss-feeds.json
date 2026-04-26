@@ -1,0 +1,17 @@
+{
+  "maxItemsPerFeed": 5,
+  "feeds": [
+    {
+      "sourceId": "metro-ledger",
+      "name": "Metro Ledger Energy RSS",
+      "url": "https://example.org/metro-ledger/energy/rss.xml",
+      "topicIds": ["harborview-offshore-wind-transmission"]
+    },
+    {
+      "sourceId": "climate-grid-watch",
+      "name": "Climate Grid Watch Transmission RSS",
+      "url": "https://example.org/climate-grid-watch/transmission/rss.xml",
+      "topicIds": ["harborview-offshore-wind-transmission"]
+    }
+  ]
+}

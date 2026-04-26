@@ -1,0 +1,169 @@
+[
+  {
+    "id": "article-state-corridor-reliability-20260410",
+    "title": "Energy office says Harborview corridor would reduce summer reliability risk",
+    "url": "https://example.org/state-energy-desk/harborview-corridor-reliability",
+    "sourceId": "state-energy-desk",
+    "author": "State Energy Desk staff",
+    "publishedAt": "2026-04-10T14:15:00.000Z",
+    "summary": "State officials say the offshore wind transmission corridor would add dispatchable transfer capacity before peak summer demand, while permit conditions would require marine monitoring.",
+    "topicIds": ["harborview-offshore-wind-transmission"],
+    "tags": ["Harborview", "offshore wind", "grid reliability", "ratepayer"],
+    "quotes": [
+      {
+        "speaker": "Deputy Energy Commissioner Lena Ortiz",
+        "text": "The corridor is designed to move clean power into the load pocket when the grid is most constrained.",
+        "confidence": 0.84
+      }
+    ],
+    "claims": [
+      {
+        "id": "claim-state-reliability",
+        "questionId": "reliability",
+        "text": "The corridor would reduce peak-season reliability risk by adding transfer capacity into the Harborview load pocket.",
+        "stance": "supporting",
+        "evidence": "Agency planning model summary attached to the permit notice.",
+        "confidence": 0.82
+      },
+      {
+        "id": "claim-state-cost",
+        "questionId": "cost",
+        "text": "Officials say ratepayer impacts are justified by avoided congestion and reliability costs over the asset life.",
+        "stance": "supporting",
+        "confidence": 0.61
+      },
+      {
+        "id": "claim-state-marine",
+        "questionId": "marine-impact",
+        "text": "The permit would require pre-construction habitat surveys and seasonal limits on seabed work.",
+        "stance": "neutral",
+        "confidence": 0.57
+      }
+    ],
+    "confidence": 0.75
+  },
+  {
+    "id": "article-fishermen-harborview-impact-20260411",
+    "title": "Fishing groups challenge route for Harborview wind transmission cable",
+    "url": "https://example.org/harbor-fishermen-alliance/cable-route-challenge",
+    "sourceId": "harbor-fishermen-alliance",
+    "author": "Harbor Fishermen Alliance board",
+    "publishedAt": "2026-04-11T09:30:00.000Z",
+    "summary": "The fishermen's alliance says the preferred corridor crosses productive trawling grounds and lacks enforceable compensation if construction disrupts the spring season.",
+    "topicIds": ["harborview-offshore-wind-transmission"],
+    "tags": ["fishing grounds", "marine", "offshore wind"],
+    "claims": [
+      {
+        "id": "claim-fish-marine",
+        "questionId": "marine-impact",
+        "text": "The preferred route crosses active trawling grounds and does not yet include enforceable compensation for access losses.",
+        "stance": "opposing",
+        "evidence": "Member map comparing the route with spring trawl lanes.",
+        "confidence": 0.78
+      },
+      {
+        "id": "claim-fish-cost",
+        "questionId": "cost",
+        "text": "Project cost estimates leave out expected mitigation payments and port disruptions.",
+        "stance": "opposing",
+        "confidence": 0.6
+      }
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "article-business-ratepayer-warning-20260412",
+    "title": "Manufacturers ask regulators to cap Harborview corridor bill impacts",
+    "url": "https://example.org/coastal-business-review/ratepayer-cap-harborview",
+    "sourceId": "coastal-business-review",
+    "author": "Mira Chen",
+    "publishedAt": "2026-04-12T16:45:00.000Z",
+    "summary": "Large power users acknowledge the corridor could ease congestion but argue regulators should cap bill impacts and require annual public reporting on project costs.",
+    "topicIds": ["harborview-offshore-wind-transmission"],
+    "tags": ["ratepayer", "grid reliability", "transmission corridor"],
+    "claims": [
+      {
+        "id": "claim-business-reliability",
+        "questionId": "reliability",
+        "text": "Industrial customers say the line could ease congestion in the Harborview load pocket.",
+        "stance": "supporting",
+        "confidence": 0.68
+      },
+      {
+        "id": "claim-business-cost",
+        "questionId": "cost",
+        "text": "The current financing proposal shifts too much cost risk onto ratepayers without a hard cap.",
+        "stance": "opposing",
+        "evidence": "Trade group filing summarized in the article.",
+        "confidence": 0.72
+      }
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "article-metro-permit-hearing-20260413",
+    "title": "Harborview hearing puts wind cable benefits and coastal concerns side by side",
+    "url": "https://example.org/metro-ledger/harborview-wind-cable-hearing",
+    "sourceId": "metro-ledger",
+    "author": "Ana Bell",
+    "publishedAt": "2026-04-13T18:20:00.000Z",
+    "summary": "A public hearing showed support for new grid capacity alongside demands for route changes, stronger construction windows, and clearer cost reporting.",
+    "topicIds": ["harborview-offshore-wind-transmission"],
+    "tags": ["Harborview", "coastal habitat", "public hearing"],
+    "claims": [
+      {
+        "id": "claim-metro-reliability",
+        "questionId": "reliability",
+        "text": "The hearing record showed broad agreement that the grid needs new capacity, but disagreement over whether this route is the best option.",
+        "stance": "mixed",
+        "confidence": 0.69
+      },
+      {
+        "id": "claim-metro-marine",
+        "questionId": "marine-impact",
+        "text": "Residents and fishers asked for more specific construction windows and public habitat monitoring reports.",
+        "stance": "mixed"
+      },
+      {
+        "id": "claim-metro-process",
+        "text": "Regulators extended the written comment period by two weeks after the hearing.",
+        "stance": "neutral",
+        "confidence": 0.73
+      }
+    ],
+    "confidence": 0.72
+  },
+  {
+    "id": "article-climate-grid-watch-20260414",
+    "title": "Climate Grid Watch urges approval of Harborview transmission corridor",
+    "url": "https://example.org/climate-grid-watch/approve-harborview-corridor",
+    "sourceId": "climate-grid-watch",
+    "author": "Research team",
+    "publishedAt": "2026-04-14T11:05:00.000Z",
+    "summary": "The advocacy group says delaying the corridor would prolong fossil peaker use, while habitat issues can be handled through monitoring and adaptive route management.",
+    "topicIds": ["harborview-offshore-wind-transmission"],
+    "tags": ["offshore wind", "grid reliability", "coastal habitat"],
+    "claims": [
+      {
+        "id": "claim-climate-reliability",
+        "questionId": "reliability",
+        "text": "Transmission approval would reduce reliance on local peaker plants during constrained summer evenings.",
+        "stance": "supporting",
+        "confidence": 0.76
+      },
+      {
+        "id": "claim-climate-cost",
+        "questionId": "cost",
+        "text": "Long-term fuel savings and avoided congestion justify the near-term transmission charge."
+      },
+      {
+        "id": "claim-climate-marine",
+        "questionId": "marine-impact",
+        "text": "Adaptive routing and public monitoring can keep coastal habitat impacts within permit limits.",
+        "stance": "supporting",
+        "confidence": 0.7
+      }
+    ],
+    "confidence": 0.71
+  }
+]
