@@ -189,8 +189,8 @@ function matchingClaims(question: ContestedQuestion, articles: Article[]) {
 
   return articles.flatMap((article) =>
     article.claims.filter((claim) => {
-      if (claim.questionId === question.id) {
-        return true;
+      if (claim.questionId) {
+        return claim.questionId === question.id;
       }
 
       const haystack = `${claim.text} ${claim.evidence ?? ""}`.toLowerCase();
@@ -562,8 +562,18 @@ function invertQuestion(modal: string, rest: string) {
 }
 
 function invertBeQuestion(verb: string, rest: string) {
+  const adjectiveEnoughMatch = rest.match(
+    /^(.+?)\s+(adequate|clear|credible|strong|sufficient)\s+enough\b(.*)$/i
+  );
+
+  if (adjectiveEnoughMatch?.[1] && adjectiveEnoughMatch[2]) {
+    return `whether ${lowerFirst(adjectiveEnoughMatch[1])} ${verb} ${lowerFirst(
+      `${adjectiveEnoughMatch[2]} enough${adjectiveEnoughMatch[3] ?? ""}`
+    )}`;
+  }
+
   const predicateMatch = rest.match(
-    /^(.+?)\s+(adequate|available|clear|credible|enough|included|justified|required|resolved|visible)\b(.*)$/i
+    /^(.+?)\s+(adequate|available|clear|credible|included|justified|required|resolved|sufficient|visible)\b(.*)$/i
   );
 
   if (predicateMatch?.[1] && predicateMatch[2]) {

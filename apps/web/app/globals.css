@@ -67,9 +67,10 @@ select {
 
 .analytical-home-grid {
   align-items: start;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   gap: 20px;
-  grid-template-columns: minmax(0, 1fr) minmax(0, 280px);
+  width: 100%;
 }
 
 .analytical-detail-grid {
@@ -95,6 +96,10 @@ select {
 }
 
 @media (max-width: 720px) {
+  .analytical-header {
+    position: relative !important;
+  }
+
   .analytical-home-grid,
   .analytical-detail-grid {
     display: flex;

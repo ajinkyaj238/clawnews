@@ -6,12 +6,21 @@ describe("schema validation", () => {
   it("accepts the frontend sample event artifact", () => {
     const fixturePath = new URL("../../../artifacts/sample-event.json", import.meta.url);
     const raw = JSON.parse(readFileSync(fixturePath, "utf8"));
+    const rawEvents = Array.isArray(raw)
+      ? raw
+      : Array.isArray(raw.events)
+        ? raw.events
+        : [raw];
 
-    const event = EventSchema.parse(raw);
+    const events = rawEvents.map((event: unknown) => EventSchema.parse(event));
+    const event = events.find(
+      (candidate) => candidate.topicId === "harborview-offshore-wind-transmission"
+    );
 
-    expect(event.topicId).toBe("harborview-offshore-wind-transmission");
-    expect(event.articles).toHaveLength(5);
-    expect(event.sourceComparisons.length).toBeGreaterThan(0);
+    expect(events.length).toBeGreaterThanOrEqual(4);
+    expect(event?.articles).toHaveLength(5);
+    expect(event?.sourceComparisons.length).toBeGreaterThan(0);
+    expect(events.every((candidate) => candidate.articles.length >= 5)).toBe(true);
   });
 
   it("rejects malformed article urls and out-of-range confidence", () => {

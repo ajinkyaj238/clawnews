@@ -32,9 +32,9 @@ const CN_EVENT = {
     'New Office of AI Safety will be created within Commerce Dept.',
   ],
   claims: [
-    { id: 'c1', label: 'Legislative intent', text: 'The bill is designed to protect consumers from automated discrimination in hiring and lending decisions.', sourceIds: ['s1', 's2'], confidence: 0.88 },
-    { id: 'c2', label: 'Industry impact', text: 'Audit requirements could cost large firms $10–50M annually; smaller companies may face a proportionally higher burden.', sourceIds: ['s3'], confidence: 0.65 },
-    { id: 'c3', label: 'Next steps', text: 'The House is expected to vote within three weeks. White House has signalled intent to sign into law.', sourceIds: ['s1', 's4'], confidence: 0.79 },
+    { id: 'c1', label: 'AI Policy', text: 'The bill is designed to protect consumers from automated discrimination in hiring and lending decisions.', sourceIds: ['s1', 's2'], confidence: 0.88 },
+    { id: 'c2', label: 'AI Policy', text: 'Audit requirements could cost large firms $10–50M annually; smaller companies may face a proportionally higher burden.', sourceIds: ['s3'], confidence: 0.65 },
+    { id: 'c3', label: 'AI Policy', text: 'The House is expected to vote within three weeks. White House has signalled intent to sign into law.', sourceIds: ['s1', 's4'], confidence: 0.79 },
   ],
   disagreements: [
     { id: 'd1', point: 'Economic impact of audit requirements', positions: ['Reuters/WaPo frame audits as necessary consumer-protection cost', 'WSJ frames the same audits as an innovation-killing compliance burden'] },
@@ -62,8 +62,16 @@ const CN_EVENT = {
 };
 
 const CN_SECONDARY = [
-  { id: 'evt-2', title: 'Climate Summit Reaches Historic Emissions Agreement', kicker: 'Climate', status: 'Resolved', summary: '190 countries agreed to cut emissions 45% by 2035, backed by a $500B green transition fund for developing nations.', location: 'Geneva', happenedAt: '2026-04-25T09:00:00Z', updatedAt: '2026-04-25T18:00:00Z', convergenceScore: 0.88, disagreementScore: 0.22, evidenceQualityScore: 0.91, sources: [CN_SOURCES[0], CN_SOURCES[1]], tags: ['Climate', 'UN'], whatChanged: ['Final communiqué signed by all 190 delegations.'], claims: [], disagreements: [] },
-  { id: 'evt-3', title: 'MIT Battery Charges to 80% in Under Four Minutes', kicker: 'Science', status: 'Emerging', summary: 'Solid-state prototype maintains 90% capacity after 5,000 cycles; mass production eyed for 2028.', location: 'Cambridge, MA', happenedAt: '2026-04-25T14:00:00Z', updatedAt: '2026-04-25T16:30:00Z', convergenceScore: 0.94, disagreementScore: 0.08, evidenceQualityScore: 0.96, sources: [CN_SOURCES[3]], tags: ['Battery', 'EV'], whatChanged: ['Pre-print published on arXiv.'], claims: [], disagreements: [] },
+  { id: 'evt-2', title: 'Climate Summit Reaches Historic Emissions Agreement', kicker: 'Climate', status: 'Resolved', summary: '190 countries agreed to cut emissions 45% by 2035, backed by a $500B green transition fund for developing nations.', location: 'Geneva', happenedAt: '2026-04-25T09:00:00Z', updatedAt: '2026-04-25T18:00:00Z', convergenceScore: 0.88, disagreementScore: 0.22, evidenceQualityScore: 0.91, sources: [CN_SOURCES[0], CN_SOURCES[1]], tags: ['Climate', 'UN', 'Emissions'],
+    whatChanged: ['Final communiqué signed by all 190 delegations.', '$500B fund structure confirmed with IMF oversight.'],
+    agreedFacts: ['190 countries signed the agreement.', 'Emissions target set at 45% reduction by 2035.', '$500B green transition fund established for developing nations.'],
+    disagreements: [{ id: 'd1', point: 'Enforceability of commitments', positions: ['Reuters: binding targets with penalty mechanism', 'Several delegations: targets are aspirational, not legally binding'] }],
+    claims: [] },
+  { id: 'evt-3', title: 'MIT Battery Charges to 80% in Under Four Minutes', kicker: 'Science', status: 'Emerging', summary: 'Solid-state prototype maintains 90% capacity after 5,000 cycles; mass production eyed for 2028.', location: 'Cambridge, MA', happenedAt: '2026-04-25T14:00:00Z', updatedAt: '2026-04-25T16:30:00Z', convergenceScore: 0.94, disagreementScore: 0.08, evidenceQualityScore: 0.96, sources: [CN_SOURCES[3]], tags: ['Battery', 'EV', 'MIT'],
+    whatChanged: ['Pre-print published on arXiv.', 'Independent lab replication attempts underway.'],
+    agreedFacts: ['Prototype reaches 80% charge in under 4 minutes.', '90%+ capacity retained after 5,000 cycles.', 'Uses lithium-ceramic anode.'],
+    disagreements: [{ id: 'd1', point: 'Timeline to mass production', positions: ['MIT team: 2028 is realistic', 'Industry analysts: manufacturing scale-up likely pushes to 2030+'] }],
+    claims: [] },
 ];
 
 // ============================================================
@@ -211,9 +219,9 @@ function CnCard({ t, children, accent, style = {} }) {
 // HEADER
 // ============================================================
 
-function CnHeader({ t, view, onBack }) {
+function CnHeader({ t, view, onBack, isMobile }) {
   return (
-    <header style={{ position: 'sticky', top: 0, zIndex: 50, background: t.headerBg, backdropFilter: 'blur(14px)', borderBottom: `1px solid ${t.border}`, flexShrink: 0 }}>
+    <header style={{ position: isMobile ? 'relative' : 'sticky', top: 0, zIndex: 50, background: t.headerBg, backdropFilter: 'blur(14px)', borderBottom: `1px solid ${t.border}`, flexShrink: 0 }}>
       <div style={{ maxWidth: 960, margin: '0 auto', padding: '0 28px', height: 52, display: 'flex', alignItems: 'center', justifyContent: 'space-between', gap: 12 }}>
         {view === 'home' ? (
           <div>
@@ -248,7 +256,7 @@ function CnEventCard({ t, event, onClick, isLead }) {
         <div style={{ flex: 1 }}>
           <div style={{ display: 'flex', gap: 10, alignItems: 'center', flexWrap: 'wrap', marginBottom: 10 }}>
             {event.kicker && <CnEyebrow t={t}>{event.kicker}</CnEyebrow>}
-            {event.status && <CnEyebrow t={t} color={t.saffron}>{event.status}</CnEyebrow>}
+            {event.status && <CnEyebrow t={t} color={t.pine}>{event.status}</CnEyebrow>}
           </div>
           <h2 style={{ fontFamily: isLead ? t.headingFont : t.bodyFont, fontSize: isLead ? 20 : 14, fontWeight: isLead ? 700 : 600, lineHeight: 1.35, color: t.ink, margin: 0 }}>
             {event.title}
@@ -351,15 +359,12 @@ function CnHomeView({ t, onOpenEvent, isMobile }) {
       {isMobile ? (
         <div style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
           <CnEventCard t={t} event={CN_EVENT} onClick={onOpenEvent} isLead={true} />
-          {CN_SECONDARY.map(ev => <CnEventCard key={ev.id} t={t} event={ev} onClick={onOpenEvent} isLead={false} />)}
+          {CN_SECONDARY.map(ev => <CnEventCard key={ev.id} t={t} event={ev} onClick={onOpenEvent} isLead={true} />)}
         </div>
       ) : (
-        <div style={{ display: 'grid', gridTemplateColumns: '1fr 280px', gap: 20, alignItems: 'start' }}>
+        <div style={{ display: 'flex', flexDirection: 'column', gap: 20 }}>
           <CnEventCard t={t} event={CN_EVENT} onClick={onOpenEvent} isLead={true} />
-          <div style={{ display: 'flex', flexDirection: 'column', gap: 12 }}>
-            <div style={{ fontSize: 10, fontWeight: 700, letterSpacing: '0.14em', textTransform: 'uppercase', color: t.inkMuted, paddingBottom: 8, borderBottom: `1px solid ${t.border}` }}>More today</div>
-            {CN_SECONDARY.map(ev => <CnEventCard key={ev.id} t={t} event={ev} onClick={onOpenEvent} isLead={false} />)}
-          </div>
+          {CN_SECONDARY.map(ev => <CnEventCard key={ev.id} t={t} event={ev} onClick={onOpenEvent} isLead={true} />)}
         </div>
       )}
     </main>
@@ -394,20 +399,26 @@ function CnSourceDrawer({ t, open, onClose, sources }) {
                 <span style={{ color: t.inkMuted, fontSize: 11 }}>{expanded === src.id ? '▲' : '▼'}</span>
               </button>
               {expanded === src.id && (
-                <div style={{ padding: '4px 14px 14px', display: 'flex', flexDirection: 'column', gap: 10, borderTop: `1px solid ${t.border}` }}>
+                <div style={{ padding: '4px 14px 14px', display: 'flex', flexDirection: 'column', gap: 10, borderTop: `1px solid ${t.border}`, overflow: 'hidden', minWidth: 0 }}>
                   {[['Ownership', src.ownership], ['Funding', src.funding], ['Editorial profile', src.editorialProfile]].map(([label, val]) => val ? (
                     <div key={label} style={{ paddingTop: 10 }}>
                       <div style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: t.inkMuted, marginBottom: 3 }}>{label}</div>
-                      <div style={{ fontSize: 12, color: t.inkMid, lineHeight: 1.55 }}>{val}</div>
+                      <div style={{ fontSize: 12, color: t.inkMid, lineHeight: 1.55, wordBreak: 'break-word', overflowWrap: 'break-word' }}>{val}</div>
                     </div>
                   ) : null)}
                   {src.incentives && src.incentives.length > 0 && (
                     <div style={{ paddingTop: 10 }}>
                       <div style={{ fontSize: 9, fontWeight: 700, letterSpacing: '0.12em', textTransform: 'uppercase', color: t.inkMuted, marginBottom: 6 }}>Incentives</div>
-                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4 }}>{src.incentives.map(inc => <CnTag key={inc} t={t} color={t.saffron}>{inc}</CnTag>)}</div>
+                      <div style={{ display: 'flex', flexWrap: 'wrap', gap: 4, overflow: 'hidden' }}>
+                        {src.incentives.map(inc => (
+                          <span key={inc} style={{ display: 'inline-block', padding: '3px 8px', borderRadius: 4, border: `1px solid ${t.saffron}35`, background: `${t.saffron}12`, color: t.saffron, fontSize: 9, fontWeight: 600, letterSpacing: '0.04em', textTransform: 'uppercase', whiteSpace: 'normal', wordBreak: 'break-word', maxWidth: '100%' }}>
+                            {inc}
+                          </span>
+                        ))}
+                      </div>
                     </div>
                   )}
-                  {src.articleTitle && <a href="#" style={{ fontSize: 12, color: t.pine, fontWeight: 500, display: 'block', paddingTop: 10 }}>{src.articleTitle} ↗</a>}
+                  {src.articleTitle && <a href="#" style={{ fontSize: 12, color: t.pine, fontWeight: 500, display: 'block', paddingTop: 10, wordBreak: 'break-word', overflowWrap: 'break-word' }}>{src.articleTitle} ↗</a>}
                 </div>
               )}
             </div>
@@ -426,7 +437,7 @@ function CnSection({ t, eyebrow, title, children }) {
   return (
     <section style={{ display: 'flex', flexDirection: 'column', gap: 14 }}>
       <div style={{ display: 'flex', flexDirection: 'column', gap: 4 }}>
-        <CnEyebrow t={t} color={t.inkMuted}>{eyebrow}</CnEyebrow>
+        <CnEyebrow t={t} color={t.pine}>{eyebrow}</CnEyebrow>
         <h3 style={{ fontFamily: t.headingFont, fontSize: 17, fontWeight: 700, color: t.ink, margin: 0, letterSpacing: '-0.01em' }}>{title}</h3>
       </div>
       <div>{children}</div>
@@ -496,7 +507,7 @@ function CnEventDetailView({ t, event, onOpenSources, isMobile }) {
             <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
               {event.claims.map(claim => (
                 <CnCard key={claim.id} t={t} accent={t.tidal}>
-                  {claim.label && <div style={{ marginBottom: 6 }}><CnEyebrow t={t} color={t.saffron}>{claim.label}</CnEyebrow></div>}
+                  {claim.label && <div style={{ marginBottom: 6 }}><CnEyebrow t={t} color={t.ink}>{claim.label}</CnEyebrow></div>}
                   <p style={{ fontSize: 13, lineHeight: 1.65, color: t.inkMid, margin: 0 }}>{claim.text}</p>
                   <p style={{ fontSize: 10, color: t.inkMuted, margin: '8px 0 0', fontWeight: 600, letterSpacing: '0.04em' }}>
                     {claim.sourceIds.map(id => event.sources.find(s => s.id === id)?.name).filter(Boolean).join(' · ')}
@@ -606,7 +617,7 @@ function ClawNewsApp({ theme, isMobile }) {
 
   return (
     <div style={{ position: 'relative', overflow: 'hidden', height: '100%', display: 'flex', flexDirection: 'column', background: t.bg, fontFamily: t.bodyFont, color: t.ink }}>
-      <CnHeader t={t} view={view} onBack={handleBack} />
+      <CnHeader t={t} view={view} onBack={handleBack} isMobile={isMobile} />
       <div style={{ flex: 1, overflowY: 'auto', overflowX: 'hidden' }}>
         {view === 'home'
           ? <CnHomeView t={t} onOpenEvent={() => setView('event')} isMobile={isMobile} />

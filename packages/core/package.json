@@ -27,7 +27,7 @@
     "ingest:rss": "tsx src/scripts/ingest-rss.ts",
     "generate:brief": "tsx src/scripts/generate-brief.ts",
     "brief:generate": "tsx src/scripts/generate-brief.ts",
-    "brief:sample": "tsx src/scripts/generate-brief.ts --topic ../../data/sample-topic.json --articles ../../data/sample_articles.json --sources ../../data/source_profiles.seed.json --out ../../artifacts/sample-event.json --brief-out ../../artifacts/sample-brief.md",
+    "brief:sample": "tsx src/scripts/generate-brief.ts --topic ../../data/sample-topics.json --articles ../../data/sample_articles.json --sources ../../data/source_profiles.seed.json --out ../../artifacts/sample-event.json --brief-out ../../artifacts/sample-brief.md",
     "zeroclaw:mock": "tsx src/scripts/run-zeroclaw-local.ts --job ../../data/zeroclaw/mock-brief-job.json --base-dir ../.. --result-out ../../artifacts/zeroclaw-mock-result.json"
   },
   "dependencies": {

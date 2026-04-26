@@ -165,5 +165,441 @@
       }
     ],
     "confidence": 0.71
+  },
+  {
+    "id": "article-policy-wire-ai-audit-20260418",
+    "title": "Regulators propose AI hiring audit rule for automated screening tools",
+    "url": "https://example.org/national-policy-wire/ai-hiring-audit-rule",
+    "sourceId": "national-policy-wire",
+    "author": "Policy desk",
+    "publishedAt": "2026-04-18T13:00:00.000Z",
+    "summary": "Regulators proposed a rule requiring employers to audit automated hiring tools for disparate impact, notify applicants when tools are used, and retain audit records.",
+    "topicIds": ["ai-hiring-audit-rule"],
+    "tags": ["AI hiring", "audit rule", "applicant disclosure"],
+    "claims": [
+      {
+        "id": "claim-ai-wire-discrimination",
+        "questionId": "discrimination-risk",
+        "text": "Officials say annual audits would make disparate-impact patterns visible before automated tools are used at scale.",
+        "stance": "supporting",
+        "evidence": "Notice of proposed rulemaking summarized by the agency.",
+        "confidence": 0.8
+      },
+      {
+        "id": "claim-ai-wire-burden",
+        "questionId": "compliance-burden",
+        "text": "Agency officials estimate standardized templates and phased enforcement would keep compliance costs proportionate for smaller employers.",
+        "stance": "supporting",
+        "confidence": 0.66
+      },
+      {
+        "id": "claim-ai-wire-transparency",
+        "questionId": "transparency",
+        "text": "The proposal would require applicant notice when automated screening materially influences a hiring decision.",
+        "stance": "supporting",
+        "confidence": 0.74
+      }
+    ],
+    "confidence": 0.76
+  },
+  {
+    "id": "article-civil-rights-ai-audit-20260418",
+    "title": "Civil-rights groups say AI hiring audits need public reporting",
+    "url": "https://example.org/civil-rights-observer/ai-hiring-public-reporting",
+    "sourceId": "civil-rights-observer",
+    "author": "Research staff",
+    "publishedAt": "2026-04-18T17:45:00.000Z",
+    "summary": "Advocates welcomed the proposal but said audits should be independent, easier for applicants to challenge, and summarized publicly for high-volume employers.",
+    "topicIds": ["ai-hiring-audit-rule"],
+    "tags": ["AI hiring", "civil rights", "audit transparency"],
+    "claims": [
+      {
+        "id": "claim-civil-rights-discrimination",
+        "questionId": "discrimination-risk",
+        "text": "Independent audits and applicant appeal rights are needed to reduce algorithmic discrimination in high-volume screening.",
+        "stance": "supporting",
+        "confidence": 0.77
+      },
+      {
+        "id": "claim-civil-rights-transparency",
+        "questionId": "transparency",
+        "text": "Applicant notices will be too weak unless employers explain the tool category, decision stage, and appeal path.",
+        "stance": "opposing",
+        "evidence": "Advocacy comment preview quoted in the article.",
+        "confidence": 0.69
+      }
+    ],
+    "confidence": 0.72
+  },
+  {
+    "id": "article-tech-industry-ai-cost-20260419",
+    "title": "AI vendors warn hiring audit rule could slow product releases",
+    "url": "https://example.org/tech-industry-daily/vendor-warning-ai-audits",
+    "sourceId": "tech-industry-daily",
+    "author": "Dara Singh",
+    "publishedAt": "2026-04-19T10:10:00.000Z",
+    "summary": "Vendors say clearer standards are useful, but broad annual audit duties could delay model updates and raise liability for software providers.",
+    "topicIds": ["ai-hiring-audit-rule"],
+    "tags": ["AI vendors", "compliance", "model updates"],
+    "claims": [
+      {
+        "id": "claim-tech-discrimination",
+        "questionId": "discrimination-risk",
+        "text": "Vendor groups say audits may not materially reduce bias unless regulators first define acceptable test data and error thresholds.",
+        "stance": "opposing",
+        "confidence": 0.64
+      },
+      {
+        "id": "claim-tech-burden",
+        "questionId": "compliance-burden",
+        "text": "Annual audit requirements could increase legal and engineering costs for smaller AI vendors and their employer customers.",
+        "stance": "opposing",
+        "confidence": 0.68
+      }
+    ],
+    "confidence": 0.67
+  },
+  {
+    "id": "article-small-business-ai-compliance-20260420",
+    "title": "Small employers ask for phased AI hiring audit compliance",
+    "url": "https://example.org/small-business-ledger/phased-ai-hiring-compliance",
+    "sourceId": "small-business-ledger",
+    "author": "Lena Price",
+    "publishedAt": "2026-04-20T12:30:00.000Z",
+    "summary": "Small employers say the rule should phase in audit requirements and provide templates before penalties apply to firms without in-house compliance teams.",
+    "topicIds": ["ai-hiring-audit-rule"],
+    "tags": ["small employer", "compliance burden", "AI hiring"],
+    "claims": [
+      {
+        "id": "claim-small-business-burden",
+        "questionId": "compliance-burden",
+        "text": "Compliance costs are not proportionate for smaller employers unless the rule includes templates, grace periods, and safe harbors.",
+        "stance": "opposing",
+        "evidence": "Small-employer association survey summarized in the article.",
+        "confidence": 0.7
+      },
+      {
+        "id": "claim-small-business-transparency",
+        "questionId": "transparency",
+        "text": "Applicant notice language can be standardized without revealing proprietary model details.",
+        "stance": "supporting",
+        "confidence": 0.58
+      }
+    ],
+    "confidence": 0.67
+  },
+  {
+    "id": "article-algorithm-lab-ai-methods-20260421",
+    "title": "Researchers say AI hiring audit design matters more than audit frequency",
+    "url": "https://example.org/algorithm-audit-lab/hiring-audit-methods",
+    "sourceId": "algorithm-audit-lab",
+    "author": "Algorithm Audit Lab",
+    "publishedAt": "2026-04-21T15:25:00.000Z",
+    "summary": "Researchers say audit quality depends on representative data, subgroup analysis, and clear remediation triggers, not simply the number of audits per year.",
+    "topicIds": ["ai-hiring-audit-rule"],
+    "tags": ["audit methodology", "AI hiring", "evidence quality"],
+    "claims": [
+      {
+        "id": "claim-lab-discrimination",
+        "questionId": "discrimination-risk",
+        "text": "Audits can reduce discrimination risk when test data is representative and remediation triggers are specified.",
+        "stance": "supporting",
+        "evidence": "Research note comparing audit designs across simulated applicant pools.",
+        "confidence": 0.81
+      },
+      {
+        "id": "claim-lab-transparency",
+        "questionId": "transparency",
+        "text": "Applicant notices are clearer when they name the decision stage affected by automation rather than the model brand.",
+        "stance": "supporting",
+        "confidence": 0.72
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "article-policy-wire-rate-hold-20260422",
+    "title": "Central bank holds rates steady and keeps cut timing open",
+    "url": "https://example.org/federal-policy-wire/central-bank-rate-hold",
+    "sourceId": "federal-policy-wire",
+    "author": "Rates desk",
+    "publishedAt": "2026-04-22T18:05:00.000Z",
+    "summary": "The policy committee held rates steady, citing incomplete inflation progress and a still-resilient labor market while leaving room for cuts later this year.",
+    "topicIds": ["central-bank-rate-hold"],
+    "tags": ["central bank", "rate hold", "inflation"],
+    "claims": [
+      {
+        "id": "claim-rate-wire-inflation",
+        "questionId": "inflation-progress",
+        "text": "Officials say inflation progress is not yet strong enough to justify immediate rate cuts.",
+        "stance": "opposing",
+        "evidence": "Policy statement and press conference.",
+        "confidence": 0.88
+      },
+      {
+        "id": "claim-rate-wire-labor",
+        "questionId": "labor-risk",
+        "text": "The committee described labor conditions as cooling but not weak enough to force a policy shift.",
+        "stance": "neutral",
+        "confidence": 0.84
+      }
+    ],
+    "confidence": 0.86
+  },
+  {
+    "id": "article-main-street-rate-households-20260422",
+    "title": "Households wait for relief after central bank leaves rates unchanged",
+    "url": "https://example.org/main-street-economics/households-rate-hold",
+    "sourceId": "main-street-economics",
+    "author": "Priya Malik",
+    "publishedAt": "2026-04-22T20:30:00.000Z",
+    "summary": "Consumer finance analysts say the hold keeps mortgage and credit-card costs elevated even as some deposit yields remain attractive.",
+    "topicIds": ["central-bank-rate-hold"],
+    "tags": ["household budgets", "mortgage rates", "credit cards"],
+    "claims": [
+      {
+        "id": "claim-main-street-households",
+        "questionId": "household-impact",
+        "text": "Households remain under meaningful credit stress because mortgage resets and credit-card rates are still elevated.",
+        "stance": "supporting",
+        "confidence": 0.84
+      },
+      {
+        "id": "claim-main-street-inflation",
+        "questionId": "inflation-progress",
+        "text": "Cooling rent and goods prices suggest the case for a first cut depends on the next inflation report confirming the trend.",
+        "stance": "neutral",
+        "confidence": 0.8
+      }
+    ],
+    "confidence": 0.83
+  },
+  {
+    "id": "article-labor-market-rate-risk-20260423",
+    "title": "Labor analysts warn delayed rate cuts could deepen hiring slowdown",
+    "url": "https://example.org/labor-market-monitor/rate-hold-hiring-risk",
+    "sourceId": "labor-market-monitor",
+    "author": "Policy team",
+    "publishedAt": "2026-04-23T09:40:00.000Z",
+    "summary": "Labor-focused analysts argue that slower hiring and softer wage growth show policy is already restrictive enough.",
+    "topicIds": ["central-bank-rate-hold"],
+    "tags": ["labor market", "wages", "rate cuts"],
+    "claims": [
+      {
+        "id": "claim-labor-risk",
+        "questionId": "labor-risk",
+        "text": "The labor market is weakening enough to justify changing policy before layoffs broaden.",
+        "stance": "supporting",
+        "evidence": "Analysis of job postings and wage tracker cited by the group.",
+        "confidence": 0.82
+      },
+      {
+        "id": "claim-labor-inflation",
+        "questionId": "inflation-progress",
+        "text": "Recent wage data is consistent with further inflation progress but does not by itself settle the timing of gradual cuts.",
+        "stance": "neutral",
+        "confidence": 0.8
+      }
+    ],
+    "confidence": 0.82
+  },
+  {
+    "id": "article-investor-signal-rate-pricing-20260423",
+    "title": "Investors trim rate-cut bets after central bank statement",
+    "url": "https://example.org/investor-signal/rate-cut-bets-trimmed",
+    "sourceId": "investor-signal",
+    "author": "Markets team",
+    "publishedAt": "2026-04-23T13:15:00.000Z",
+    "summary": "Market commentary says bond traders reduced near-term cut expectations after policymakers avoided declaring victory on inflation.",
+    "topicIds": ["central-bank-rate-hold"],
+    "tags": ["bond yields", "market pricing", "rate cuts"],
+    "claims": [
+      {
+        "id": "claim-investor-inflation",
+        "questionId": "inflation-progress",
+        "text": "The statement signaled inflation progress remains too uncertain for a near-term cut.",
+        "stance": "opposing",
+        "confidence": 0.78
+      },
+      {
+        "id": "claim-investor-households",
+        "questionId": "household-impact",
+        "text": "Higher-for-longer policy keeps loan demand soft but supports savers through elevated short-term yields.",
+        "stance": "mixed",
+        "confidence": 0.74
+      }
+    ],
+    "confidence": 0.78
+  },
+  {
+    "id": "article-household-budget-credit-stress-20260424",
+    "title": "Consumer advocates say credit stress is missing from rate debate",
+    "url": "https://example.org/household-budget-network/credit-stress-rate-debate",
+    "sourceId": "household-budget-network",
+    "author": "Research desk",
+    "publishedAt": "2026-04-24T11:50:00.000Z",
+    "summary": "Consumer advocates say delinquency anecdotes and counseling caseloads show the rate hold is still hitting lower-income borrowers hardest.",
+    "topicIds": ["central-bank-rate-hold"],
+    "tags": ["credit stress", "consumer debt", "households"],
+    "claims": [
+      {
+        "id": "claim-budget-households",
+        "questionId": "household-impact",
+        "text": "Households are still under meaningful credit stress, especially borrowers with variable-rate debt.",
+        "stance": "supporting",
+        "confidence": 0.82
+      },
+      {
+        "id": "claim-budget-labor",
+        "questionId": "labor-risk",
+        "text": "Softening hours and temporary-help work suggest labor risks are rising faster than headline unemployment shows.",
+        "stance": "supporting",
+        "confidence": 0.76
+      }
+    ],
+    "confidence": 0.8
+  },
+  {
+    "id": "article-water-desk-allocation-20260416",
+    "title": "Dry Creek drought plan would cut irrigation to protect reserves and river flows",
+    "url": "https://example.org/western-water-desk/dry-creek-drought-plan",
+    "sourceId": "western-water-desk",
+    "author": "Marisol Vega",
+    "publishedAt": "2026-04-16T08:45:00.000Z",
+    "summary": "A drought-year plan would prioritize municipal reserves and minimum river flows while reducing some irrigation deliveries by up to a third.",
+    "topicIds": ["dry-creek-water-allocation-plan"],
+    "tags": ["Dry Creek", "drought", "water allocation"],
+    "claims": [
+      {
+        "id": "claim-water-desk-municipal",
+        "questionId": "municipal-priority",
+        "text": "The plan prioritizes municipal reserves over some irrigation deliveries during the severe drought window.",
+        "stance": "supporting",
+        "confidence": 0.78
+      },
+      {
+        "id": "claim-water-desk-river",
+        "questionId": "river-flows",
+        "text": "Minimum river-flow protections would remain in place through the first allocation period.",
+        "stance": "supporting",
+        "confidence": 0.7
+      }
+    ],
+    "confidence": 0.74
+  },
+  {
+    "id": "article-river-authority-reserves-20260416",
+    "title": "River authority says reserve threshold is needed before peak drought season",
+    "url": "https://example.org/river-basin-authority/reserve-threshold-drought",
+    "sourceId": "river-basin-authority",
+    "author": "Operations office",
+    "publishedAt": "2026-04-16T15:20:00.000Z",
+    "summary": "The authority says municipal reserve thresholds and flow requirements are required to keep emergency water available if dry conditions persist.",
+    "topicIds": ["dry-creek-water-allocation-plan"],
+    "tags": ["municipal reserves", "river flows", "drought operations"],
+    "claims": [
+      {
+        "id": "claim-authority-municipal",
+        "questionId": "municipal-priority",
+        "text": "Municipal reserves should receive priority until emergency storage reaches the drought-year threshold.",
+        "stance": "supporting",
+        "evidence": "Operations memo cited in the official notice.",
+        "confidence": 0.82
+      },
+      {
+        "id": "claim-authority-farm",
+        "questionId": "farm-impact",
+        "text": "Farm losses are partially mitigated by carryover credits and emergency leasing options.",
+        "stance": "supporting",
+        "confidence": 0.62
+      }
+    ],
+    "confidence": 0.77
+  },
+  {
+    "id": "article-growers-water-cuts-20260417",
+    "title": "Growers say Dry Creek irrigation cuts will force acreage reductions",
+    "url": "https://example.org/growers-exchange/dry-creek-irrigation-cuts",
+    "sourceId": "growers-exchange",
+    "author": "Growers Exchange board",
+    "publishedAt": "2026-04-17T10:35:00.000Z",
+    "summary": "Grower representatives say mitigation credits will not cover lost crop revenue or seasonal labor cuts if deliveries fall by a third.",
+    "topicIds": ["dry-creek-water-allocation-plan"],
+    "tags": ["irrigation", "farm income", "drought"],
+    "claims": [
+      {
+        "id": "claim-growers-municipal",
+        "questionId": "municipal-priority",
+        "text": "Municipal priority should not override contracted irrigation deliveries without a larger compensation fund.",
+        "stance": "opposing",
+        "confidence": 0.71
+      },
+      {
+        "id": "claim-growers-farm",
+        "questionId": "farm-impact",
+        "text": "Farm income losses are not adequately mitigated because credits cover only a fraction of expected crop revenue.",
+        "stance": "opposing",
+        "evidence": "Association estimate based on member crop plans.",
+        "confidence": 0.69
+      }
+    ],
+    "confidence": 0.68
+  },
+  {
+    "id": "article-tribal-radio-river-flows-20260418",
+    "title": "Tribal leaders say Dry Creek river flows are a baseline obligation",
+    "url": "https://example.org/tribal-community-radio/dry-creek-river-flows",
+    "sourceId": "tribal-community-radio",
+    "author": "Community newsroom",
+    "publishedAt": "2026-04-18T09:15:00.000Z",
+    "summary": "Tribal leaders argue that minimum river flows are necessary for fish habitat and cultural resources, not optional drought-year protections.",
+    "topicIds": ["dry-creek-water-allocation-plan"],
+    "tags": ["tribal water", "river flows", "fish habitat"],
+    "claims": [
+      {
+        "id": "claim-tribal-river",
+        "questionId": "river-flows",
+        "text": "River-flow protections are only a baseline and may still be insufficient for fish and tribal water interests.",
+        "stance": "opposing",
+        "confidence": 0.74
+      },
+      {
+        "id": "claim-tribal-municipal",
+        "questionId": "municipal-priority",
+        "text": "Municipal reserves should not receive priority unless treaty water interests and public river-health commitments are protected first.",
+        "stance": "opposing",
+        "confidence": 0.66
+      }
+    ],
+    "confidence": 0.7
+  },
+  {
+    "id": "article-watershed-science-flow-model-20260419",
+    "title": "Hydrologists question whether Dry Creek flow targets account for warmer runoff",
+    "url": "https://example.org/watershed-science-review/dry-creek-flow-model",
+    "sourceId": "watershed-science-review",
+    "author": "Science review editors",
+    "publishedAt": "2026-04-19T14:40:00.000Z",
+    "summary": "Hydrologists say the allocation model uses defensible drought assumptions but may understate ecological stress if warm spring runoff accelerates.",
+    "topicIds": ["dry-creek-water-allocation-plan"],
+    "tags": ["hydrology", "river flows", "model uncertainty"],
+    "claims": [
+      {
+        "id": "claim-science-river",
+        "questionId": "river-flows",
+        "text": "River-flow protections may be insufficient if warmer runoff compresses the spring recharge period.",
+        "stance": "opposing",
+        "evidence": "Technical note comparing runoff scenarios.",
+        "confidence": 0.77
+      },
+      {
+        "id": "claim-science-farm",
+        "questionId": "farm-impact",
+        "text": "Farm-loss mitigation estimates should include groundwater substitution costs and not only surface-water delivery cuts.",
+        "stance": "mixed",
+        "confidence": 0.64
+      }
+    ],
+    "confidence": 0.73
   }
 ]

@@ -1,0 +1,220 @@
+[
+  {
+    "id": "harborview-offshore-wind-transmission",
+    "title": "Harborview Offshore Wind Transmission Corridor",
+    "description": "A proposed transmission corridor for a 1.2 GW offshore wind project has drawn competing claims over grid reliability, ratepayer costs, fishing grounds, and coastal habitat protections.",
+    "keywords": [
+      "Harborview",
+      "offshore wind",
+      "transmission corridor",
+      "ratepayer",
+      "fishing grounds",
+      "grid reliability",
+      "coastal habitat"
+    ],
+    "eventWindowDays": 45,
+    "contestedQuestions": [
+      {
+        "id": "reliability",
+        "question": "Will the corridor materially improve regional grid reliability?",
+        "relatedKeywords": ["grid reliability", "capacity", "blackout", "transmission"]
+      },
+      {
+        "id": "cost",
+        "question": "Are projected ratepayer costs justified by long-term benefits?",
+        "relatedKeywords": ["ratepayer", "cost", "bill", "subsidy"]
+      },
+      {
+        "id": "marine-impact",
+        "question": "Are fisheries and coastal habitat protections adequate?",
+        "relatedKeywords": ["fishing", "habitat", "trawl", "seabed", "marine"]
+      }
+    ],
+    "stakeholders": [
+      {
+        "id": "state-energy-office",
+        "name": "State Energy Office",
+        "role": "government",
+        "positionSummary": "Argues the corridor is needed to connect offshore generation and reduce peak-season reliability risk.",
+        "interests": ["grid reliability", "renewable procurement targets", "permit schedule"]
+      },
+      {
+        "id": "harbor-fishermen-alliance",
+        "name": "Harbor Fishermen Alliance",
+        "role": "affected-group",
+        "positionSummary": "Warns that cable routing and construction windows could disrupt trawling grounds and port revenue.",
+        "interests": ["fishing access", "construction timing", "habitat monitoring"]
+      },
+      {
+        "id": "coastal-ratepayer-council",
+        "name": "Coastal Ratepayer Council",
+        "role": "civil-society",
+        "positionSummary": "Supports cleaner energy goals but wants stronger bill-impact guarantees and public cost reporting.",
+        "interests": ["monthly bills", "public accounting", "consumer protections"]
+      }
+    ]
+  },
+  {
+    "id": "ai-hiring-audit-rule",
+    "title": "AI Hiring Audit Rule",
+    "description": "A proposed AI hiring audit rule would require employers using automated screening tools to test for disparate impact, disclose tool use to applicants, and keep audit records for regulators.",
+    "keywords": [
+      "AI hiring",
+      "automated screening",
+      "audit rule",
+      "algorithmic discrimination",
+      "compliance cost",
+      "applicant disclosure"
+    ],
+    "eventWindowDays": 30,
+    "contestedQuestions": [
+      {
+        "id": "discrimination-risk",
+        "question": "Would the audit rule materially reduce algorithmic discrimination in hiring?",
+        "relatedKeywords": ["discrimination", "bias", "disparate impact", "audit"]
+      },
+      {
+        "id": "compliance-burden",
+        "question": "Are compliance costs proportionate for smaller employers?",
+        "relatedKeywords": ["compliance", "cost", "small employer", "burden"]
+      },
+      {
+        "id": "transparency",
+        "question": "Are applicant disclosure requirements clear enough?",
+        "relatedKeywords": ["disclosure", "notice", "transparency", "applicant"]
+      }
+    ],
+    "stakeholders": [
+      {
+        "id": "equal-opportunity-office",
+        "name": "Equal Opportunity Office",
+        "role": "regulator",
+        "positionSummary": "Says automated hiring tools need auditable safeguards and applicant notice.",
+        "interests": ["civil-rights enforcement", "audit records", "clear compliance standards"]
+      },
+      {
+        "id": "employer-software-coalition",
+        "name": "Employer Software Coalition",
+        "role": "industry",
+        "positionSummary": "Supports clearer rules but warns that broad audit mandates could slow adoption and raise costs.",
+        "interests": ["software sales", "liability limits", "predictable compliance"]
+      },
+      {
+        "id": "worker-rights-network",
+        "name": "Worker Rights Network",
+        "role": "civil-society",
+        "positionSummary": "Wants independent audits, applicant appeal rights, and public reporting on high-volume screening tools.",
+        "interests": ["job access", "anti-discrimination enforcement", "appeal rights"]
+      }
+    ]
+  },
+  {
+    "id": "central-bank-rate-hold",
+    "title": "Central Bank Rate Hold",
+    "description": "The central bank held its benchmark rate steady while signaling that inflation progress, labor-market cooling, and credit conditions will determine whether cuts begin later this year.",
+    "keywords": [
+      "central bank",
+      "rate hold",
+      "inflation",
+      "labor market",
+      "credit conditions",
+      "mortgage rates"
+    ],
+    "eventWindowDays": 14,
+    "contestedQuestions": [
+      {
+        "id": "inflation-progress",
+        "question": "Is inflation progress strong enough to justify rate cuts soon?",
+        "relatedKeywords": ["inflation", "rate cut", "prices", "disinflation"]
+      },
+      {
+        "id": "labor-risk",
+        "question": "Is the labor market weakening enough to change policy?",
+        "relatedKeywords": ["labor", "jobs", "unemployment", "wages"]
+      },
+      {
+        "id": "household-impact",
+        "question": "Are households still under meaningful credit stress?",
+        "relatedKeywords": ["household", "mortgage", "credit card", "loan", "debt"]
+      }
+    ],
+    "stakeholders": [
+      {
+        "id": "central-bank-policy-committee",
+        "name": "Central Bank Policy Committee",
+        "role": "government",
+        "positionSummary": "Wants confidence that inflation is moving toward target without triggering unnecessary labor-market damage.",
+        "interests": ["price stability", "employment", "market credibility"]
+      },
+      {
+        "id": "household-borrowers",
+        "name": "Household Borrowers",
+        "role": "affected-group",
+        "positionSummary": "Face elevated mortgage, auto, and credit-card borrowing costs while waiting for possible rate cuts.",
+        "interests": ["lower debt service", "stable employment", "credit access"]
+      },
+      {
+        "id": "market-investors",
+        "name": "Market Investors",
+        "role": "industry",
+        "positionSummary": "Are pricing the likely timing and size of rate cuts into bond yields and equity valuations.",
+        "interests": ["policy guidance", "asset prices", "rate volatility"]
+      }
+    ]
+  },
+  {
+    "id": "dry-creek-water-allocation-plan",
+    "title": "Dry Creek Water Allocation Plan",
+    "description": "A drought-year water allocation plan would prioritize municipal reserves and river flows while cutting some irrigation deliveries, prompting competing claims about public health, farm income, and ecosystem protection.",
+    "keywords": [
+      "Dry Creek",
+      "water allocation",
+      "drought",
+      "irrigation",
+      "municipal reserves",
+      "river flows",
+      "tribal water"
+    ],
+    "eventWindowDays": 45,
+    "contestedQuestions": [
+      {
+        "id": "municipal-priority",
+        "question": "Should municipal reserves receive priority over irrigation deliveries?",
+        "relatedKeywords": ["municipal", "reserve", "irrigation", "priority"]
+      },
+      {
+        "id": "farm-impact",
+        "question": "Are farm income losses adequately mitigated?",
+        "relatedKeywords": ["farm", "crop", "income", "mitigation", "irrigation"]
+      },
+      {
+        "id": "river-flows",
+        "question": "Are river-flow protections sufficient for fish and tribal water interests?",
+        "relatedKeywords": ["river", "flows", "fish", "tribal", "ecosystem"]
+      }
+    ],
+    "stakeholders": [
+      {
+        "id": "river-basin-authority",
+        "name": "River Basin Authority",
+        "role": "government",
+        "positionSummary": "Says reserve thresholds and flow targets are needed to manage a severe drought year.",
+        "interests": ["water supply reliability", "legal compliance", "drought response"]
+      },
+      {
+        "id": "dry-creek-growers",
+        "name": "Dry Creek Growers",
+        "role": "industry",
+        "positionSummary": "Warn that irrigation cuts will force acreage reductions and seasonal layoffs.",
+        "interests": ["water deliveries", "crop revenue", "labor stability"]
+      },
+      {
+        "id": "tribal-river-council",
+        "name": "Tribal River Council",
+        "role": "community",
+        "positionSummary": "Argues minimum flows are a baseline obligation, not a discretionary environmental add-on.",
+        "interests": ["treaty water interests", "fish habitat", "cultural resources"]
+      }
+    ]
+  }
+]

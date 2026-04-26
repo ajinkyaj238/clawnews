@@ -80,26 +80,21 @@ function scoreRating(label: ScoreLabel, pct?: number) {
   }
 
   if (label === "Disagreement") {
-    if (pct >= 60) {
+    if (pct >= 50) {
       return {
-        label: "Polarizing",
+        label: pct >= 60 ? "Polarizing" : "High",
         note: "Heavy conflict across sources",
-        tone: "poppy" as const
-      };
-    }
-
-    if (pct >= 30) {
-      return {
-        label: "Contested",
-        note: "Some meaningful disputes in the coverage",
-        tone: "saffron" as const
+        tone: "pine" as const
       };
     }
 
     return {
-      label: "Low",
-      note: "Sources are largely aligned",
-      tone: "pine" as const
+      label: pct >= 30 ? "Contested" : "Low",
+      note:
+        pct >= 30
+          ? "Some meaningful disputes in the coverage"
+          : "Sources are largely aligned",
+      tone: "saffron" as const
     };
   }
 
@@ -107,6 +102,14 @@ function scoreRating(label: ScoreLabel, pct?: number) {
     return {
       label: "Strong",
       note: "Diverse sources with primary citations",
+      tone: pct > 64 ? "pine" as const : "saffron" as const
+    };
+  }
+
+  if (pct > 64) {
+    return {
+      label: "Moderate",
+      note: "Mix of primary and secondary sourcing",
       tone: "pine" as const
     };
   }
@@ -122,7 +125,7 @@ function scoreRating(label: ScoreLabel, pct?: number) {
   return {
     label: "Weak",
     note: "Thin sourcing or heavy reliance on secondaries",
-    tone: "poppy" as const
+    tone: "saffron" as const
   };
 }
 
@@ -133,18 +136,26 @@ export function AnalyticalClawNewsApp({
 }: AnalyticalClawNewsAppProps) {
   const [view, setView] = useState<ViewMode>(initialView);
   const [drawerOpen, setDrawerOpen] = useState(false);
+  const [selectedEventId, setSelectedEventId] = useState<string | undefined>(
+    initialEventId ?? events[0]?.id
+  );
   const leadEvent = events[0];
+
+  useEffect(() => {
+    setSelectedEventId(initialEventId ?? events[0]?.id);
+  }, [events, initialEventId]);
+
   const selectedEvent = useMemo(() => {
-    if (!initialEventId) {
+    if (!selectedEventId) {
       return leadEvent;
     }
 
     return (
       events.find(
-        (event) => event.id === initialEventId || event.slug === initialEventId
+        (event) => event.id === selectedEventId || event.slug === selectedEventId
       ) ?? leadEvent
     );
-  }, [events, initialEventId, leadEvent]);
+  }, [events, selectedEventId, leadEvent]);
 
   if (!leadEvent || !selectedEvent) {
     return (
@@ -164,8 +175,9 @@ export function AnalyticalClawNewsApp({
     );
   }
 
-  const openEvent = () => {
+  const openEvent = (event: EventBrief) => {
     setDrawerOpen(false);
+    setSelectedEventId(event.id);
     setView("event");
   };
 
@@ -233,6 +245,7 @@ function AnalyticalHeader({
 }) {
   return (
     <header
+      className="analytical-header"
       style={{
         background: theme.headerBg,
         backdropFilter: "blur(14px)",
@@ -323,7 +336,7 @@ function HomeView({
   theme
 }: {
   events: EventBrief[];
-  onOpenEvent: () => void;
+  onOpenEvent: (event: EventBrief) => void;
   theme: Theme;
 }) {
   const lead = events[0];
@@ -391,48 +404,37 @@ function HomeView({
         <EventCard
           event={lead}
           isLead
-          onClick={onOpenEvent}
+          onClick={() => onOpenEvent(lead)}
           theme={theme}
         />
-        <div style={{ display: "flex", flexDirection: "column", gap: 12, minWidth: 0 }}>
-          <div
-            style={{
-              borderBottom: `1px solid ${theme.border}`,
-              color: theme.inkMuted,
-              fontSize: 10,
-              fontWeight: 700,
-              letterSpacing: "0.14em",
-              paddingBottom: 8,
-              textTransform: "uppercase"
-            }}
-          >
-            More today
-          </div>
-          {secondary.length > 0 ? (
-            secondary.map((event) => (
-              <EventCard
-                event={event}
-                key={event.id}
-                onClick={onOpenEvent}
-                theme={theme}
-              />
-            ))
-          ) : (
-            <div
-              style={{
-                border: `1px dashed ${theme.borderMid}`,
-                borderRadius: theme.radius,
-                color: theme.inkMuted,
-                fontSize: 12,
-                lineHeight: 1.6,
-                padding: 16
-              }}
-            >
-              Additional generated events will appear here as ingestion grows.
-            </div>
-          )}
-        </div>
+        {secondary.length > 0 ? (
+          secondary.map((event) => (
+            <EventCard
+              event={event}
+              isLead
+              key={event.id}
+              onClick={() => onOpenEvent(event)}
+              theme={theme}
+            />
+          ))
+        ) : null}
       </div>
+
+      {secondary.length === 0 ? (
+        <div
+          style={{
+            border: `1px dashed ${theme.borderMid}`,
+            borderRadius: theme.radius,
+            color: theme.inkMuted,
+            fontSize: 12,
+            lineHeight: 1.6,
+            marginTop: 14,
+            padding: 16
+          }}
+        >
+          Additional generated events will appear here as ingestion grows.
+        </div>
+      ) : null}
     </main>
   );
 }
@@ -492,7 +494,7 @@ function EventCard({
           >
             {event.kicker ? <Eyebrow theme={theme}>{event.kicker}</Eyebrow> : null}
             {event.status ? (
-              <Eyebrow color={theme.saffron} theme={theme}>
+              <Eyebrow color={theme.pine} theme={theme}>
                 {event.status}
               </Eyebrow>
             ) : null}
@@ -881,7 +883,7 @@ function EventDetailView({
                 <Card accent={theme.tidal} key={claim.id} theme={theme}>
                   {claim.label ? (
                     <div style={{ marginBottom: 6 }}>
-                      <Eyebrow color={theme.saffron} theme={theme}>
+                      <Eyebrow color={theme.ink} theme={theme}>
                         {claim.label}
                       </Eyebrow>
                     </div>
@@ -1411,6 +1413,8 @@ function SourceDrawer({
                     display: "flex",
                     flexDirection: "column",
                     gap: 10,
+                    minWidth: 0,
+                    overflow: "hidden",
                     padding: "4px 14px 14px"
                   }}
                 >
@@ -1450,7 +1454,14 @@ function SourceDrawer({
                       >
                         Incentives
                       </div>
-                      <div style={{ display: "flex", flexWrap: "wrap", gap: 4 }}>
+                      <div
+                        style={{
+                          display: "flex",
+                          flexWrap: "wrap",
+                          gap: 4,
+                          overflow: "hidden"
+                        }}
+                      >
                         {source.incentives.map((incentive) => (
                           <Tag color={theme.saffron} key={incentive} theme={theme}>
                             {incentive}
@@ -1468,7 +1479,9 @@ function SourceDrawer({
                         display: "block",
                         fontSize: 12,
                         fontWeight: 500,
-                        paddingTop: 10
+                        overflowWrap: "break-word",
+                        paddingTop: 10,
+                        wordBreak: "break-word"
                       }}
                       target="_blank"
                     >
@@ -1613,7 +1626,7 @@ function Section({
   return (
     <section style={{ display: "flex", flexDirection: "column", gap: 14 }}>
       <div style={{ display: "flex", flexDirection: "column", gap: 4 }}>
-        <Eyebrow color={theme.inkMuted} theme={theme}>
+        <Eyebrow color={theme.pine} theme={theme}>
           {eyebrow}
         </Eyebrow>
         <h3
@@ -1689,7 +1702,15 @@ function SourceFact({
       >
         {label}
       </div>
-      <div style={{ color: theme.inkMid, fontSize: 12, lineHeight: 1.55 }}>
+      <div
+        style={{
+          color: theme.inkMid,
+          fontSize: 12,
+          lineHeight: 1.55,
+          overflowWrap: "break-word",
+          wordBreak: "break-word"
+        }}
+      >
         {value}
       </div>
     </div>
@@ -1859,8 +1880,12 @@ function Tag({
         fontSize: 10,
         fontWeight: 600,
         letterSpacing: "0.05em",
+        maxWidth: "100%",
+        overflowWrap: "break-word",
         padding: "3px 9px",
-        textTransform: "uppercase"
+        textTransform: "uppercase",
+        whiteSpace: "normal",
+        wordBreak: "break-word"
       }}
     >
       {children}

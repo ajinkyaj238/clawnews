@@ -49,7 +49,7 @@ npm run zeroclaw:mock --workspace @clawnews/core
 
 `npm run ingest:rss` reads `data/feeds.seed.json` and writes `artifacts/articles.latest.json`. The seed RSS URLs are placeholders, so the worker falls back to `data/sample_articles.json` when those feeds fail.
 
-`npm run generate:brief` reads the latest article artifact when present, falls back to sample articles when needed, and writes `artifacts/sample-event.json` plus `artifacts/sample-brief.md`.
+`npm run generate:brief` reads the seeded sample topics and articles by default, then writes a multi-event `artifacts/sample-event.json` plus `artifacts/sample-brief.md`. To generate from freshly ingested RSS output, run the core script with `--articles ../../artifacts/articles.latest.json`.
 
 ## Phone Install
 
